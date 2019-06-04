@@ -1,0 +1,34 @@
+.container-properties {
+    padding: 0;
+    margin: 0;
+    background-color: #FF5733;
+}
+
+.banner {
+    font-family: "Cinzel", serif;
+    font-size: 120px;
+    color: #fafafa;
+}
+
+.navbar-properties{
+    padding: 0;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    word-spacing: 50px;
+    background-color: #fafafa;
+}
+
+.heading-properties {
+    /*background-color: #FF5733;*/
+    /*padding-bottom: 80px;*/
+}
+
+.heading-properties i {
+    font-size: 42px;
+    padding: 25px;
+}
+
+.image-properties {
+    display: block;
+    padding-top: 50px;
+}
