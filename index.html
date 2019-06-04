@@ -14,42 +14,74 @@
 
 <body>
 
-    <header>
+    <header id="home-page">
         <div class="container-fluid vh-100 container-properties">
-            <div class="container-fluid">
-                <nav class="navbar navbar-expand-sm navbar-light bg-light navbar-properties">
-                    <div class="navbar-nav">
-                        <a class="nav-item nav-link active" href="#">HOME<span class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link" href="#">MUSIC</a>
-                        <a class="nav-item nav-link" href="#">VIDEOS</a>
-                        <a class="nav-item nav-link" href="#">STORE</a>
-                        <a class="nav-item nav-link" href="#">LIVE</a>
+            <div class="col-12">
+                <nav class="navbar fixed-top navbar-expand-sm navbar-light navbar-properties">
+                    <!--        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">-->
+                    <!--<span class="navbar-toggler-icon"></span>-->
+                    <!--</button>-->
+                    <div class="collapse navbar-collapse">
+                        <ul class="navbar-nav w-100 nav-justified">
+                            <li class="nav-item mr-2 active">
+                                <a class="nav-link" href="#home-page">HOME<span class="sr-only"></span></a>
+                            </li>
+                            <li class="nav-item mr-2">
+                                <a class="nav-link" href="#music-page">MUSIC</a>
+                            </li>
+                            <li class="nav-item mr-2">
+                                <a class="nav-link" href="#videos-page">VIDEOS</a>
+                            </li>
+                            <li class="nav-item mr-2">
+                                <a class="nav-link" href="#store-page">STORE</a>
+                            </li>
+                            <li class="nav-item mr-2">
+                                <a class="nav-link" href="#live-page">LIVE</a>
+                            </li>
+                        </ul>
                     </div>
                 </nav>
             </div>
-            <div class="container-fluid heading-properties">
-                <div class="row">
-                    <div class="col text-center">
+            <div class="container-fluid text-center heading-properties">
+                <div class="row banner-properties">
+                    <div class="col-12">
                         <h1 class="banner">Big Thief</h1>
-                        <img src="images/big_thief-5481663791.jpg" class="image-properties img-fluid" alt="Responsive image"></img>
-                        <h2><i class="fas fa-angle-double-down"></i></h2>
+                    </div>
+                </div>
+                <div class="row image-properties">
+                    <div class="col-12">
+                        <img src="images/big_thief-5481663791.jpg" class="img-fluid image-properties" alt="Responsive image"></img>
+                    </div>
+                </div>
+                <div class="row icon-properties">
+                    <div class="col-12">
+                        <h2>
+                            <a href="#music-page"><i class="fas fa-angle-double-down"></i></a>
+                        </h2>
                     </div>
                 </div>
             </div>
         </div>
     </header>
     <section>
-        <div class="container vh-100" style="color: white; font-size: 200px; background-color: Green">MUSIC</div>
+        <div class="container-fluid vh-100" id="music-page" style="color: white; font-size: 200px; background-color: Green">MUSIC</div>
     </section>
     <section>
-        <div class="container vh-100" style="color: white; font-size: 200px; background-color: Blue">VIDEOS</div>
+        <div class="container-fluid vh-100" id="videos-page" style="color: white; font-size: 200px; background-color: Blue">VIDEOS</div>
     </section>
     <section>
-        <div class="container vh-100" style="color: white; font-size: 200px; background-color: Pink">STORE</div>
+        <div class="container-fluid vh-100" id="store-page" style="color: white; font-size: 200px; background-color: Pink">STORE</div>
     </section>
     <section>
-        <div class="container vh-100" style="color: white; font-size: 200px; background-color: Yellow">LIVE</div>
+        <div class="container-fluid vh-100" id="live-page" style="color: white; font-size: 200px; background-color: Yellow">LIVE</div>
     </section>
+    <footer class="container-fluid">
+        <h5>Here Will Be Me Footer</h5>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>
