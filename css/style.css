@@ -43,7 +43,44 @@
 
 .icon-properties i {
     font-size: 50px;
-    padding-top: 40px;
+    /*padding-top: 40px;*/
     padding-bottom: 5px;
-    color: #446490;
+    /*color: #446490;*/
+    color: #fafafa;
+    align-items: center;
 }
+
+.icon-heading {
+    padding: 30px;
+}
+
+.icon-properties a i {
+    z-index: 1;
+}
+
+
+.footer-stuff {
+    padding: 0;
+    position: fixed;
+    display: inline-block;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+/* ouline social icons with links will go here */
+.div-right {
+    color: red;
+    float: right;
+    padding-right: 10px;
+    display: inline-block;
+}
+
+/* a mailing list modal will go here */
+.div-left {
+    color: purple;
+    float: left;
+    padding-left: 10px;
+    display: inline-block;
+}
+
