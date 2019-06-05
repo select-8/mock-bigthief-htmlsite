@@ -147,7 +147,8 @@ body {
 
 .music-top {
     padding-top: 10px;
-    background-color: rgba(0, 102, 0, 1);
+    /*background-color: rgba(0, 102, 0, 1);*/
+    background-color: #FF5733;
 }
 
 .music-properties {
@@ -158,7 +159,7 @@ body {
     padding: 0;
     text-align: center;
     /*background-color: #fafafa;*/
-    color: #fafafa
+    color: #fafafa;
 }
 
 .p-item {
