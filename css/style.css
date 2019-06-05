@@ -3,7 +3,12 @@ body {
     overflow-x: hidden;
 }
 
+.container-fluid {
+    padding: 0;
+}
+
 .container-properties {
+    height: 100%;
     padding: 0;
     margin: 0;
     background-color: #FF5733;
@@ -19,47 +24,95 @@ body {
 }
 
 /*.navbar-light .navbar-nav .nav-link {*/
+
 /*    color: #fafafa;*/
+
 /*}*/
 
 .heading {
     display: block;
     padding: 0;
+    height: 33.33%;
 }
 
-.banner-text p {
+.container-properties .heading .banner-properties {
+    padding: 10px 0 0 0;
+    margin: 0;
+    height: 33.3333%;
+}
+
+.banner-properties p {
     font-family: "Cinzel", serif;
-    letter-spacing: 15px;
+    letter-spacing: 10px;
     color: #fafafa;
-    padding-top: 50px;
-    padding-bottom: 5px;
+    padding: 35px 0 0 0;
+    margin: 0;
     font-size: 17.5vmin;
 }
 
-.image-properties {
+.container-properties .image-shell {
+    height: 33.3333%;
     min-width: 100%;
     background-repeat: no-repeat;
     overflow-y: hidden;
     overflow-x: hidden;
 }
 
-.icon-properties i {
-    font-size: 50px;
-    /*padding-top: 40px;*/
-    padding-bottom: 5px;
-    /*color: #446490;*/
-    color: #fafafa;
-    align-items: center;
+.image-shell {
+    padding: 0 10 0 10;
+}
+
+.container-properties .image-properties {
+    width: 100%;
+    margin: 0;
+}
+
+.image-properties .col-12 {
+    padding: 0;
+    margin: 0;
+}
+
+/* SOLUTION: https://stackoverflow.com/questions/8508275/how-to-center-a-position-absolute-element */
+
+/* SOME White Space created to the right on mobile !!!*/
+
+/*.icon-properties {*/
+
+/*position: absolute;*/
+
+/*    margin-left: auto;*/
+
+/*    margin-right: auto;*/
+
+/*    left: 0;*/
+
+/*    right: 0;*/
+
+/*    bottom: 0;*/
+
+/*    padding: 0;*/
+
+/*}*/
+
+.container-properties .heading .icon-properties {
+    padding: 0;
+    height: 33.3333%;
 }
 
 .icon-heading {
     padding: 30px;
+    margin: 0px;
+    bottom: 0;
 }
 
 .icon-properties a i {
+    font-size: 50px;
+    color: #fafafa;
     z-index: 1;
+    bottom: 0;
+    /*This should only happen on small screens*/
+    /*transform: translateY(100%);*/
 }
-
 
 .footer-stuff {
     padding: 0;
@@ -87,3 +140,14 @@ body {
     padding-left: 10px;
     display: inline-block;
 }
+
+
+/** {*/
+
+/*    background: #000 !important;*/
+
+/*    color: #0f0 !important;*/
+
+/*    outline: solid #f00 1px !important;*/
+
+/*}*/
