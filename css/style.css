@@ -1,3 +1,8 @@
+html,
+body {
+    overflow-x: hidden;
+}
+
 .container-properties {
     padding: 0;
     margin: 0;
@@ -9,29 +14,26 @@
     margin: 0;
     font-family: "Lato", sans-serif;
     letter-spacing: 3px;
-    background-color: #C3C2B7;
+    /*background-color: #C3C2B7;*/
+    background-color: #fafafa;
 }
 
-.navbar-nav .nav-link.active a:active {
-    font-weight: 500;
-}
+/*.navbar-light .navbar-nav .nav-link {*/
+/*    color: #fafafa;*/
+/*}*/
 
-.navbar-light .navbar-nav .nav-link {
-    color: #fff;
-}
-
-.heading-properties {
+.heading {
     display: block;
     padding: 0;
 }
 
-.banner {
+.banner-text p {
     font-family: "Cinzel", serif;
     letter-spacing: 15px;
-    font-size: 120px;
     color: #fafafa;
     padding-top: 50px;
     padding-bottom: 5px;
+    font-size: 17.5vmin;
 }
 
 .image-properties {
@@ -69,6 +71,7 @@
 }
 
 /* ouline social icons with links will go here */
+
 .div-right {
     color: red;
     float: right;
@@ -77,10 +80,10 @@
 }
 
 /* a mailing list modal will go here */
+
 .div-left {
     color: purple;
     float: left;
     padding-left: 10px;
     display: inline-block;
 }
-
