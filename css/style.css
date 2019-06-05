@@ -32,13 +32,13 @@ body {
 .heading {
     display: block;
     padding: 0;
-    height: 33.33%;
+    height: 100%;
 }
 
-.container-properties .heading .banner-properties {
+.banner-properties {
     padding: 10px 0 0 0;
     margin: 0;
-    height: 33.3333%;
+    /*height: 33.3333%;*/
 }
 
 .banner-properties p {
@@ -51,7 +51,7 @@ body {
 }
 
 .container-properties .image-shell {
-    height: 33.3333%;
+    /*height: 33.3333%;*/
     min-width: 100%;
     background-repeat: no-repeat;
     overflow-y: hidden;
@@ -59,7 +59,8 @@ body {
 }
 
 .image-shell {
-    padding: 0 10 0 10;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .container-properties .image-properties {
@@ -109,7 +110,7 @@ body {
     font-size: 50px;
     color: #fafafa;
     z-index: 1;
-    bottom: 0;
+    text-align: center;
     /*This should only happen on small screens*/
     /*transform: translateY(100%);*/
 }
@@ -140,6 +141,57 @@ body {
     padding-left: 10px;
     display: inline-block;
 }
+
+
+/*--------------------------------- MUSIC ----------*/
+
+.music-top {
+    padding-top: 10px;
+    background-color: rgba(0, 102, 0, 1);
+}
+
+.music-properties {
+    margin: 0;
+}
+
+.music-item-1 {
+    padding: 0;
+    text-align: center;
+    /*background-color: #fafafa;*/
+    color: #fafafa
+}
+
+.p-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    padding: 50px;
+}
+
+.music-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    padding: 25px;
+}
+
+.music-p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    padding: 10px;
+}
+
+
 
 
 /** {*/
