@@ -20,14 +20,12 @@ body {
     font-family: "Lato", sans-serif;
     letter-spacing: 3px;
     /*background-color: #C3C2B7;*/
-    background-color: #fafafa;
+    background-color: #e54e2d;
 }
 
-/*.navbar-light .navbar-nav .nav-link {*/
-
-/*    color: #fafafa;*/
-
-/*}*/
+.navbar-light .navbar-nav .nav-link {
+    color: #fafafa;
+}
 
 .heading {
     display: block;
