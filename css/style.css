@@ -216,27 +216,34 @@ body {
 /*--------------------------------- STORE ----------*/
 
 #store-page {
-    /*background-color: red;*/
     padding: 0;
 }
 
 .store-properties {
-    position: relative;
-    background-color: blue;
     padding: 0;
     margin: 0;
 }
 
 .store-item {
-    position: relative;
-    background-color: rgba(255, 255, 255, 50);
-    border: 2px solid green;
+    position:relative;
+    /*background-color: rgba(255, 255, 255, 50);*/
+    border: 2px solid #fafafa;
     z-index: 1;
-    padding-bottom: 50px;
-    padding-top: 5px;
-    padding-left: 50px;
-    padding-right: 50px;
 }
+
+/* https://stackoverflow.com/questions/41651612/how-to-align-icon-to-center-inside-div-element */
+
+.store-item i {
+   font-size: 230px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   background-color: #e54e2d;
+   padding: 30px;
+
+}
+
 
 /** {*/
 
