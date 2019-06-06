@@ -116,6 +116,7 @@ body {
 
 .music-properties {
     margin: 0;
+    position: relative;
 }
 
 .music-item {
@@ -151,7 +152,6 @@ body {
 
 .music-text p {
     color: #fafafa;
-    padding-top: 5px;
     font-family: "Lato", sans-serif;
 }
 
@@ -166,11 +166,29 @@ body {
 }
 
 .spotify-item h5 {
+    margin: 0;
     color: #fafafa;
     letter-spacing: 10px;
 }
 
 /*--------------------------------- VIDEO ----------*/
+
+#video-page {
+    background-color: red;
+}
+
+.video-properties {
+    position: relative;
+    background-color: blue;
+    padding: 0;
+    margin: 0;
+}
+
+.youtube-item {
+    background-color: rgba(255,255,255,50);
+    border: 2px solid green;
+    z-index: 1;
+}
 
 
 /** {*/
