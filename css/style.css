@@ -8,7 +8,6 @@ body {
 }
 
 .container-properties {
-    height: 100%;
     padding: 0;
     margin: 0;
     background-color: #FF5733;
@@ -47,7 +46,7 @@ body {
     font-family: "Cinzel", serif;
     letter-spacing: 10px;
     color: #fafafa;
-    padding: 35px 0 0 0;
+    padding: 0;
     margin: 0;
     font-size: 17.5vmin;
 }
@@ -60,11 +59,6 @@ body {
     overflow-x: hidden;
 }
 
-.image-shell {
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
 .container-properties .image-properties {
     width: 100%;
     margin: 0;
@@ -73,6 +67,10 @@ body {
 .image-properties .col-12 {
     padding: 0;
     margin: 0;
+}
+
+.image-properties img {
+
 }
 
 .footer-stuff {
