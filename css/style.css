@@ -87,19 +87,29 @@ body {
 /* ouline social icons with links will go here */
 
 /*.div-right {*/
+
 /*    color: red;*/
+
 /*    float: right;*/
+
 /*    padding-right: 10px;*/
+
 /*    display: inline-block;*/
+
 /*}*/
 
 /* a mailing list modal will go here */
 
 /*.div-left {*/
+
 /*    color: purple;*/
+
 /*    float: left;*/
+
 /*    padding-left: 10px;*/
+
 /*    display: inline-block;*/
+
 /*}*/
 
 /*--------------------------------- All PAGES ----------*/
@@ -174,21 +184,31 @@ body {
 /*--------------------------------- VIDEO ----------*/
 
 #video-page {
-    background-color: red;
+    /*background-color: red;*/
 }
 
 .video-properties {
     position: relative;
-    background-color: blue;
+    /*background-color: blue;*/
     padding: 0;
     margin: 0;
 }
 
 .youtube-item {
-    background-color: rgba(255,255,255,50);
+    position: relative;
+    /*background-color: rgba(255, 255, 255, 50);*/
     border: 2px solid green;
     z-index: 1;
+    padding: 50px;
 }
+
+/*.iframe-inst {*/
+    /*position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    width: 80%;*/
+/*    height: 80%;*/
+/*}*/
 
 
 /** {*/
@@ -200,4 +220,3 @@ body {
 /*    outline: solid #f00 1px !important;*/
 
 /*}*/
-
