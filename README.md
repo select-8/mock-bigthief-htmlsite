@@ -1,6 +1,6 @@
 *Owner Stories*
 
-Need a website to 
+<p>Need a website to<p>
 1. Target fans
  - make little from streaming actual albums, so ...
  - we need to sell merchandise and tickets to live shows
@@ -18,14 +18,15 @@ Need a website to
  - albums or songs or both?
 7. Build a social media presence
 	- not so important for the band but they realise fans might be interested 
+8. Be a reflection of the bands persona*
 
 *User Stories*
 
-As a user I want to be able to
+<p>As a user I want to be able to
  a) seemlessly navigate to the content I want
- b) seemlessly wander the site till I find something that interests me
+ b) seemlessly wander the site till I find something that interests me<p>
 
-Two types of users can be defined:
+<p>Two types of users can be defined:</p>
 
 1. I’m already a fan of the band, I have all their albums…
  - As a user I expect the site to reflect the persona of the band.
@@ -35,6 +36,9 @@ Two types of users can be defined:
  - As a user I want to hear some of this bands music
  - As a user I want to see their some music videos
  - As a user I want to see some live performances
+ - As a user I want some biographic information on the group*
+
+* Potential conflict in needs. Solve with link to Wikipedia page?
 
 
  
