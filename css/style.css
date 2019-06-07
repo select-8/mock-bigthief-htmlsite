@@ -1,6 +1,7 @@
 html,
 body {
     overflow-x: hidden;
+    font-family: "Lato", sans-serif;
 }
 
 .container-fluid {
@@ -69,9 +70,7 @@ body {
     margin: 0;
 }
 
-.image-properties img {
-
-}
+.image-properties img {}
 
 .footer-stuff {
     padding: 0;
@@ -243,6 +242,52 @@ body {
     padding: 30px;
 
 }
+
+
+/*--------------------------------- TOUR ----------*/
+
+.table-heading-properties {
+    overflow-x: hidden;
+}
+
+.table-heading-properties .table-heading {
+    text-align: center;
+    font-size: 7vw;
+    letter-spacing: 3vw;
+    padding: 3vw;
+}
+
+/*.underline {*/
+/*    border-bottom: dashed 1px #2dc4e5;*/
+/*    display: inline-block;*/
+/*    line-height: 0.85;*/
+/*    margin: 0;*/
+/*}*/
+
+.table-heading {
+    font-family: "Cinzel, serif";
+    letter-spacing: .5em;
+    /*padding-bottom: 25px;*/
+    padding-top: 20px;
+}
+
+.table th {
+    padding: 0;
+}
+
+
+.table td {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: none;
+    border-bottom: 1px solid rgba(229, 78, 45, 0.25);
+    font-size: 3vw;
+    font-weight: 200;
+}
+
+
+
+
 
 
 /** {*/
