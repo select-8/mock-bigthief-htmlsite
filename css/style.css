@@ -257,13 +257,6 @@ body {
     padding: 3vw;
 }
 
-/*.underline {*/
-/*    border-bottom: dashed 1px #2dc4e5;*/
-/*    display: inline-block;*/
-/*    line-height: 0.85;*/
-/*    margin: 0;*/
-/*}*/
-
 .table-heading {
     font-family: "Cinzel, serif";
     letter-spacing: .5em;
@@ -275,14 +268,26 @@ body {
     padding: 0;
 }
 
-
 .table td {
     padding: .75rem;
     vertical-align: top;
     border-top: none;
     border-bottom: 1px solid rgba(229, 78, 45, 0.25);
-    font-size: 3vw;
+    font-size: 1em;
+    text-align: center;
     font-weight: 200;
+}
+
+.table td a:link {
+    text-decoration: none;
+}
+
+.table td a {
+    color: #e54e2d;
+}
+
+.table td a:hover {
+    font-weight: bold;
 }
 
 
