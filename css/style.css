@@ -14,14 +14,13 @@ body {
     background-color: #FF5733;
 }
 
-/*--------------------------------- NAVBAR ----------*/
+/*----------------------------------------------------------- NAVBAR ----------*/
 
 .navbar-properties {
     padding: 0;
     margin: 0;
     font-family: "Lato", sans-serif;
     letter-spacing: 3px;
-    /*background-color: #C3C2B7;*/
     background-color: #e54e2d;
 }
 
@@ -29,7 +28,7 @@ body {
     color: #fafafa;
 }
 
-/*--------------------------------- HOME PAGE ----------*/
+/*-------------------------------------------------------- HOME PAGE ----------*/
 
 .heading {
     display: block;
@@ -40,7 +39,6 @@ body {
 .banner-properties {
     padding: 10px 0 0 0;
     margin: 0;
-    /*height: 33.3333%;*/
 }
 
 .banner-properties p {
@@ -53,7 +51,6 @@ body {
 }
 
 .container-properties .image-shell {
-    /*height: 33.3333%;*/
     min-width: 100%;
     background-repeat: no-repeat;
     overflow-y: hidden;
@@ -70,7 +67,7 @@ body {
     margin: 0;
 }
 
-.image-properties img {}
+/*.image-properties img {}*/
 
 .footer-stuff {
     padding: 0;
@@ -81,45 +78,14 @@ body {
     background-color: rgba(255, 255, 255, 0);
 }
 
-/* ouline social icons with links will go here */
-
-/*.div-right {*/
-
-/*    color: red;*/
-
-/*    float: right;*/
-
-/*    padding-right: 10px;*/
-
-/*    display: inline-block;*/
-
-/*}*/
-
-/* a mailing list modal will go here */
-
-/*.div-left {*/
-
-/*    color: purple;*/
-
-/*    float: left;*/
-
-/*    padding-left: 10px;*/
-
-/*    display: inline-block;*/
-
-/*}*/
-
-/*--------------------------------- All PAGES ----------*/
+/*-------------------------------------------------------- All PAGES ----------*/
 
 .pages-main {
     padding-top: 10px;
-    /*background-color: rgba(0, 102, 0, 1);*/
     background-color: #FF5733;
 }
 
-
-
-/*--------------------------------- MUSIC ----------*/
+/*------------------------------------------------------------ MUSIC ----------*/
 
 .music-properties {
     margin: 0;
@@ -129,7 +95,6 @@ body {
 .music-item {
     padding: 0;
     text-align: center;
-    /*background-color: #fafafa;*/
     color: #fafafa;
     font-family: "Lato", sans-serif;
 }
@@ -178,23 +143,20 @@ body {
     letter-spacing: 10px;
 }
 
-/*--------------------------------- VIDEO ----------*/
+/*------------------------------------------------------------ VIDEO ----------*/
 
 #video-page {
-    /*background-color: red;*/
     padding: 0;
 }
 
 .video-properties {
     position: relative;
-    /*background-color: blue;*/
     padding: 0;
     margin: 0;
 }
 
 .youtube-item {
     position: relative;
-    /*background-color: rgba(255, 255, 255, 50);*/
     border: 2px solid #fafafa;
     z-index: 1;
 }
@@ -212,7 +174,7 @@ body {
     margin-bottom: 2px;
 }
 
-/*--------------------------------- STORE ----------*/
+/*------------------------------------------------------------ STORE ----------*/
 
 #store-page {
     padding: 0;
@@ -225,7 +187,6 @@ body {
 
 .store-item {
     position: relative;
-    /*background-color: rgba(255, 255, 255, 50);*/
     border: 2px solid #fafafa;
     z-index: 1;
 }
@@ -243,8 +204,11 @@ body {
 
 }
 
+/*------------------------------------------------------------- TOUR ----------*/
 
-/*--------------------------------- TOUR ----------*/
+#tour-page {
+    background-color: #FF5733;
+}
 
 .table-heading-properties {
     overflow-x: hidden;
@@ -260,8 +224,8 @@ body {
 .table-heading {
     font-family: "Cinzel, serif";
     letter-spacing: .5em;
-    /*padding-bottom: 25px;*/
     padding-top: 20px;
+    color: #fafafa;
 }
 
 .table th {
@@ -272,11 +236,11 @@ body {
     padding: .75rem;
     vertical-align: top;
     border-top: none;
-    border-bottom: 1px solid rgba(229, 78, 45, 0.25);
-    /*font-size: 1em;*/
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
     font-size: 2.5vw;
     text-align: center;
     font-weight: 200;
+    color: #722716;
 }
 
 .table td a:link {
@@ -284,11 +248,11 @@ body {
 }
 
 .table td a {
-    color: #e54e2d;
+    color: #fafafa;
 }
 
 .table td a:hover {
-    font-weight: bold;
+    color: #2d0f09;
 }
 
 
