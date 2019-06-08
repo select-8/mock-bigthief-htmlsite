@@ -81,19 +81,25 @@ footer {
     bottom: 0;
     width: 100%;
     background-color: rgba(255, 255, 255, 0);
+    z-index: 1;
 }
 
 /*---------- MAILING LIST MODAL --*/
 
 .mailing-modal {
+    position: relative;
     float: left;
-    padding: 12px 0;
+}
+
+.mailing {
+    position: absolute;
+    bottom: 5px;
 }
 
 .left-links {
     float: left;
     padding-right: 5px;
-    /*padding-bottom: 5px;*/
+    word-spacing: 5px;
 }
 
 .left-links li a i {
@@ -131,6 +137,7 @@ footer {
     /* With equal width and height, a b-r of 50% gives a circle */
     font-size: 13px;
     line-height: 7px;
+    word-spacing: 5px;
     text-align: center;
     color: #fafafa;
     border: 0.5px solid #fafafa;
@@ -253,27 +260,48 @@ footer {
 
 .store-item {
     position: relative;
-    border: 2px solid #fafafa;
     z-index: 1;
+}
+
+/* Will need custom media queries to get borders as I want on all screens */
+
+.disc {
+    border-right: 2px solid #fafafa;
+    border-bottom: 2px solid #fafafa;
+    border-left: 2px solid #fafafa;
+}
+
+.tshirt {
+    border-bottom: 2px solid #fafafa;
+}
+
+.brush {
+    border-right: 2px solid #fafafa;
+    border-left: 2px solid #fafafa;
 }
 
 /* https://stackoverflow.com/questions/41651612/how-to-align-icon-to-center-inside-div-element */
 
 .store-item i {
-    font-size: 230px;
+    font-size: 18vh;
+    /*border-radius: 50%;*/
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #e54e2d;
-    padding: 30px;
-
+    /*background-color: #e54e2d;*/
+    background-color: #fafafa;
+    padding: 10px;
 }
 
 /*------------------------------------------------------------- TOUR ----------*/
 
 #tour-page {
     background-color: #FF5733;
+}
+
+.tour-image-properties {
+    padding-top: 20px;
 }
 
 .table-heading-properties {
@@ -303,7 +331,7 @@ footer {
     vertical-align: top;
     border-top: none;
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-    font-size: 2.5vw;
+    /*font-size: 2.5vw;*/
     text-align: center;
     font-weight: 200;
     color: #722716;
