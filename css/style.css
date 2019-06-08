@@ -92,38 +92,26 @@ footer {
 .mailing-modal {
     position: relative;
     float: left;
+    font-size: 1em;
 }
 
 .mailing {
     position: absolute;
-    bottom: 5px;
-}
-
-.left-links {
-    float: left;
-    padding-right: 5px;
-    word-spacing: 5px;
-}
-
-.left-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 50%;
-    /* With equal width and height, a b-r of 50% gives a circle */
-    font-size: 13px;
-    line-height: 7px;
-    text-align: center;
+    bottom: 10px;
+    left: 25px;
+    font-size: 26px;
     color: #ffffff;
-    border: 0.5px solid #ffffff;
+    padding: 6px;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
 
-.left-links li a i:hover {
+.mailing:hover {
+
     background-color: #e84610;
+
 }
 
 /*---------------------------------- SOCIAL --*/
@@ -137,7 +125,6 @@ footer {
     height: 32px;
     padding: 12px 0;
     border-radius: 50%;
-    /* With equal width and height, a b-r of 50% gives a circle */
     font-size: 13px;
     line-height: 7px;
     word-spacing: 5px;
@@ -281,28 +268,6 @@ footer {
     border: 8px solid #e1e1e1;
 }
 
-/* Will need custom media queries to get borders as I want on all screens */
-
-/*.disc {*/
-/*    border-right: 8px solid #e54e2d;*/
-/*    border-bottom: 8px solid #e54e2d;*/
-/*    border-left: 8px solid #e54e2d;*/
-/*}*/
-
-/*.tshirt {*/
-/*    border-bottom: 8px solid #e54e2d;*/
-/*}*/
-
-/*.brush {*/
-/*    border-right: 8px solid #e54e2d;*/
-/*    border-left: 8px solid #e54e2d;*/
-/*}*/
-
-/*.empty {*/
-/*}*/
-
-/* https://stackoverflow.com/questions/41651612/how-to-align-icon-to-center-inside-div-element */
-
 .store-item i {
     font-size: 18vh;
     /*border-radius: 50%;*/
@@ -321,13 +286,13 @@ footer {
     background-color: #FF5733;
 }
 
-.tour-image-properties {
-    padding-top: 20px;
-}
-
 .table-heading-properties {
     overflow-x: hidden;
-    background-color: #e1e1e1;
+    background-color: #fafafa;
+}
+
+.tour-image-properties {
+    padding-bottom: 42px;
 }
 
 .table-heading-properties .table-heading {
@@ -341,9 +306,10 @@ footer {
     font-family: "Cinzel, serif";
     letter-spacing: .5em;
     padding-top: 20px;
-    padding-bottom: 0px;
+    padding-bottom: 20px;
     color: #186d80;
     background-color: #fafafa;
+    margin: 0;
 }
 
 .table th {

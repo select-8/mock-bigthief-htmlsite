@@ -43,4 +43,5 @@ Two types of users can be defined:
 *Potential conflict in needs. Solve with link to Wikipedia page?
 
 
- 
+ *Sources*
+ https://stackoverflow.com/questions/41651612/how-to-align-icon-to-center-inside-div-element 
