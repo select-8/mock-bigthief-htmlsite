@@ -157,7 +157,8 @@ footer {
 
 .pages-main {
     padding-top: 10px;
-    background-color: #FF5733;
+    /*background-color: #FF5733;*/
+    background-color: #186d80;
 }
 
 /*------------------------------------------------------------ MUSIC ----------*/
@@ -232,7 +233,7 @@ footer {
 
 .youtube-item {
     position: relative;
-    border: 2px solid #fafafa;
+    border: 8px solid #fafafa;
     z-index: 1;
 }
 
@@ -263,24 +264,28 @@ footer {
 .store-item {
     position: relative;
     z-index: 1;
+    border: 8px solid #fafafa;
 }
 
 /* Will need custom media queries to get borders as I want on all screens */
 
-.disc {
-    border-right: 2px solid #fafafa;
-    border-bottom: 2px solid #fafafa;
-    border-left: 2px solid #fafafa;
-}
+/*.disc {*/
+/*    border-right: 8px solid #e54e2d;*/
+/*    border-bottom: 8px solid #e54e2d;*/
+/*    border-left: 8px solid #e54e2d;*/
+/*}*/
 
-.tshirt {
-    border-bottom: 2px solid #fafafa;
-}
+/*.tshirt {*/
+/*    border-bottom: 8px solid #e54e2d;*/
+/*}*/
 
-.brush {
-    border-right: 2px solid #fafafa;
-    border-left: 2px solid #fafafa;
-}
+/*.brush {*/
+/*    border-right: 8px solid #e54e2d;*/
+/*    border-left: 8px solid #e54e2d;*/
+/*}*/
+
+/*.empty {*/
+/*}*/
 
 /* https://stackoverflow.com/questions/41651612/how-to-align-icon-to-center-inside-div-element */
 
@@ -315,14 +320,14 @@ footer {
     text-align: center;
     font-size: 7vw;
     letter-spacing: 3vw;
-    padding: 3vw;
+    /*padding: 3vw;*/
 }
 
 .table-heading {
     font-family: "Cinzel, serif";
     letter-spacing: .5em;
     padding-top: 20px;
-    /*color: #fafafa;*/
+    padding-bottom: 0px;
     color: #186d80;
     background-color: #fafafa;
 }
@@ -335,10 +340,9 @@ footer {
     padding: .75rem;
     vertical-align: top;
     border-top: none;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-    /*font-size: 1.5vw;*/
+    border-bottom: 1px solid #FFF;
     text-align: center;
-    font-weight: 200;
+    font-weight: 700;
     color: #722716;
 }
 
