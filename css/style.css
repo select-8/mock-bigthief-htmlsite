@@ -74,7 +74,8 @@ body {
 footer {
     padding: 0;
     position: fixed;
-    display: inline-block;
+    display: inline;
+    flex-wrap: nowrap;
     bottom: 0;
     width: 100%;
     background-color: rgba(255, 255, 255, 0);
@@ -87,12 +88,37 @@ footer {
     padding: 12px 0;
 }
 
+.left-links {
+    float: left;
+    padding-right: 5px;
+    /*padding-bottom: 5px;*/
+}
+
+.left-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    /* With equal width and height, a b-r of 50% gives a circle */
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    border: 0.5px solid #fafafa;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.left-links li a i:hover {
+    background-color: #e84610;
+}
+
 /*---------- SOCIAL --*/
 
 .social-links {
     float: right;
-    padding-right: 5px;
-    /*padding-bottom: 5px;*/
 }
 
 .social-links li a i {
