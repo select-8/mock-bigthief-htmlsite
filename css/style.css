@@ -27,7 +27,7 @@ body {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #fafafa;
+    color: #ffffff;
 }
 
 /*-------------------------------------------------------- HOME PAGE ----------*/
@@ -46,11 +46,12 @@ body {
 
 .banner-properties p {
     font-family: "Cinzel", serif;
-    letter-spacing: 28px;
-    color: #186d80;
+    letter-spacing: 34px;
+    color: #1694b0;
     padding: 0;
     margin: 0;
     font-size: 17.5vmin;
+    font-weight: 400;
 }
 
 .container-properties .image-shell {
@@ -71,7 +72,7 @@ body {
     margin: 0;
 }
 
-/*-------------------------------------------------------- FOOTER ----------*/
+/*----------------------------------------------------------- FOOTER ----------*/
 
 footer {
     padding: 0;
@@ -86,7 +87,7 @@ footer {
     z-index: 1;
 }
 
-/*---------- MAILING LIST MODAL --*/
+/*--------------------------------- MAILING LIST MODAL --*/
 
 .mailing-modal {
     position: relative;
@@ -113,8 +114,8 @@ footer {
     font-size: 13px;
     line-height: 7px;
     text-align: center;
-    color: #fafafa;
-    border: 0.5px solid #fafafa;
+    color: #ffffff;
+    border: 0.5px solid #ffffff;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -125,7 +126,7 @@ footer {
     background-color: #e84610;
 }
 
-/*---------- SOCIAL --*/
+/*---------------------------------- SOCIAL --*/
 
 .social-links {
     float: right;
@@ -141,8 +142,8 @@ footer {
     line-height: 7px;
     word-spacing: 5px;
     text-align: center;
-    color: #fafafa;
-    border: 0.5px solid #fafafa;
+    color: #ffffff;
+    border: 0.5px solid #ffffff;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -153,26 +154,30 @@ footer {
     background-color: #e84610;
 }
 
-/*-------------------------------------------------------- All PAGES ----------*/
+/*-------------------------------------------------- PAGES BG COLOUR ----------*/
 
-.pages-main {
+.pages-bgc-music {
     padding-top: 10px;
     /*background-color: #FF5733;*/
-    background-color: #186d80;
+    background-color: #1694b0;
+}
+
+.pages-bgc-video {
+    padding-top: 10px;
+    /*background-color: #FF5733;*/
+    background-color: #1694b0;
+}
+
+.pages-bgc-store {
+    padding-top: 10px;
+    /*background-color: #FF5733;*/
+    background-color: #1694b0;
 }
 
 /*------------------------------------------------------------ MUSIC ----------*/
 
-.music-properties {
-    margin: 0;
-    position: relative;
-}
-
-.music-item {
+#music-page {
     padding: 0;
-    text-align: center;
-    color: #fafafa;
-    font-family: "Lato", sans-serif;
 }
 
 .music-text {
@@ -183,40 +188,49 @@ footer {
     height: 100%;
     border: 0;
     overflow: hidden;
-    background-color: #e54e2d;
+    /*background-color: #e54e2d;*/
     color: #44170d;
     padding: 25px;
     background-clip: content-box;
     margin: 0;
+    border: 8px solid #ffffff;
 }
 
 .music-text h2 {
-    background-color: #b73e24;
+    /*background-color: rgba(229, 128, 45, 0.5);*/
     padding-top: 5px;
     font-family: "Cinzel", serif;
-    color: #fafafa;
-    /*border-radius: 50px;*/
+    color: #ffffff;
 }
 
 .music-text p {
-    color: #fafafa;
+    color: #ffffff;
     font-family: "Lato", sans-serif;
 }
 
-.music-iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 0;
-    padding: 25px;
+.music-properties {
+    position: relative;
+    padding: 0;
+    margin: 0;
 }
 
-.spotify-item h5 {
-    margin: 0;
-    color: #fafafa;
-    letter-spacing: 10px;
+.spotify-item {
+    position: relative;
+    border: 8px solid #e1e1e1;
+    z-index: 1;
+}
+
+.spotify-item iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.spotify-item p {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 2px;
 }
 
 /*------------------------------------------------------------ VIDEO ----------*/
@@ -233,7 +247,7 @@ footer {
 
 .youtube-item {
     position: relative;
-    border: 8px solid #fafafa;
+    border: 8px solid #e1e1e1;
     z-index: 1;
 }
 
@@ -264,7 +278,7 @@ footer {
 .store-item {
     position: relative;
     z-index: 1;
-    border: 8px solid #fafafa;
+    border: 8px solid #e1e1e1;
 }
 
 /* Will need custom media queries to get borders as I want on all screens */
@@ -296,8 +310,8 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /*background-color: #e54e2d;*/
-    background-color: #fafafa;
+    background-color: #e54e2d;
+    /*background-color: #ffffff;*/
     padding: 10px;
 }
 
@@ -313,7 +327,7 @@ footer {
 
 .table-heading-properties {
     overflow-x: hidden;
-    background-color: #fafafa;
+    background-color: #e1e1e1;
 }
 
 .table-heading-properties .table-heading {
@@ -351,7 +365,7 @@ footer {
 }
 
 .table td a {
-    color: #fafafa;
+    color: #ffffff;
 }
 
 .table td a:hover {
