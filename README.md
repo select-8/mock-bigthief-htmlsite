@@ -45,3 +45,16 @@ Two types of users can be defined:
 
  *Sources*
  https://stackoverflow.com/questions/41651612/how-to-align-icon-to-center-inside-div-element 
+ 
+ *Testing*
+ 
+ * {
+
+    background: #000 !important;
+
+    color: #0f0 !important;
+
+    outline: solid #f00 1px !important;
+
+}
+ 
