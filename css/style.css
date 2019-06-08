@@ -75,7 +75,9 @@ footer {
     padding: 0;
     position: fixed;
     display: inline;
-    flex-wrap: nowrap;
+    /*https://stackoverflow.com/questions/48580360/css-nowrap-on-text*/
+    white-space: nowrap;
+    overflow: hidden;
     bottom: 0;
     width: 100%;
     background-color: rgba(255, 255, 255, 0);
