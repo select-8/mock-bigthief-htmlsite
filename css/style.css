@@ -32,12 +32,6 @@ body {
 
 /*-------------------------------------------------------- HOME PAGE ----------*/
 
-.heading {
-    display: block;
-    padding: 0;
-    height: 100%;
-}
-
 .banner-properties {
     padding: 10px 0 0 0;
     margin: 0;
@@ -118,6 +112,7 @@ footer {
 
 .social-links {
     float: right;
+    margin: 16px;
 }
 
 .social-links li a i {
@@ -139,6 +134,12 @@ footer {
 
 .social-links li a i:hover {
     background-color: #e84610;
+}
+
+.social-links dl,
+ol,
+ul {
+    margin-bottom: 1rem;
 }
 
 /*-------------------------------------------------- PAGES BG COLOUR ----------*/
@@ -270,13 +271,11 @@ footer {
 
 .store-item i {
     font-size: 18vh;
-    /*border-radius: 50%;*/
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #e54e2d;
-    /*background-color: #ffffff;*/
     padding: 10px;
 }
 
@@ -299,7 +298,6 @@ footer {
     text-align: center;
     font-size: 7vw;
     letter-spacing: 3vw;
-    /*padding: 3vw;*/
 }
 
 .table-heading {
