@@ -1,6 +1,8 @@
 html,
 body {
-    overflow-x: hidden;
+    /*This overflow was causing two scroll bars to appear - 
+     - look out for knock ons to removing before fully removing*/
+    /*overflow-x: hidden;*/
     font-family: "Lato", sans-serif;
 }
 
@@ -67,15 +69,51 @@ body {
     margin: 0;
 }
 
-/*.image-properties img {}*/
+/*-------------------------------------------------------- FOOTER ----------*/
 
-.footer-stuff {
+footer {
     padding: 0;
     position: fixed;
     display: inline-block;
     bottom: 0;
     width: 100%;
     background-color: rgba(255, 255, 255, 0);
+}
+
+/*---------- MAILING LIST MODAL --*/
+
+.mailing-modal {
+    float: left;
+    padding: 12px 0;
+}
+
+/*---------- SOCIAL --*/
+
+.social-links {
+    float: right;
+    padding-right: 5px;
+    /*padding-bottom: 5px;*/
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    /* With equal width and height, a b-r of 50% gives a circle */
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    border: 0.5px solid #fafafa;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background-color: #e84610;
 }
 
 /*-------------------------------------------------------- All PAGES ----------*/
