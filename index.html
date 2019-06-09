@@ -58,10 +58,10 @@
         <footer class="container-fluid">
             <div id="footer-details" class="row">
                 <div class="col-6 col-md-6 mailing-model">
-                    <a target="_blank" href="#">
+                    <button class="btn btn-lg btn--cta btn--red" data-toggle="modal" data-target="#mailingUpModal">
                         <i class="fa fa-envelope mailing" aria-hidden="true"></i>
                         <span class="sr-only">Mailing List</span>
-                    </a>
+                    </a></button>
                 </div>
                 <div class="col-6 col-md-6">
                     <ul class="list-inline social-links">
@@ -92,43 +92,69 @@
                     </ul>
                 </div>
             </div>
+            <!--Drop UP-->
+            <!--/DropUp -->
         </footer>
-        <!--Drop UP-->
-        <div class="drop-pos d-md-none">
-            <div class="dropup" aria-haspopup="true" aria-expanded="true">
-                <button class="dropbtn social-du-button">
-                    <p>S</p></button>
-                <container class="dropup-content">
-                    <ul class="social-du-links list-unstyled">
-                        <li>
-                            <a target="_blank" href="#">
-                                <i class="fa fa-facebook" aria-hidden="true"></i>
-                                <span class="sr-only">Facebook</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a target="_blank" href="#">
-                                <i class="fa fa-twitter" aria-hidden="true"></i>
-                                <span class="sr-only">Twitter</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a target="_blank" href="#">
-                            <i class="fa fa-instagram" aria-hidden="true"></i>
-                            <span class="sr-only">Instagram</span>
-                        </a>
-                        </li>
-                        <li>
-                            <a target="_blank" href="#">
-                            <i class="fa fa-wikipedia-w" aria-hidden="true"></i>
-                            <span class="sr-only">Wikipedia</span>
-                        </a>
-                        </li>
-                    </ul>
-                </container>
+    </div>
+    
+        <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Sign Up To Whiskey Drop</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <label for="repeatPassword">Repeat Password</label>
+                            <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
+                        </div>
+                        <button type="submit" class="btn btn-success">Submit</button>
+                    </form>
+                </div>
             </div>
         </div>
-        <!--/Drop uP-->
+    </div>    <div class="modal" tabindex="-1" role="dialog" id="mailingUpModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">SUBSCRIBE</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <label for="repeatPassword">Repeat Password</label>
+                            <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
+                        </div>
+                        <button type="submit" class="btn btn-success">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
