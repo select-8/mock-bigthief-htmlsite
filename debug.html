@@ -13,28 +13,38 @@
 </head>
 
 <body>
-
-    <div class="container-fluid d-sm-block d-md-none vh-100 dropping">
-        <div class="drop-pos">
+    <!--https://www.w3schools.com/howto/howto_css_dropup.asp-->
+    <div class="container-fluid vh-100 dropping">
+        <div class="drop-pos d-md-none">
             <div class="dropup" aria-haspopup="true" aria-expanded="true">
                 <button class="dropbtn social-button">
-                    S</button>
+                    <p>S</p></button>
                 <container class="dropup-content">
                     <ul class="social-links list-unstyled">
-                    <li>
-                        <a target="_blank" href="#">
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a target="_blank" href="#">
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
-                        </a></li>
-                    <li>
-                        <a target="_blank" href="#">
+                        <li>
+                            <a target="_blank" href="#">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                                <span class="sr-only">Facebook</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="#">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                                <span class="sr-only">Twitter</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="#">
                             <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
                         </a>
-                    </li>
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="#">
+                            <i class="fa fa-wikipedia-w" aria-hidden="true"></i>
+                            <span class="sr-only">Wikipedia</span>
+                        </a>
+                        </li>
                     </ul>
                 </container>
             </div>
