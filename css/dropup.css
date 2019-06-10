@@ -1,82 +1,35 @@
-/*https://codepen.io/Cookiecrumbs/pen/wKLqvq*/
-/*.container {*/
-/*    max-width: 928px;*/
-/*    position: relative;*/
-/*}*/
-/*html,*/
-/*body {*/
-/*height: 550px;*/
-/*padding-top: 55px;*/
-/*    background-size: cover;*/
-/*    margin: 0;*/
-/*    padding: 0;*/
-/*    font-family: 'Montserrat', sans-serif;*/
-/*}*/
-/*.navbar-inverse {*/
-/*    opacity: 1;*/
-/*    background-color: inherit;*/
-/*    border-width: 0;*/
-/*    border-color: inherit;*/
-/*}*/
-/*.social-button {*/
-/*    position: absolute;*/
-/*    bottom: 10px;*/
-/*    right: 15px;*/
-/*    width: 32px;*/
-/*    height: 32px;*/
-/*    padding: 12px 0;*/
-/*    margin: 6px;*/
-/*    border-radius: 50%;*/
-/*    font-size: 13px;*/
-/*    line-height: 7px;*/
-/*    word-spacing: 2px;*/
-/*    text-align: center;*/
-/*    color: #ffffff;*/
-/*    border: 0.5px solid #ffffff;*/
-/*    transition: all 0.35s ease-in-out;*/
-/*    -moz-transition: all 0.35s ease-in-out;*/
-/*    -webkit-transition: all 0.35s ease-in-out;*/
-/*    -o-transition: all 0.35s ease-in-out;*/
-/*}*/
-/*.navbar-inverse .navbar-collapse,*/
-/*.navbar-inverse .navbar-form {*/
-/*    float: right;*/
-/*    border-color: #101010;*/
-/*    padding-bottom: 45px;*/
-/*}*/
-/*.social-out {*/
-/*    background-color: blue;*/
-/*}*/
 /*https://www.w3schools.com/howto/howto_css_dropup.asp*/
 .dropping {
   position: relative;
-  background-color: blue;
+  background-color: blueviolet;
 }
 
+/* places icon bottom right */
 .drop-pos {
   position: absolute;
-  bottom: 10px;
-  right: 15px;
+  bottom: 2px;
+  right: 25px;
   margin: 0;
 }
 
-.dropbtn {
+/* .dropbtn {
   color: white;
   padding: 8px;
   font-size: 16px;
   border: none;
   display: block;
-}
+} */
 
-.dropup {
+/* .dropup {
   position: relative;
   display: inline-block;
   transition: all 1.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
-}
+} */
 
+/* Creates pop-up */
 .dropup-content {
   display: none;
   position: absolute;
@@ -84,28 +37,30 @@
   z-index: 1;
 }
 
+/* Styles S button */
 .social-du-button {
   width: 32px;
   height: 32px;
   padding: 12px 0;
   margin: 6px;
   border-radius: 50%;
-  font-size: 13px;
+  font-size: 16px;
   line-height: 7px;
   word-spacing: 2px;
   text-align: center;
-  color: pink;
+  color: black;
   border: 0.5px solid #ffffff;
 }
 
-.social-du-button i {
+/* .social-du-button i {
   color: white;
   padding: 16px;
   font-size: 16px;
   border: none;
   display: block;
-}
+} */
 
+/* adds formatting to drop'd up icons */
 .social-du-links a {
   color: white;
   padding: 7px;
@@ -114,10 +69,8 @@
   display: block;
 }
 
+/* Applies hover colour to drop'd up icons */
 .dropup-content a:hover {
-  /*font-size: 13px;*/
-  /*line-height: 7px;*/
-  /*word-spacing: 2px;*/
   background-color: orange;
   opacity: 50;
   border-radius: 50%;
@@ -127,18 +80,21 @@
   margin: 0;
 }
 
+/* Allows drop up to happen */
 .dropup:hover .dropup-content {
   display: block;
 }
 
+/* Gives hoevr colour to S */
 .dropup:hover .dropbtn {
   background-color: #2980B9;
 }
 
-.list-inline-item {
+/* .list-inline-item {
   display: inline-block;
-}
+} */
 
+/* formats and styles drop'd up icons */
 .social-du-links li a i {
   width: 32px;
   height: 32px;
@@ -156,13 +112,31 @@
   -o-transition: all 0.5s ease-in-out;
 }
 
-/*dl,
-ol,
-ul {
-    */
-/*    margin-top: 0;*/
-/*    margin-bottom: 0;*/
-/*}*/
+.mailing-main {
+  position: relative;
+  float: left;
+  font-size: 1em;
+  background-color: #e84610;
+}
+
+.mailing-modal {
+  position: absolute;
+  bottom: 10px;
+  left: 25px;
+  font-size: 26px;
+  color: #ffffff;
+  padding: 6px;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+.mailing:hover {
+  background-color: #e84610;
+}
+
+
 /** {*/
 /*    background: #000 !important;*/
 /*    color: #0f0 !important;*/

@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Cinzel:400,700|Lato:300,400,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        type="text/css" />
 
 
     <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">-->
@@ -19,45 +21,56 @@
 
 <body>
     <!--https://www.w3schools.com/howto/howto_css_dropup.asp-->
-    <div class="container-fluid vh-100 dropping">
-        <div class="drop-pos">
-            <div class="dropup" aria-haspopup="true" aria-expanded="true">
-                <button class="dropbtn social-du-button">
-                    <p>S</p></button>
-                <container class="dropup-content">
-                    <ul class="social-du-links list-unstyled">
-                        <li>
-                            <a target="_blank" href="#">
-                                <i class="fa fa-facebook" aria-hidden="true"></i>
-                                <span class="sr-only">Facebook</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a target="_blank" href="#">
-                                <i class="fa fa-twitter" aria-hidden="true"></i>
-                                <span class="sr-only">Twitter</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a target="_blank" href="#">
-                            <i class="fa fa-instagram" aria-hidden="true"></i>
-                            <span class="sr-only">Instagram</span>
-                        </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a target="_blank" href="https://en.wikipedia.org/wiki/Big_Thief">
-                            <i class="fa fa-wikipedia-w" aria-hidden="true"></i>
-                            <span class="sr-only">Wikipedia</span>
-                        </a>
-                        </li>
-                    </ul>
-                </container>
+    <div class="row fixed-bottom">
+        <div class="container-fluid col-6 mailing-main">
+            <div class="col-6 col-md-6 mailing-model">
+                <button class="btn btn-lg btn--cta btn--red" data-toggle="modal" data-target="#mailingUpModal">
+                    <i class="fa fa-envelope mailing" aria-hidden="true"></i>
+                    <span class="sr-only">Mailing List</span>
+                </button>
+            </div>
+        </div>
+        <div class="container-fluid col-6 dropping">
+            <div class="drop-pos">
+                <div class="dropup" aria-haspopup="true" aria-expanded="true">
+                    <button class="dropbtn social-du-button">
+                        <p>S</p>
+                    </button>
+                    <container class="dropup-content">
+                        <ul class="social-du-links list-unstyled">
+                            <li>
+                                <a target="_blank" href="#">
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                    <span class="sr-only">Facebook</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="#">
+                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                    <span class="sr-only">Twitter</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="#">
+                                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                                    <span class="sr-only">Instagram</span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a target="_blank" href="https://en.wikipedia.org/wiki/Big_Thief">
+                                    <i class="fa fa-wikipedia-w" aria-hidden="true"></i>
+                                    <span class="sr-only">Wikipedia</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </container>
+                </div>
             </div>
         </div>
     </div>
 
 
-<!-- CODE PEN VERSION WITH BOOTSTRAP -->
+    <!-- CODE PEN VERSION WITH BOOTSTRAP -->
 
     <!--<div class="container-fluid vh-100 dropping">-->
     <!--    <nav class="navbar navbar-inverse navbar-fixed-bottom social-out">-->
@@ -66,7 +79,7 @@
     <!--                <button type="button" class="social-button" data-toggle="collapse" data-target="#myNavbar">-->
     <!--                <p>S</p>-->
     <!--  </button>-->
-                    <!--<a class="navbar-brand" href="#">Art Avenger</a>-->
+    <!--<a class="navbar-brand" href="#">Art Avenger</a>-->
     <!--            </div>-->
     <!--            <div class="collapse navbar-collapse" id="myNavbar">-->
     <!--                <ul class="nav navbar-nav">-->
