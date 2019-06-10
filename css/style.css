@@ -37,7 +37,7 @@ body {
 .banner-properties {
   padding: 10px 0 0 0;
   margin: 0;
-  background-color: #fafafa;
+  background-color: #f9dbd5;
 }
 
 .banner-properties p {
@@ -271,7 +271,7 @@ ul {
 
 .youtube-item {
   position: relative;
-  border: 8px solid #e1e1e1;
+  border: 8px solid #f9dbd5;
   z-index: 1;
 }
 
@@ -283,9 +283,12 @@ ul {
 }
 
 .youtube-item p {
-  text-align: center;
-  margin-top: 30px;
-  margin-bottom: 2px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 2px;
+    font-family: "Cinzel", serif;
+    color: #ffffff;
+    font-size: 3vh;
 }
 
 /*------------------------------------------------------------ STORE ----------*/
@@ -301,7 +304,7 @@ ul {
 .store-item {
   position: relative;
   z-index: 1;
-  border: 8px solid #e1e1e1;
+  border: 8px solid #f9dbd5;
 }
 
 .store-item i {
@@ -312,16 +315,32 @@ ul {
   transform: translate(-50%, -50%);
   background-color: #e54e2d;
   padding: 10px;
+  border: 16px solid #f9dbd5;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+.store-item a {
+  color: #1F89A0;
+}
+
+.store-item a:hover {
+  color: #f9dbd5;
 }
 
 /*------------------------------------------------------------- TOUR ----------*/
 #tour-page {
-  background-color: #FF5733;
+  background-color: #f9dbd5;
 }
 
 .table-heading-properties {
   overflow-x: hidden;
   background-color: #fafafa;
+}
+
+.table-heading-properties h2 {
+  background-color: #f9dbd5;
 }
 
 .tour-image-properties {

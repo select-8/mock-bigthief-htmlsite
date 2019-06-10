@@ -19,7 +19,7 @@ Need a website to
 6. Have audio clips
      - albums or songs or both?
 7. Build a social media presence
-    - not so important for the band but they realise fans might be interested 
+    - not so important for the band but they realise fans might be interested
 8. Be a reflection of the bands persona*
 
 **User Stories**
@@ -32,22 +32,26 @@ Two types of users can be defined:
 
 1. I’m already a fan of the band, I have all their albums…
     - As a user I expect the site to reflect the persona of the band.
-    - As a user I want unique content i.e. access to offical store, definitive tour schedule 
+    - As a user I want unique content i.e. access to offical store, definitive tour schedule
 
 2. I have just heard of this band and I want to find out more…
-    - As a user I want to hear some of this bands music
-    - As a user I want to see their some music videos
-    - As a user I want to see some live performances
+    - As a user I want access to the bands social media.
+    - As a user I want to hear some of this bands music.
+    - As a user I want to see their music videos.
+    - As a user I want to see some live performances.
     - As a user I want some biographic information on the group*
 
 *Potential conflict in needs. Solve with link to Wikipedia page?
 
 
  *Sources*
- https://stackoverflow.com/questions/41651612/how-to-align-icon-to-center-inside-div-element 
- 
+ https://stackoverflow.com/questions/41651612/how-to-align-icon-to-center-inside-div-element
+
  *Testing*
- 
+
+ Music was not working on all screens so merged containers of text and main spotify frame.
+ Now that album stands out a bit more as the main new album.
+
  * {
 
     background: #000 !important;
@@ -57,4 +61,3 @@ Two types of users can be defined:
     outline: solid #f00 1px !important;
 
 }
- 
