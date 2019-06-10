@@ -63,6 +63,7 @@
 /* adds formatting to drop'd up icons */
 .social-du-links a {
   color: white;
+  background-color: aqua;
   padding: 7px;
   font-size: 16px;
   border: none;
@@ -136,6 +137,42 @@
   background-color: #e84610;
 }
 
+
+.social-links {
+  float: right;
+  margin: 7px 8px 9px;
+  /* background-color: #e1e1e1; */
+}
+
+.social-links li a i {
+  width: 32px;
+  height: 32px;
+  padding: 12px 0;
+  border-radius: 50%;
+  font-size: 13px;
+  line-height: 7px;
+  word-spacing: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+  background-color: #fafafa;
+  color: #e84610;
+  border: 0.5px solid #ffffff;
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+
+.social-links li a i:hover {
+  background-color: #e84610;
+  color: #fafafa;
+}
+
+.social-links dl,
+ol,
+ul {
+  margin-bottom: 1rem;
+}
 
 /** {*/
 /*    background: #000 !important;*/
