@@ -1,382 +1,365 @@
 html,
 body {
-    /*This overflow was causing two scroll bars to appear -
+  /*This overflow was causing two scroll bars to appear -
      - look out for knock ons to removing before fully removing*/
-    /*overflow-x: hidden;*/
-    font-family: "Lato", sans-serif;
+  /*overflow-x: hidden;*/
+  font-family: "Lato", sans-serif;
 }
 
 .container-fluid {
-    padding: 0;
+  padding: 0;
 }
 
 .container-properties {
-    padding: 0;
-    margin: 0;
-    background-color: #FF5733;
+  padding: 0;
+  margin: 0;
+  background-color: #FF5733;
 }
 
 /*----------------------------------------------------------- NAVBAR ----------*/
-
 .navbar-properties {
-    padding: 0;
-    margin: 0;
-    font-family: "Lato", sans-serif;
-    letter-spacing: 3px;
-    background-color: #e54e2d;
+  padding: 0;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 3px;
+  background-color: #e54e2d;
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 /*-------------------------------------------------------- HOME PAGE ----------*/
-
 .banner-properties {
-    padding: 10px 0 0 0;
-    margin: 0;
-    background-color: #fafafa;
+  padding: 10px 0 0 0;
+  margin: 0;
+  background-color: #fafafa;
 }
 
 .banner-properties p {
-    font-family: "Cinzel", serif;
-    letter-spacing: 34px;
-    color: #1694b0;
-    padding: 0;
-    margin: 0;
-    font-size: 17.5vmin;
-    font-weight: 400;
+  font-family: "Cinzel", serif;
+  letter-spacing: 34px;
+  color: #1694b0;
+  padding: 0;
+  margin: 0;
+  font-size: 17.5vmin;
+  font-weight: 400;
 }
 
 .container-properties .image-shell {
-    min-width: 100%;
-    background-repeat: no-repeat;
-    overflow-y: hidden;
-    overflow-x: hidden;
+  min-width: 100%;
+  background-repeat: no-repeat;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 .container-properties .image-properties {
-    width: 100%;
-    margin: 0;
-    border-top: 0px solid #e54e2d;
+  width: 100%;
+  margin: 0;
+  border-top: 0px solid #e54e2d;
 }
 
 .image-properties .col-12 {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 /*----------------------------------------------------------- FOOTER ----------*/
-
 footer {
-    padding: 0;
-    position: fixed;
-    display: inline;
-    /*https://stackoverflow.com/questions/48580360/css-nowrap-on-text*/
-    white-space: nowrap;
-    overflow: hidden;
-    bottom: 0;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0);
-    z-index: 1;
+  padding: 0;
+  position: fixed;
+  display: inline;
+  /*https://stackoverflow.com/questions/48580360/css-nowrap-on-text*/
+  white-space: nowrap;
+  overflow: hidden;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0);
+  z-index: 1;
 }
 
 /*--------------------------------- MAILING LIST MODAL --*/
-
 .mailing-modal {
-    position: relative;
-    float: left;
-    font-size: 1em;
+  position: relative;
+  float: left;
+  font-size: 1em;
 }
 
 .mailing {
-    position: absolute;
-    bottom: 10px;
-    left: 25px;
-    font-size: 26px;
-    color: #ffffff;
-    padding: 6px;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+  position: absolute;
+  bottom: 10px;
+  left: 25px;
+  font-size: 26px;
+  color: #ffffff;
+  padding: 6px;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
 }
 
 .mailing:hover {
-
-    background-color: #e84610;
-
+  background-color: #e84610;
 }
 
 /*--------------------------------------------- SOCIAL --*/
-
 .social-links {
-    float: right;
-    margin: 16px;
+  float: right;
+  margin: 16px;
 }
 
 .social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
-    word-spacing: 5px;
-    text-align: center;
-    color: #ffffff;
-    border: 0.5px solid #ffffff;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+  width: 32px;
+  height: 32px;
+  padding: 12px 0;
+  border-radius: 50%;
+  font-size: 13px;
+  line-height: 7px;
+  word-spacing: 5px;
+  text-align: center;
+  color: #ffffff;
+  border: 0.5px solid #ffffff;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
 }
 
 .social-links li a i:hover {
-    background-color: #e84610;
+  background-color: #e84610;
 }
 
 .social-links dl,
 ol,
 ul {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 /*-------------------------------------------------- PAGES BG COLOUR ----------*/
-
 .pages-bgc-music {
-    padding-top: 10px;
-    /*background-color: #FF5733;*/
-    background-color: #1694b0;
+  padding-top: 10px;
+  /*background-color: #FF5733;*/
+  background-color: #1694b0;
 }
 
 .pages-bgc-video {
-    padding-top: 10px;
-    /*background-color: #FF5733;*/
-    background-color: #1694b0;
+  padding-top: 10px;
+  /*background-color: #FF5733;*/
+  background-color: #1694b0;
 }
 
 .pages-bgc-store {
-    padding-top: 10px;
-    /*background-color: #FF5733;*/
-    background-color: #1694b0;
+  padding-top: 10px;
+  /*background-color: #FF5733;*/
+  background-color: #1694b0;
 }
 
 /*------------------------------------------------------------ MUSIC ----------*/
-
 #music-page {
-    padding: 0;
+  padding: 0;
 }
 
 .music-text {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 0;
-    overflow: hidden;
-    /*background-color: #e54e2d;*/
-    color: #44170d;
-    padding: 25px;
-    background-clip: content-box;
-    margin: 0;
-    border: 8px solid #ffffff;
-}
-
-.music-text h2 {
-    /*background-color: rgba(229, 128, 45, 0.5);*/
-    padding-top: 5px;
-    font-family: "Cinzel", serif;
-    color: #ffffff;
-}
-
-.music-text p {
-    color: #ffffff;
-    font-family: "Lato", sans-serif;
-}
-
-.music-properties {
-    position: relative;
-    padding: 0;
-    margin: 0;
-}
-
-.spotify-item {
-    position: relative;
-    border: 8px solid #e1e1e1;
-    z-index: 1;
-}
-
-.spotify-item iframe {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.spotify-item p {
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 2px;
-}
-
-/*------------------------------------------------------------ VIDEO ----------*/
-
-#video-page {
-    padding: 0;
-}
-
-.video-properties {
-    position: relative;
-    padding: 0;
-    margin: 0;
-}
-
-.youtube-item {
-    position: relative;
-    border: 8px solid #e1e1e1;
-    z-index: 1;
-}
-
-.youtube-item iframe {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.youtube-item p {
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 2px;
-}
-
-/*------------------------------------------------------------ STORE ----------*/
-
-#store-page {
-    padding: 0;
-}
-
-.store-properties {
-    padding: 0;
-    margin: 0;
-}
-
-.store-item {
-    position: relative;
-    z-index: 1;
-    border: 8px solid #e1e1e1;
-}
-
-.store-item i {
-    font-size: 18vh;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #e54e2d;
-    padding: 10px;
-}
-
-/*------------------------------------------------------------- TOUR ----------*/
-
-#tour-page {
-    background-color: #FF5733;
-}
-
-.table-heading-properties {
-    overflow-x: hidden;
-    background-color: #fafafa;
-}
-
-.tour-image-properties {
-    padding-bottom: 42px;
-}
-
-.table-heading-properties .table-heading {
-    text-align: center;
-    font-size: 7vw;
-    letter-spacing: 3vw;
-}
-
-.table-heading {
-    font-family: "Cinzel, serif";
-    letter-spacing: .5em;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: #186d80;
-    background-color: #fafafa;
-    margin: 0;
-}
-
-.table th {
-    padding: 0;
-}
-
-.table td {
-    padding: .75rem;
-    vertical-align: top;
-    border-top: none;
-    border-bottom: 1px solid #FFF;
-    text-align: center;
-    font-weight: 700;
-    color: #722716;
-}
-
-.table td a:link {
-    text-decoration: none;
-}
-
-.table td a {
-    color: #ffffff;
-}
-
-.table td a:hover {
-    color: #2d0f09;
-}
-
-
-/*-------------------------------- DROP UP ------------------------------------*/
-
-
-
-/*-------------------------------- MODAL ------------------------------------*/
-
-.btn-group-lg>.btn, .btn-lg {
-     padding: 0rem 0rem;
-     font-size: 0rem;
-     line-height: 0;
-     border-radius: 0rem;
-}
-
-.modal-header {
-    text-align: center;
-    font-family: "Cinzel", serif;
-    color: #e54e2d;
-}
-
-.modal-body {
-  form: relative;
-}
-
-.form-group {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  /* max-width: 50%; */
+  border: 0;
+  overflow: hidden;
+  /*background-color: #e54e2d;*/
+  color: #44170d;
+  padding: 25px;
+  background-clip: content-box;
+  margin: 0;
+  border: 8px solid #ffffff;
+}
+
+.music-text h2 {
+  /*background-color: rgba(229, 128, 45, 0.5);*/
+  padding-top: 5px;
+  font-family: "Cinzel", serif;
+  color: #ffffff;
+}
+
+.music-text p {
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+}
+
+.music-properties {
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+.spotify-item {
+  position: relative;
+  border: 8px solid #e1e1e1;
+  z-index: 1;
+}
+
+.spotify-item iframe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.spotify-item p {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 2px;
+}
+
+/*------------------------------------------------------------ VIDEO ----------*/
+#video-page {
+  padding: 0;
+}
+
+.video-properties {
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+.youtube-item {
+  position: relative;
+  border: 8px solid #e1e1e1;
+  z-index: 1;
+}
+
+.youtube-item iframe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.youtube-item p {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 2px;
+}
+
+/*------------------------------------------------------------ STORE ----------*/
+#store-page {
+  padding: 0;
+}
+
+.store-properties {
+  padding: 0;
+  margin: 0;
+}
+
+.store-item {
+  position: relative;
+  z-index: 1;
+  border: 8px solid #e1e1e1;
+}
+
+.store-item i {
+  font-size: 18vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #e54e2d;
+  padding: 10px;
+}
+
+/*------------------------------------------------------------- TOUR ----------*/
+#tour-page {
+  background-color: #FF5733;
+}
+
+.table-heading-properties {
+  overflow-x: hidden;
+  background-color: #fafafa;
+}
+
+.tour-image-properties {
+  padding-bottom: 42px;
+}
+
+.table-heading-properties .table-heading {
+  text-align: center;
+  font-size: 7vw;
+  letter-spacing: 3vw;
+}
+
+.table-heading {
+  font-family: "Cinzel, serif";
+  letter-spacing: .5em;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #186d80;
+  background-color: #fafafa;
+  margin: 0;
+}
+
+.table th {
+  padding: 0;
+}
+
+.table td {
+  padding: .75rem;
+  vertical-align: top;
+  border-top: none;
+  border-bottom: 1px solid #FFF;
+  text-align: center;
+  font-weight: 700;
+  color: #722716;
+}
+
+.table td a:link {
+  text-decoration: none;
+}
+
+.table td a {
+  color: #ffffff;
+}
+
+.table td a:hover {
+  color: #2d0f09;
+}
+
+/*------------------------------------------------------------- DROP UP -------*/
+/*------------------------------------------------------------- MODAL ---------*/
+
+.btn-group-lg>.btn, .btn-lg {
+  padding: 0rem 0rem;
+  font-size: 0rem;
+  line-height: 0;
+  border-radius: 0rem;
+}
+
+.close {
+    float: right;
+    font-size: 1.75rem;
+    color: #000;
+    opacity: 1;
+}
+
+.modal-header {
+  font-family: "Cinzel", serif;
+  color: #e54e2d;
+  padding-top: 2px;
+  letter-spacing: 3vw;
+}
+
+.modal-header h5 {
+  font-size: 2rem;
+
+}
+
+.btn-custom {
+  border: 2px solid #000;
 }
 
 
-
-/** {*/
-
-/*    background: #000 !important;*/
-
-/*    color: #0f0 !important;*/
-
-/*    outline: solid #f00 1px !important;*/
-
-/*}*/
+* {
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+}
