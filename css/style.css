@@ -1,8 +1,5 @@
 html,
 body {
-  /*This overflow was causing two scroll bars to appear -
-     - look out for knock ons to removing before fully removing*/
-  /*overflow-x: hidden;*/
   font-family: "Lato", sans-serif;
 }
 
@@ -77,8 +74,7 @@ footer {
   padding: 0;
   position: fixed;
   display: inline;
-  /*https://stackoverflow.com/questions/48580360/css-nowrap-on-text*/
-  white-space: nowrap;
+  /* white-space: nowrap; */
   overflow: hidden;
   bottom: 0;
   width: 100%;
@@ -90,7 +86,6 @@ footer {
 .mailing-main {
   position: relative;
 }
-
 
 .mailing-model {
   position: absolute;
@@ -133,10 +128,6 @@ footer {
   background-color: #fafafa;
   color: #e84610;
   border: 0.5px solid #ffffff;
-  transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -webkit-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
 }
 
 .social-links li a i:hover {
@@ -151,36 +142,87 @@ ul {
 }
 
 /* Styles S button */
-.social-button {
+.dropbtn {
   width: 32px;
   height: 32px;
   padding: 12px 0;
   margin: 10px;
   border-radius: 50%;
-  font-size: 13px;
+  font-family: "Cinzel", serif;
+  font-weight: 700;
+  font-size: 16px;
   line-height: 7px;
   word-spacing: 5px;
   text-align: center;
   color: #e54e2d;
-  border: 0.5px solid #ffffff;
+  background-color: #FaFaFa;
+  border: 0.5px solid #e54e2d;
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
 }
 
-/*-------------------------------------------------- PAGES BG COLOUR ----------*/
+/*------------------------------------------------------------- DROP UP -------*/
+/* https://www.w3schools.com/howto/howto_css_dropup.asp*/
+
+.dropping {
+  position: relative;
+}
+
+/* places icon bottom right */
+.drop-pos {
+  position: absolute;
+  bottom: 2px;
+  right: 25px;
+  margin: 0;
+}
+
+/* Creates pop-up */
+.dropup-content {
+  display: none;
+  position: absolute;
+  bottom: 30px;
+  z-index: 1;
+}
+
+/* Applies hover colour to drop'd up icons */
+.dropup-content a:hover {
+  background-color: orange;
+  opacity: 50;
+  border-radius: 50%;
+}
+
+.dropup-content li {
+  margin: 0;
+}
+
+/* Allows drop up to happen */
+.dropup:hover .dropup-content {
+  display: block;
+}
+
+/* Gives hoevr colour to S */
+.dropup:hover .dropbtn {
+  background-color: #e84610;
+  color: #ffffff;
+  border: 0.5px solid #FaFaFa;
+}
+
+/*-------------------------------------------------- PAGES BG COLOUR ----------
+--------------------------------------these can go back to a single class */
 .pages-bgc-music {
   padding-top: 10px;
-  /*background-color: #FF5733;*/
   background-color: #1694b0;
 }
 
 .pages-bgc-video {
   padding-top: 10px;
-  /*background-color: #FF5733;*/
   background-color: #1694b0;
 }
 
 .pages-bgc-store {
   padding-top: 10px;
-  /*background-color: #FF5733;*/
   background-color: #1694b0;
 }
 
@@ -411,52 +453,6 @@ ul {
 .table td a:hover {
   color: #2d0f09;
 }
-
-/*------------------------------------------------------------- DROP UP -------*/
-
-.dropping {
-  position: relative;
-  /* background-color: blueviolet; */
-}
-
-/* places icon bottom right */
-.drop-pos {
-  position: absolute;
-  bottom: 2px;
-  right: 25px;
-  margin: 0;
-}
-
-/* Creates pop-up */
-.dropup-content {
-  display: none;
-  position: absolute;
-  bottom: 30px;
-  z-index: 1;
-}
-
-/* Applies hover colour to drop'd up icons */
-.dropup-content a:hover {
-  background-color: orange;
-  opacity: 50;
-  border-radius: 50%;
-}
-
-.dropup-content li {
-  margin: 0;
-}
-
-/* Allows drop up to happen */
-.dropup:hover .dropup-content {
-  display: block;
-}
-
-/* Gives hoevr colour to S */
-.dropup:hover .dropbtn {
-  background-color: #2980B9;
-}
-
-
 
 /*------------------------------------------------------------- MODAL ---------*/
 .btn-group-lg>.btn,
