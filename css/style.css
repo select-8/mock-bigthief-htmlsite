@@ -341,16 +341,13 @@ ul {
     opacity: 1;
 }
 
+.show {
+  padding-right: 0;
+}
+
 .modal-header {
   font-family: "Cinzel", serif;
   color: #e54e2d;
-  padding-top: 2px;
-  letter-spacing: 3vw;
-}
-
-.modal-header h5 {
-  font-size: 2rem;
-
 }
 
 .btn-custom {
@@ -358,8 +355,8 @@ ul {
 }
 
 
-* {
+/* * {
     background: #000 !important;
     color: #0f0 !important;
     outline: solid #f00 1px !important;
-}
+} */
