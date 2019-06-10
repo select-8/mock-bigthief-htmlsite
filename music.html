@@ -41,33 +41,35 @@
     <section>
       <div class="container-fluid vh-100 pages-bgc-music" id="music-page">
         <div class="row music-properties w-100 h-100">
-          <div class="container-fluid col-12 col-sm-6 d-none d-md-block music-item">
-            <div class="container music-text text-center">
-              <div class="div">
-                <h2>New Album U.F.O.F Out Now</h2>
+          <div class="container-fluid col-12 col-sm-6 music-item">
+            <div class="container music-text">
+              <div class="container-fluid col-12 col-sm-6 quotes-header text-center">
+                <p>New Album U.F.O.F Out Now</p>
               </div>
-              <div class="div">
+              <div class="col d-none d-sm-block quotes">
+                <span>The Guardian</span>
                 <p>
-                  <h5>The Guardian</h5>Full of subtle charm, it’s an album of deceptive depths in which to immerse yourself.
+                  Full of subtle charm, it’s an album of deceptive depths in which to immerse yourself.
                 </p>
               </div>
-              <div class="div">
+              <div class="col d-none d-sm-block quotes">
+                <span>Pitchfork</span>
                 <p>
-                  <h5>Pitchfork</h5>A true masterpiece of folk music from a band working together at the highest level
+                  A true masterpiece of folk music from a band working together at the highest level
                 </p>
               </div>
             </div>
           </div>
           <div class="container-fluid col-12 col-sm-6 spotify-item">
-            <p class="text-center">U.F.O.F</p>
+            <p class="music-title text-center">U.F.O.F</p>
             <iframe class="music-iframe main" src="https://open.spotify.com/embed/album/5X0bIKvPtSDo4NpXqgrB6p?si=Yln5lmAlTiqoWcTiIT_1vg&view=coverart" width="60%" height="60%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
           </div>
           <div class="container-fluid col-12 col-sm-6 spotify-item">
-            <p class="text-center">CAPASITY</p>
+            <p class="music-title text-center">CAPASITY</p>
             <iframe class="music-iframe" src="https://open.spotify.com/embed/album/2hOYLjoRQFXcdviMiwtgxe?si=c3WfNJTBRyaWGscP8f_tww" width="60%" height="60%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
           </div>
-          <div class="container-fluid col-12 col-sm-6 spotify-item">
-            <p class="text-center">MASTERPIECE</p>
+          <div class="container-fluid col-12 col-sm-6 spotify-item masterpiece">
+            <p class="music-title text-center">MASTERPIECE</p>
             <iframe class="music-iframe" src="https://open.spotify.com/embed/album/4onPyHor2yOlVxCsIaGyHH?si=xow8KVPQTtKppUfiPJ18eQ" width="60%" height="60%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
           </div>
         </div>
@@ -78,32 +80,32 @@
     <div id="footer-details" class="row">
       <div class="col-6 col-md-6 mailing-model">
         <button class="btn btn-lg btn--cta btn--red" data-toggle="modal" data-target="#mailingUpModal">
-            <i class="fa fa-envelope mailing" aria-hidden="true"></i>
-            <span class="sr-only">Mailing List</span>
+          <i class="fa fa-envelope mailing" aria-hidden="true"></i>
+          <span class="sr-only">Mailing List</span>
         </button>
       </div>
       <div class="col-6 col-md-6">
-        <ul class="list-inline social-links d-flex flex-row">
+        <ul class="list-inline social-links d-flex flex-column">
           <li class="list-inline-item">
-            <a target="_blank" href="#">
+            <a target="_blank" href="https://www.facebook.com/bigthiefmusic">
               <i class="fa fa-facebook" aria-hidden="true"></i>
               <span class="sr-only">Facebook</span>
             </a>
           </li>
           <li class="list-inline-item">
-            <a target="_blank" href="#">
+            <a target="_blank" href="https://twitter.com/bigthiefmusic">
               <i class="fa fa-twitter" aria-hidden="true"></i>
               <span class="sr-only">Twitter</span>
             </a>
           </li>
           <li class="list-inline-item">
-            <a target="_blank" href="#">
+            <a target="_blank" href="https://www.instagram.com/bigthiefmusic/">
               <i class="fa fa-instagram" aria-hidden="true"></i>
               <span class="sr-only">Instagram</span>
             </a>
           </li>
           <li class="list-inline-item">
-            <a target="_blank" href="#">
+            <a target="_blank" href="https://en.wikipedia.org/wiki/Big_Thief">
               <i class="fa fa-wikipedia-w" aria-hidden="true"></i>
               <span class="sr-only">Wikipedia</span>
             </a>
@@ -111,6 +113,8 @@
         </ul>
       </div>
     </div>
+    <!--Drop UP-->
+    <!--/DropUp -->
   </footer>
   <div class="modal" tabindex="-1" role="dialog" id="mailingUpModal">
     <div class="modal-dialog" role="document">
