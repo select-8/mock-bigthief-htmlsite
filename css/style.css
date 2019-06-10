@@ -87,16 +87,19 @@ footer {
 }
 
 /*--------------------------------- MAILING LIST MODAL --*/
-.mailing-modal {
+.mailing-main {
   position: relative;
-  float: left;
-  font-size: 1em;
+}
+
+
+.mailing-model {
+  position: absolute;
+  bottom: 2px;
+  left: 25px;
 }
 
 .mailing {
-  position: absolute;
-  bottom: 10px;
-  left: 25px;
+  height: 100%;
   font-size: 26px;
   color: #ffffff;
   padding: 6px;
@@ -395,8 +398,97 @@ ul {
 }
 
 /*------------------------------------------------------------- DROP UP -------*/
+
+.dropping {
+  position: relative;
+  /* background-color: blueviolet; */
+}
+
+/* places icon bottom right */
+.drop-pos {
+  position: absolute;
+  bottom: 2px;
+  right: 25px;
+  margin: 0;
+}
+
+/* Creates pop-up */
+.dropup-content {
+  display: none;
+  position: absolute;
+  bottom: 30px;
+  z-index: 1;
+}
+
+/* Styles S button */
+.social-du-button {
+  width: 32px;
+  height: 32px;
+  padding: 12px 0;
+  margin: 6px;
+  border-radius: 50%;
+  font-size: 16px;
+  line-height: 7px;
+  word-spacing: 2px;
+  text-align: center;
+  color: black;
+  border: 0.5px solid #ffffff;
+}
+
+/* adds formatting to drop'd up icons */
+.social-du-links a {
+  color: white;
+  /* background-color: aqua; */
+  padding: 7px;
+  font-size: 16px;
+  border: none;
+  display: block;
+}
+
+/* Applies hover colour to drop'd up icons */
+.dropup-content a:hover {
+  background-color: orange;
+  opacity: 50;
+  border-radius: 50%;
+}
+
+.dropup-content li {
+  margin: 0;
+}
+
+/* Allows drop up to happen */
+.dropup:hover .dropup-content {
+  display: block;
+}
+
+/* Gives hoevr colour to S */
+.dropup:hover .dropbtn {
+  background-color: #2980B9;
+}
+
+/* formats and styles drop'd up icons */
+.social-du-links li a i {
+  width: 32px;
+  height: 32px;
+  padding: 12px 0;
+  border-radius: 50%;
+  font-size: 13px;
+  line-height: 7px;
+  word-spacing: 2px;
+  text-align: center;
+  color: #ffffff;
+  border: 0.5px solid #ffffff;
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+
+
+
 /*------------------------------------------------------------- MODAL ---------*/
-.btn-group-lg>.btn, .btn-lg {
+.btn-group-lg>.btn,
+.btn-lg {
   padding: 0rem 0rem;
   font-size: 0rem;
   line-height: 0;
