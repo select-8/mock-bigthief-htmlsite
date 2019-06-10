@@ -29,8 +29,12 @@ body {
   border: none;
 }
 
+/* display and line-height here makes the clickable area the text itself only
+https://stackoverflow.com/questions/18197619/reduce-clickable-area-for-link */
 .navbar-light .navbar-nav .nav-link {
   color: #ffffff;
+  display: inline-block;
+  line-height: 1em;
 }
 
 /*-------------------------------------------------------- HOME PAGE ----------*/
@@ -126,10 +130,10 @@ footer {
   background-color: #fafafa;
   color: #e84610;
   border: 0.5px solid #ffffff;
-  transition: all 0.35s ease-in-out;
-  -moz-transition: all 0.35s ease-in-out;
-  -webkit-transition: all 0.35s ease-in-out;
-  -o-transition: all 0.35s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
 }
 
 .social-links li a i:hover {
@@ -283,12 +287,12 @@ ul {
 }
 
 .youtube-item p {
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 2px;
-    font-family: "Cinzel", serif;
-    color: #ffffff;
-    font-size: 3vh;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 2px;
+  font-family: "Cinzel", serif;
+  color: #ffffff;
+  font-size: 3vh;
 }
 
 /*------------------------------------------------------------ STORE ----------*/
@@ -321,6 +325,7 @@ ul {
   -webkit-transition: all 0.35s ease-in-out;
   -o-transition: all 0.35s ease-in-out;
 }
+
 .store-item a {
   color: #1F89A0;
 }
