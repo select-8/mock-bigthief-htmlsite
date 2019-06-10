@@ -188,7 +188,7 @@ ul {
   font-family: "Cinzel", serif;
   color: #ffffff;
   font-size: 3vh;
-  border-bottom: 2px dotted #f9dbd5;
+  /* border: 2px double #ce4628; */
 }
 
 .quotes p {
@@ -201,6 +201,7 @@ ul {
   font-family: "Lato", sans-serif;
   margin-top: 2px;
   margin-bottom: 0;
+  font-size: 2.5vh;
 }
 
 .quotes {
@@ -230,6 +231,9 @@ ul {
   text-align: center;
   margin-top: 30px;
   margin-bottom: 2px;
+  font-family: "Cinzel", serif;
+  color: #ffffff;
+  font-size: 3vh;
 }
 
 .masterpiece {
