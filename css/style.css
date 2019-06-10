@@ -94,7 +94,7 @@ footer {
 
 .mailing-model {
   position: absolute;
-  bottom: 2px;
+  bottom: 5px;
   left: 25px;
 }
 
@@ -102,7 +102,7 @@ footer {
   height: 100%;
   font-size: 26px;
   color: #ffffff;
-  padding: 6px;
+  padding: 10px;
   transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
   -webkit-transition: all 0.35s ease-in-out;
@@ -116,7 +116,7 @@ footer {
 /*--------------------------------------------- SOCIAL --*/
 .social-links {
   float: right;
-  margin: 7px 8px 9px;
+  margin: 15px 11px;
   /* background-color: #e1e1e1; */
 }
 
@@ -148,6 +148,21 @@ footer {
 ol,
 ul {
   margin-bottom: 1rem;
+}
+
+/* Styles S button */
+.social-button {
+  width: 32px;
+  height: 32px;
+  padding: 12px 0;
+  margin: 10px;
+  border-radius: 50%;
+  font-size: 13px;
+  line-height: 7px;
+  word-spacing: 5px;
+  text-align: center;
+  color: #e54e2d;
+  border: 0.5px solid #ffffff;
 }
 
 /*-------------------------------------------------- PAGES BG COLOUR ----------*/
@@ -420,31 +435,6 @@ ul {
   z-index: 1;
 }
 
-/* Styles S button */
-.social-du-button {
-  width: 32px;
-  height: 32px;
-  padding: 12px 0;
-  margin: 6px;
-  border-radius: 50%;
-  font-size: 16px;
-  line-height: 7px;
-  word-spacing: 2px;
-  text-align: center;
-  color: black;
-  border: 0.5px solid #ffffff;
-}
-
-/* adds formatting to drop'd up icons */
-.social-du-links a {
-  color: white;
-  /* background-color: aqua; */
-  padding: 7px;
-  font-size: 16px;
-  border: none;
-  display: block;
-}
-
 /* Applies hover colour to drop'd up icons */
 .dropup-content a:hover {
   background-color: orange;
@@ -464,24 +454,6 @@ ul {
 /* Gives hoevr colour to S */
 .dropup:hover .dropbtn {
   background-color: #2980B9;
-}
-
-/* formats and styles drop'd up icons */
-.social-du-links li a i {
-  width: 32px;
-  height: 32px;
-  padding: 12px 0;
-  border-radius: 50%;
-  font-size: 13px;
-  line-height: 7px;
-  word-spacing: 2px;
-  text-align: center;
-  color: #ffffff;
-  border: 0.5px solid #ffffff;
-  transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -webkit-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
 }
 
 
