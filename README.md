@@ -12,7 +12,7 @@ Simple
 Little bootstrap - needs to learn, make mistakes learning
 
 
-####Owner Stories (redefining the scope)
+#### Owner Stories (redefining the scope)
 
 Need a website to:
 
@@ -54,7 +54,7 @@ Need a website to:
 
 8. Be a reflection of the band's persona*
 
-####User Stories
+#### User Stories
 
 As a user I want to be able to:
 
@@ -79,33 +79,33 @@ Two types of users can be defined:
 
 ***Potential conflict in needs. Solve with link to Wikipedia page?**
 
-##UX Process
+## UX Process
 
-####Inspiration
+#### Inspiration
 
-####Wireframes
+#### Wireframes
 
-####Information Architechture
+#### Information Architechture
 
-####Colour
+#### Colour
 
-####Typography
+#### Typography
 
 
 
-##FEATURES
+## FEATURES
 
-####Existing
+#### Existing
  Navbar- bootstrap
  Footer
 - homemade hack without using bootstrap or javascript
 - difficult to align
 - duplicates code
 
-####Left to Implement
+#### Left to Implement
 
 
-##Testing
+## Testing
 
 Music was not working on all screens so merged containers of text and main Spotify frame.
 Now that album stands out a bit more as the main new album.
@@ -123,49 +123,49 @@ RELATIVE PATHS USED
     outline: solid #f00 1px !important;
     }
 
-##Deployment
+## Deployment
 
 Git for versioning
 Constant Commits
 GitHub Pages
 
-##Technologies Used
+## Technologies Used
 
-#####LANGUAGES
+##### LANGUAGES
 - HTML
 - CSS
 
-#####VERSION CONTROL
+##### VERSION CONTROL
 - GIT
 
-#####FRAMEWORKS & APIS
+##### FRAMEWORKS & APIS
 - BOOTSTRAP 4
 - FONT AWESOME
 - GOOGLE FONTS
 - JQUERY
 - POPPER
 
-#####SOFTWARE AND SERVICES
+##### SOFTWARE AND SERVICES
 - AWS Could9 IDE
 - VISUAL STUDIO CODE
 - GITHUB
 - INKSCAPE
 
-#####EDITORS
+##### EDITORS
 - Sublime
 - Atom
 
-#####VMWARE
+##### VMWARE
 - Ubuntu V18.04
 
-#####HARDWARE
+##### HARDWARE
 - Mac OSX
 
-#####PROJECT MGMT
+##### PROJECT MGMT
 - SLACK
 - Notion
 
-##Credits
+## Credits
 https://stackoverflow.com/questions/41651612/how-to-align-icon-to-center-inside-div-element
 
 

@@ -42,9 +42,7 @@ https://stackoverflow.com/questions/18197619/reduce-clickable-area-for-link */
 }
 
 .banner-properties {
-  /* padding: 10px 0 10px 0; */
   padding: 0;
-  /* margin: 10px 0 10px 0; */
   background-color: #fafafa;
 }
 
@@ -260,7 +258,7 @@ ul {
 .quotes-header p {
   margin-bottom: 5px;
   margin-top: 18px;
-  padding: 2px;
+  padding: 5px;
   font-family: "Cinzel", serif;
   color: #0b4a58;
   font-size: 1.2em;
@@ -406,6 +404,8 @@ ul {
 /* Banner text background colour */
 .table-heading-properties h2 {
   background-color: #fafafa;
+  border-top: 10px solid #0b4a58;
+  border-bottom: 10px solid #0b4a58;
 }
 
 .table-heading-properties .table-heading {
