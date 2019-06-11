@@ -85,6 +85,8 @@ Two types of users can be defined:
 
 ####Wireframes
 
+####Information Architechture
+
 ####Colour
 
 ####Typography
@@ -112,6 +114,14 @@ Now that album stands out a bit more as the main new album.
 
 Test all iframe content
 RELATIVE PATHS USED
+
+     *  {
+    background: #000 !important;
+
+    color: #0f0 !important;
+
+    outline: solid #f00 1px !important;
+    }
 
 ##Deployment
 
@@ -160,13 +170,4 @@ https://stackoverflow.com/questions/41651612/how-to-align-icon-to-center-inside-
 
 
 
-
-`
- *  {
-    background: #000 !important;
-
-  color: #0f0 !important;
-
-   outline: solid #f00 1px !important;
-}
 
