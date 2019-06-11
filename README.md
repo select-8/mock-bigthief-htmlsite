@@ -1,8 +1,8 @@
-#USER CENTRIC FRONT END MILESTONE PROJECT
+# USER CENTRIC FRONT END MILESTONE PROJECT
 
 ## STATIC WEBSITE FOR THE FOLK-ROCK BAND _BIG THIEF_
 
-###Project Overview
+### Project Overview
 
 One or two paragraphs providing an overview of your project.
 
