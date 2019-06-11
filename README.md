@@ -8,6 +8,9 @@ One or two paragraphs providing an overview of your project.
 
 Essentially, this part is your sales pitch.
 
+Simple
+Little bootstrap - needs to learn, make mistakes learning
+
 
 ####Owner Stories (redefining the scope)
 
