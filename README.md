@@ -1,3 +1,6 @@
+**Super Owner Stories**
+
+
 **Owner Stories**
 
 Need a website to
@@ -51,6 +54,12 @@ Two types of users can be defined:
 
  Music was not working on all screens so merged containers of text and main spotify frame.
  Now that album stands out a bit more as the main new album.
+
+ Click for each page to every link and back
+
+
+------
+ RELATIVE PATHS USED
 
  * {
 
