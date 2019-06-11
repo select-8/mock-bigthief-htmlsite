@@ -1,7 +1,7 @@
 html,
 body {
   overflow-x: hidden;
-  overflow-y: hidden;
+  overflow-y: auto;
   font-family: "Lato", sans-serif;
 }
 
@@ -405,10 +405,6 @@ ul {
 /* Banner text background colour */
 .table-heading-properties h2 {
   background-color: #fafafa;
-}
-
-.tour-image-properties {
-  padding-bottom: 42px;
 }
 
 .table-heading-properties .table-heading {

@@ -9,15 +9,14 @@
     type="text/css" />
   <link href="https://fonts.googleapis.com/css?family=Cinzel:400,700|Lato:300,400,700|Noto+Sans+HK:400,500&display=swap"
     rel="stylesheet">
-  <script src="https://kit.fontawesome.com/122bb5e0c6.js"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     type="text/css" />
   <link rel="stylesheet" href="../css/style.css" type="text/css" />
-  <title>Store</title>
+  <title>MUSIC</title>
 </head>
 
 <body>
-  <div class="container-fluid container-properties" id="store-page">
+  <div class="container-fluid container-properties" id="music-page">
     <nav class="navbar navbar-expand-sm navbar-light navbar-properties">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
         aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,14 +27,14 @@
           <li class="nav-item mr-2">
             <a class="nav-link" href="index.html">HOME</a>
           </li>
-          <li class="nav-item mr-2">
-            <a class="nav-link" href="music.html">MUSIC</a>
+          <li class="nav-item mr-2 active">
+            <a class="nav-link" href="music.html">MUSIC<span class="sr-only"></span></a>
           </li>
           <li class="nav-item mr-2">
             <a class="nav-link" href="video.html">VIDEOS</a>
           </li>
-          <li class="nav-item mr-2 active">
-            <a class="nav-link" href="store.html">STORE<span class="sr-only"></span></a>
+          <li class="nav-item mr-2">
+            <a class="nav-link" href="store.html">STORE</a>
           </li>
           <li class="nav-item mr-2">
             <a class="nav-link" href="tour.html">LIVE</a>
@@ -44,31 +43,54 @@
       </div>
     </nav>
     <section>
-      <div class="container-fluid vh-100 pages-bgc-store" id="store-page">
-        <div class="row store-properties w-100 h-100">
-          <div class="container-fluid col-sm-6 store-item disc">
-            <a target="_blank" href="https://bigthief.store-08.com/music/">
-              <i class="fas fa-compact-disc"></i>
-              <span class="sr-only">Store</span>
-            </a>
+      <div class="container-fluid vh-100 pages-bgc-music" id="music-page">
+        <div class="row music-properties w-100 h-100">
+          <div class="container-fluid col-12 music-main">
+            <div class="container-fluid col-6 music-item">
+              <div class="container music-text">
+                <div class="container-fluid col-6 quotes-header text-center">
+                  <p>New Album U.F.O.F Out Now</p>
+                </div>
+                <div class="quotes d-none d-sm-block">
+                  <div class="quote-item">
+                    <p>
+                      <span>The Guardian:&nbsp;</span>
+                      Full of subtle charm, it’s an album of deceptive depths in which to immerse yourself.
+                    </p>
+                  </div>
+                  <div class="quote-item">
+                    <p>
+                      <span>Pitchfork:&nbsp;</span>
+                      A true masterpiece of folk music from a band working together at the highest level.
+                    </p>
+                  </div>
+                  <div class="quote-item d-none d-md-block">
+                      <p>
+                        <span>Rolling Stone:&nbsp;</span>
+                        And by this point you’re so spellbound by acoustic plucking, ringing amps, 
+                        and Big Thief’s mystical songwriting that you’re either crying or swaying or, more likely, both at once.
+                      </p>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="container-fluid col-6 col-sm-6 spotify-item-ufof">
+              <iframe class="music-iframe"
+                src="https://open.spotify.com/embed/album/5X0bIKvPtSDo4NpXqgrB6p?si=Yln5lmAlTiqoWcTiIT_1vg&view=coverart"
+                width="80%" height="80%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            </div>
           </div>
-          <div class="container-fluid col-sm-6 store-item tshirt">
-            <a target="_blank" href="https://bigthief.store-08.com/apparel/">
-              <i class="fas fa-tshirt"></i>
-              <span class="sr-only">Store</span>
-            </a>
+          <div class="container-fluid col-12 col-sm-6 spotify-item">
+            <p class="music-title text-center d-none d-sm-block">CAPASITY</p>
+            <iframe class="music-iframe"
+              src="https://open.spotify.com/embed/album/2hOYLjoRQFXcdviMiwtgxe?si=c3WfNJTBRyaWGscP8f_tww" width="60%"
+              height="60%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
           </div>
-          <div class="container-fluid col-sm-6 store-item brush">
-            <a target="_blank" href="https://bigthief.store-08.com/posters/">
-              <i class="fas fa-paint-brush"></i>
-              <span class="sr-only">Store</span>
-            </a>
-          </div>
-          <div class="container-fluid col-sm-6 d-none d-sm-block store-item music">
-            <a target="_blank" href="https://bigthief.ffm.to/ufof.owe">
-              <i class="fas fa-music"></i>
-              <span class="sr-only">Store</span>
-            </a>
+          <div class="container-fluid col-12 col-sm-6 spotify-item masterpiece">
+            <p class="music-title text-center d-none d-sm-block">MASTERPIECE</p>
+            <iframe class="music-iframe"
+              src="https://open.spotify.com/embed/album/4onPyHor2yOlVxCsIaGyHH?si=xow8KVPQTtKppUfiPJ18eQ" width="60%"
+              height="60%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
           </div>
         </div>
       </div>
@@ -81,7 +103,7 @@
           <div class="mailing-model">
             <div>
               <button class="btn btn-lg btn--cta btn--red" data-toggle="modal" data-target="#mailingUpModal">
-                <i class="fa fa-envelope mailing" aria-hidden="true"></i>
+                <i class="fa fa-envelope mailing" aria-haspopup="false" aria-hidden="true"></i>
                 <span class="sr-only">Mailing List</span>
               </button>
             </div>
@@ -179,7 +201,7 @@
             <div class="form-group">
               <label for="exampleInputEmail1">Email address</label>
               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                placeholder="Enter email" pattern=".+@*.com" size="30" required>
+                placeholder="Enter email" pattern=".+@globex.com" size="30" required>
             </div>
             <button type="submit" class="btn btn-light btn-custom">Submit</button>
           </form>
@@ -198,7 +220,6 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
   </script>
-
 </body>
 
 </html>
