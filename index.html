@@ -16,53 +16,50 @@
 </head>
 
 <body>
-  <div class="container-fluid container-properties" id="home-page">
-    <nav class="navbar navbar-expand-sm navbar-light navbar-properties">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
-        aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarContent">
-        <ul class="navbar-nav w-100 nav-justified">
-          <li class="nav-item mr-2 active">
-            <a class="nav-link" href="index.html">HOME<span class="sr-only"></span></a>
-          </li>
-          <li class="nav-item mr-2">
-            <a class="nav-link" href="music.html">MUSIC</a>
-          </li>
-          <li class="nav-item mr-2">
-            <a class="nav-link" href="video.html">VIDEOS</a>
-          </li>
-          <li class="nav-item mr-2">
-            <a class="nav-link" href="store.html">STORE</a>
-          </li>
-          <li class="nav-item mr-2">
-            <a class="nav-link" href="tour.html">LIVE</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <section>
-      <div class="container-fluid vh-100 text-center">
-        <div class="row">
-          <div class="col-12 banner-properties w-100">
-            <!-- <div class="col-12 col-md-12"> -->
-              <p>Big Thief</p>
-            <!-- </div> -->
-          </div>
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-12 image-properties w-100">
-                <img src="assets/images/big-thief-by-michael-buishas_wide-66075642dace43cc53cfdf2a8ce991966b6381c7.jpg"
-                  class="img-fluid image-properties" alt="Responsive image"></img>
-              </div>
+  <div class="container-fluid container-properties vh-100">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-sm navbar-light navbar-properties">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
+          aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <ul class="navbar-nav w-100 nav-justified">
+            <li class="nav-item mr-2 active">
+              <a class="nav-link" href="index.html">HOME<span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item mr-2">
+              <a class="nav-link" href="music.html">MUSIC</a>
+            </li>
+            <li class="nav-item mr-2">
+              <a class="nav-link" href="video.html">VIDEOS</a>
+            </li>
+            <li class="nav-item mr-2">
+              <a class="nav-link" href="store.html">STORE</a>
+            </li>
+            <li class="nav-item mr-2">
+              <a class="nav-link" href="tour.html">LIVE</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <section>
+        <div class="container-fluid" id="home-page">
+          <div class="row">
+            <div class="col-12 banner-properties text-center">
+              <h1>BIG THIEF</h1>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
+          <div class="row">
+            <div class="col-12 image-properties text-center">
+              <img src="assets/images/big-thief-by-michael-buishas_wide-66075642dace43cc53cfdf2a8ce991966b6381c7.jpg"
+                class="img-fluid w-100" alt="Responsive image"></img>
+            </div>
+          </div>
+      </section>
+    </div>
   </div>
-  <footer class="container-fluid">
+  <footer>
     <div id="footer-details">
       <div class="row fixed-bottom">
         <div class="container-fluid col-6 col-md-6 mailing-main">
@@ -109,7 +106,7 @@
               <button class="dropbtn social-button">
                 <p>S</p>
               </button>
-              <div class="dropup-content">
+              <container class="dropup-content">
                 <ul class="social-links list-unstyled">
                   <li>
                     <a target="_blank" href="https://www.facebook.com/bigthiefmusic">
@@ -136,14 +133,14 @@
                     </a>
                   </li>
                 </ul>
-              </div>
+              </container>
             </div>
           </div>
         </div>
       </div>
     </div>
   </footer>
-  <!-- Taken from whiskey drop walkthrough -->
+  </div>
   <div class="modal" tabindex="-1" role="dialog" id="mailingUpModal">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
@@ -168,7 +165,7 @@
             <div class="form-group">
               <label for="exampleInputEmail1">Email address</label>
               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                placeholder="Enter email" pattern=".+@*.com" size="30" required>
+                placeholder="Enter email" pattern=".+@globex.com" size="30" required>
             </div>
             <button type="submit" class="btn btn-light btn-custom">Submit</button>
           </form>
@@ -176,6 +173,9 @@
       </div>
     </div>
   </div>
+
+
+
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">

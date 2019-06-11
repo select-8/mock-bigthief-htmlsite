@@ -1,7 +1,6 @@
 html,
 body {
   overflow-x: hidden;
-  overflow-y: auto;
   font-family: "Lato", sans-serif;
 }
 
@@ -37,31 +36,30 @@ https://stackoverflow.com/questions/18197619/reduce-clickable-area-for-link */
 }
 
 /*-------------------------------------------------------- HOME PAGE ----------*/
+
+#home-page {
+  padding: 0;
+}
+
 .banner-properties {
-  padding: 10px 0 0 0;
-  margin: 0;
+  /* padding: 10px 0 10px 0; */
+  padding: 0;
+  /* margin: 10px 0 10px 0; */
   background-color: #fafafa;
 }
 
-.banner-properties p {
+.banner-properties h1 {
   font-family: "Cinzel", serif;
-  letter-spacing: 5px;
   color: #1694b0;
-  padding: 0;
-  margin: 0;
   font-size: 17.5vmin;
-  font-weight: 400;
-}
-
-.container-properties .image-properties {
-  width: 100%;
+  letter-spacing: .25em;
+  border: 10px solid;
   margin: 0;
-  border-top: 0px solid #e54e2d;
 }
 
-.image-properties .col-12 {
+.image-properties {
+  margin: 0;
   padding: 0;
-  margin: 0;
 }
 
 /*----------------------------------------------------------- FOOTER ----------*/
@@ -488,7 +486,7 @@ ul {
 }
 
 /* * {
-    background: #000 !important;
-    color: #0f0 !important;
-    outline: solid #f00 1px !important;
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
 } */
