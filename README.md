@@ -66,7 +66,7 @@ Two types of users can be defined:
 
 1. I’m already a fan of the band, I have all their albums…
     - As a user I expect the site to reflect the persona of the band.
-    - As a user, I want easy access to unique content i.e. access to an offical store, definitive tour listings
+    - As a user, I want easy access to unique content i.e. access to an official store, definitive tour listings
 
 2. I have just heard of this band and I want to find out more…
     - As a user, I want access to the band's social media.
@@ -105,7 +105,7 @@ Two types of users can be defined:
 
 ##Testing
 
-Music was not working on all screens so merged containers of text and main spotify frame.
+Music was not working on all screens so merged containers of text and main Spotify frame.
 Now that album stands out a bit more as the main new album.
 
  Click for each page to every link and back
@@ -115,7 +115,7 @@ RELATIVE PATHS USED
 
 ##Deployment
 
-Git for versoning
+Git for versioning
 Constant Commits
 GitHub Pages
 
