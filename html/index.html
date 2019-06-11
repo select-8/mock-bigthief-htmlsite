@@ -64,7 +64,7 @@
             <div class="mailing-model">
               <div>
                 <button class="btn btn-lg btn--cta btn--red" data-toggle="modal" data-target="#mailingUpModal">
-                  <i class="fa fa-envelope mailing" aria-hidden="true"></i>
+                  <i class="fa fa-envelope mailing" aria-haspopup="false" aria-hidden="true"></i>
                   <span class="sr-only">Mailing List</span>
                 </button>
               </div>
@@ -100,11 +100,11 @@
           </div>
           <div class="container-fluid col-6 d-block d-md-none dropping">
             <div class="drop-pos">
-              <div class="dropup" aria-haspopup="true" aria-expanded="true">
+              <div class="dropup" aria-haspopup="false" aria-expanded="true">
                 <button class="dropbtn social-button">
                   <p>S</p>
                 </button>
-                <container class="dropup-content">
+                <div class="dropup-content">
                   <ul class="social-links list-unstyled">
                     <li>
                       <a target="_blank" href="https://www.facebook.com/bigthiefmusic">
@@ -131,7 +131,7 @@
                       </a>
                     </li>
                   </ul>
-                </container>
+                </div>
               </div>
             </div>
           </div>
@@ -139,7 +139,7 @@
       </div>
     </footer>
   </div>
-  <!-- Takrn from whiskey drop walkthrough -->
+  <!-- Taken from whiskey drop walkthrough -->
   <div class="modal" tabindex="-1" role="dialog" id="mailingUpModal">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
@@ -164,7 +164,7 @@
             <div class="form-group">
               <label for="exampleInputEmail1">Email address</label>
               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                placeholder="Enter email" pattern=".+@globex.com" size="30" required>
+                placeholder="Enter email" pattern=".+@*.com" size="30" required>
             </div>
             <button type="submit" class="btn btn-light btn-custom">Submit</button>
           </form>

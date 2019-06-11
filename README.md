@@ -57,9 +57,56 @@ Two types of users can be defined:
 
  Click for each page to every link and back
 
+ Test all iframe content
+
 
 ------
  RELATIVE PATHS USED
+ ------
+
+
+ *EMEMENTS*
+
+ Navbar
+- bootstrap
+
+ Footer
+- homemade hack without using bootstrap or javascript
+- difficult to align
+- duplicates code
+
+*TECHNOLOGIES USED*
+*LANGUAGES*
+HTML
+CSS
+*VERSIONING*
+GIT
+*FRAMEWORKS and APIS*
+BOOTSTRAP 4
+FONT AWESOME
+GOOGLE FONTS
+JQUERY
+POPPER
+*SOFTWARE AND SERVICES*
+AWS Could9 IDE
+VISUAL STUDIO CODE
+GITHUB
+INKSCAPE
+*EDITORS*
+Sublime
+Atom
+*VMWARE*
+Ubuntu V18.04
+*HARDWARE*
+Mac OS X
+*PROJECT MGMT*
+SLACK
+Notion
+
+
+
+
+
 
  * {
 
