@@ -62,7 +62,7 @@ Two types of users can be defined:
 
 ------
  RELATIVE PATHS USED
- ------
+------
 
 
  *EMEMENTS*
@@ -75,33 +75,36 @@ Two types of users can be defined:
 - difficult to align
 - duplicates code
 
-*TECHNOLOGIES USED*
+------
+TECHNOLOGIES
+------
+
 *LANGUAGES*
-HTML
-CSS
-*VERSIONING*
-GIT
-*FRAMEWORKS and APIS*
-BOOTSTRAP 4
-FONT AWESOME
-GOOGLE FONTS
-JQUERY
-POPPER
+- HTML
+- CSS
+*VERSION CONTROL*
+- GIT
+*FRAMEWORKS & APIS*
+- BOOTSTRAP 4
+- FONT AWESOME
+- GOOGLE FONTS
+- JQUERY
+- POPPER
 *SOFTWARE AND SERVICES*
-AWS Could9 IDE
-VISUAL STUDIO CODE
-GITHUB
-INKSCAPE
+- AWS Could9 IDE
+- VISUAL STUDIO CODE
+- GITHUB
+- INKSCAPE
 *EDITORS*
-Sublime
-Atom
+- Sublime
+- Atom
 *VMWARE*
-Ubuntu V18.04
+- Ubuntu V18.04
 *HARDWARE*
-Mac OS X
+- Mac OSX
 *PROJECT MGMT*
-SLACK
-Notion
+- SLACK
+- Notion
 
 
 

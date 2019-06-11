@@ -45,7 +45,7 @@ https://stackoverflow.com/questions/18197619/reduce-clickable-area-for-link */
 
 .banner-properties p {
   font-family: "Cinzel", serif;
-  letter-spacing: 5px; 
+  letter-spacing: 5px;
   font-kerning: auto;
   color: #1694b0;
   padding: 0;
@@ -70,7 +70,6 @@ footer {
   padding: 0;
   position: fixed;
   display: inline;
-  /* white-space: nowrap; */
   overflow: hidden;
   bottom: 0;
   width: 100%;
@@ -90,7 +89,6 @@ footer {
 }
 
 .mailing {
-  /* height: 100%; */
   font-size: 26px;
   color: #ffffff;
   padding: 10px;
@@ -187,8 +185,7 @@ ul {
 }
 
 /* Allows drop up to happen */
-.dropup:hover 
-.dropup-content {
+.dropup:hover .dropup-content {
   display: block;
 }
 
@@ -238,7 +235,7 @@ ul {
   border: 0;
   overflow: hidden;
   color: #44170d;
-  padding: 25px;
+  padding-top: 10px;
   background-clip: content-box;
   margin: 0;
   border-color: #ffffff;
@@ -260,16 +257,27 @@ ul {
 }
 
 .quotes-header p {
-  padding-top: 5px;
+  margin-bottom: 5px;
+  margin-top: 18px;
+  padding: 2px;
   font-family: "Cinzel", serif;
-  color: #ffffff;
-  font-size: 3vh;
+  color: #0b4a58;
+  font-size: 1.2em;
+  background-color: #f9dbd5;
 }
 
 .quotes p {
-  color: #ffffff;
+  color: #fafafa;
   font-family: "Lato", sans-serif;
   margin: 0;
+  font-size: 1em;
+  text-align: center;
+  border-bottom: .5px solid #f9dbd5;
+}
+
+.quote-item p {
+  padding-top: 5px;
+  padding-bottom: 10px;
 }
 
 .quotes span {
@@ -277,7 +285,7 @@ ul {
   font-family: "Lato", sans-serif;
   margin-top: 2px;
   margin-bottom: 0;
-  font-size: 2.5vh;
+  font-size: 1em;
 }
 
 .music-properties {
@@ -476,7 +484,7 @@ ul {
 
 .btn-light:hover {
   color: #212529;
-  background-color: rgba(229,78,45,.5);
+  background-color: rgba(229, 78, 45, .5);
   border-color: #e54e2d;
 }
 
