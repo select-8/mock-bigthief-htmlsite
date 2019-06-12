@@ -89,6 +89,9 @@ Two types of users can be defined:
 
 #### Colour
 
+Light home -> dark three pages -> light tour
+Make the user feel like they are going inside
+
 #### Typography
 
 
@@ -104,6 +107,7 @@ Two types of users can be defined:
 
 #### Left to Implement
 
+- iframes responsive to media screen size
 
 ## Testing
 
