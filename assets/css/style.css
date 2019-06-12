@@ -10,11 +10,6 @@ body {
   margin: 0;
 }
 
-/* .container-properties {
-  padding: 0;
-  margin: 0;
-  background-color: #FF5733;
-} */
 /*----------------------------------------------------------- NAVBAR ----------*/
 .navbar-properties {
   padding: 5px;
@@ -129,6 +124,13 @@ footer {
 
 .social-links li a i:hover {
   background-color: #e84610;
+  border: 3px solid #212529;
+  color: #fafafa;
+}
+
+.dark-page .social-links li a i:hover {
+  background-color: #e84610;
+  border: 3px solid #fafafa;
   color: #fafafa;
 }
 
@@ -138,27 +140,6 @@ ul {
   margin-bottom: 1rem;
 }
 
-/* Styles S button */
-.dropbtn {
-  width: 32px;
-  height: 32px;
-  padding: 12px 0;
-  margin: 10px;
-  border-radius: 50%;
-  font-family: "Cinzel", serif;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 7px;
-  word-spacing: 5px;
-  text-align: center;
-  color: #e54e2d;
-  background-color: #FaFaFa;
-  border: 0.5px solid #e54e2d;
-  transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -webkit-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
-}
 
 /*------------------------------------------------------------- DROP UP -------*/
 /* https://www.w3schools.com/howto/howto_css_dropup.asp */
@@ -193,12 +174,41 @@ ul {
   display: block;
 }
 
+/* Styles S button */
+.dropbtn {
+  width: 32px;
+  height: 32px;
+  padding: 12px 0;
+  margin: 10px;
+  border-radius: 50%;
+  font-family: "Cinzel", serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 7px;
+  word-spacing: 5px;
+  text-align: center;
+  color: #e54e2d;
+  background-color: #FaFaFa;
+  border: 0.5px solid #e54e2d;
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+
 /* Gives hover colour to S */
 .dropup:hover .dropbtn {
   background-color: #e84610;
   color: #ffffff;
-  border: 0.5px solid #FaFaFa;
+  border: 3px solid #212529;
 }
+
+.dark-page .dropup:hover .dropbtn {
+  background-color: #e84610;
+  color: #ffffff;
+  border: 3px solid #fafafa;
+}
+
 
 /*--------------------------------------------------- The Dark pAGES ----------*/
 
