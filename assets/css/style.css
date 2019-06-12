@@ -223,7 +223,7 @@ ul {
 #music-page {
   overflow: hidden;
   padding: 0;
-  background-color: #212529
+  background-color: #212529;
 }
 
 .music-item {
@@ -244,17 +244,6 @@ ul {
   margin: 0;
   border-color: #ffffff;
   border-width: 0 1px;
-}
-
-.spotify-item-ufof {
-  top: 0;
-  right: 0;
-  border-color: #fafafa;
-  border-width: 0;
-}
-
-.spotify-item-ufof .music-iframe {
-  transform: translate(10%, 12%);
 }
 
 .quotes {
@@ -278,7 +267,7 @@ ul {
 .quote-item h5 {
   font-family: "Lato", sans-serif;
   font-size: 1.5rem;
-  color: #fafafa;
+  color: #e54e2d;
   margin: 10px;
 }
 
@@ -287,6 +276,7 @@ ul {
   color: #fafafa;
   margin: 14px;
   font-size: 1em;
+  font-style: italic;
 }
 
 .quotes span {
@@ -303,9 +293,21 @@ ul {
   margin: 0;
 }
 
+.spotify-item-ufof {
+  top: 0;
+  right: 0;
+  border-color: #fafafa;
+  border-width: 0;
+}
+
+.spotify-item-ufof .music-iframe {
+  transform: translate(10%, 12%);
+}
+
 .spotify-item {
   position: relative;
   z-index: 1;
+  border-top: 1px solid #000000;
 }
 
 .spotify-item iframe {
@@ -330,18 +332,19 @@ ul {
 
 /*------------------------------------------------------------ VIDEO ----------*/
 #video-page {
+  overflow: hidden;
   padding: 0;
+  background-color: #212529;
 }
 
 .video-properties {
-  position: relative;
   padding: 0;
   margin: 0;
 }
 
 .youtube-item {
   position: relative;
-  border: 8px solid #f9dbd5;
+  border: 1px solid #000000;
   z-index: 1;
 }
 
@@ -352,18 +355,21 @@ ul {
   transform: translate(-50%, -50%);
 }
 
-.youtube-item p {
+.video-title h2 {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 2px;
   font-family: "Cinzel", serif;
   color: #ffffff;
   font-size: 3vh;
 }
 
+
 /*------------------------------------------------------------ STORE ----------*/
 #store-page {
+  overflow: hidden;
   padding: 0;
+  background-color: #212529;
 }
 
 .store-properties {
@@ -374,7 +380,7 @@ ul {
 .store-item {
   position: relative;
   z-index: 1;
-  border: 8px solid #f9dbd5;
+  border: 1px solid #000000;
 }
 
 .store-item i {
@@ -385,7 +391,7 @@ ul {
   transform: translate(-50%, -50%);
   background-color: #e54e2d;
   padding: 10px;
-  border: 16px solid #f9dbd5;
+  border: 12px solid #000000;
   transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
   -webkit-transition: all 0.35s ease-in-out;
@@ -393,7 +399,7 @@ ul {
 }
 
 .store-item a {
-  color: #1F89A0;
+  color: #fafafa;
 }
 
 .store-item a:hover {
