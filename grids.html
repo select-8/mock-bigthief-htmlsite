@@ -17,17 +17,53 @@
 </head>
 
 <style>
-    .music-rel {
-        position: relative;
+    .container-main {
+        overflow-x: hidden;
+        background-color: #212529;
+    }
+
+    .music-row {
+        height: 50%;
+    }
+
+    .music-row h3 {
+        font-family: "Cinzel", serif;
+        font-size: 2.1rem;
+        color: #fafafa;
+        margin: 30px 30px 20px;
+        border-bottom: 2px solid #000000;
+        padding-bottom: 10px;
+    }
+
+    .music-row h5 {
+        font-family: "Cinzel", serif;
+        font-size: 1.5rem;
+        color: #fafafa;
+        padding: 5px 10px 2px;
+    }
+
+    .music-row p {
+        font-family: "Lato", sans-serif;
+        font-size: 1rem;
+        color: #fafafa;
+        padding: 5px 5px 10px;
+        border-bottom: 0.75px solid #e54e2d;
+        font-style: italic;
     }
 
     .music-ab {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        height: 80%;
-        width: 80%;
+        height: 100%;
+        width: 100%;
+        padding: 20px 10px;
+    }
+
+    .music-title {
+        font-family: "Lato", sans-serif;
+        font-size: 1rem;
+        color: #fafafa;
+        margin: 0;
+        padding-top: 30px;
+
     }
 </style>
 
@@ -62,67 +98,67 @@
 
     <!-- MUSIC -->
     <section>
-        <div class="container-fluid vh-100 vw-100">
+        <div class="container-fluid container-main vh-100">
             <!-- QUOTES-UFOF -->
-            <div class="row" style="border: 10px SOLID dodgerblue" style="height: 100%">
-                <div class="col-12 col-md-6" style="background-color: firebrick">
-                    <div class="container" style="border: 10px SOLID fuchsia">
-                        <!-- <div class="container" style="border: 10px Solid green"> -->
-                        <h3>
-                            HEADING 3
-                        </h3>
-                        <!-- </div> -->
+            <div class="row music-row">
+                <div class="col-sm col-md-6 text-center">
+                    <div class="container">
+                        <div class="container">
+                            <h3>
+                                U.F.O.F OUT NOW
+                            </h3>
+                        </div>
                     </div>
-                    <div class="container" style="border: 10px SOLID fuchsia">
-                        <h5 style="border: 10px SOLID gray">
-                            HEADER 5
+                    <div class="container">
+                        <h5>
+                            The Guardain
                         </h5>
-                        <p style="border: 10px SOLID yellow">
-                            QUOTE 1
+                        <p>
+                            Full of subtle charm, it’s an album of deceptive depths in which to immerse
+                            yourself.
                         </p>
                     </div>
-                    <div class="container" style="border: 10px SOLID fuchsia">
-                        <h5 style="border: 10px SOLID gray">
-                            HEADER 5
+                    <div class="container">
+                        <h5>
+                            Pitchfork
                         </h5>
-                        <p style="border: 10px SOLID yellow">
-                            QUOTE 2
+                        <p>
+                            A true masterpiece of folk music from a band working together at the highest level.
                         </p>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 music-rel" style="background-color: gold">
+                <div class="col-sm col-md-6">
                     <iframe class="music-ab"
                         src="https://open.spotify.com/embed/album/5X0bIKvPtSDo4NpXqgrB6p?si=Yln5lmAlTiqoWcTiIT_1vg&view=coverart"
                         frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                 </div>
             </div>
 
-        </div>
-        <!-- / QUOTES-UFOF -->
-        <!-- CAP & MASTER -->
-        <div class="row">
-            <div class="col-12 col-md-6 d-none d-sm-block">
-                <p class="music-title text-center d-none d-md-block">
-
-                </p>
-                <iframe></iframe>
+            <div class="row music-rel">
+                <div class="col-sm col-md-6 d-none d-md-block">
+                    <h5 class="music-title text-center">
+                        CAPASITY
+                    </h5>
+                    <iframe class="music-ab"
+                        src="https://open.spotify.com/embed/album/2hOYLjoRQFXcdviMiwtgxe&view=coverart" frameborder="0"
+                        allowtransparency="true" allow="encrypted-media"></iframe>
+                </div>
+                <div class="col-sm col-md-6 d-none d-md-block">
+                    <h5 class="music-title text-center">
+                        MASTERPIECE
+                    </h5>
+                    <iframe class="music-ab"
+                        src="https://open.spotify.com/embed/album/4onPyHor2yOlVxCsIaGyHH&view=coverart" frameborder="0"
+                        allowtransparency="true" allow="encrypted-media"></iframe>
+                </div>
             </div>
-            <div class="col-12 col-md-6 d-none d-sm-block">
-                <p class="music-title text-center d-none d-md-block">
 
-                </p>
-                <iframe>
-
-                </iframe>
-            </div>
-        </div>
-        <!-- / CAP & MASTER -->
         </div>
     </section>
     <!-- / MUSIC -->
 
     <!-- VIDEO -->
-    <section>
+    <!-- <section>
         <div class="container-fluid vh-100 vw-100" id="video-page">
             <div class="row w-100 h-100">
                 <div class="container-fluid col-12 col-sm-6" style="background-color: darkred">
@@ -176,7 +212,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- FOOTER -->
     <footer class="container-fluid">
