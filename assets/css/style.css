@@ -16,7 +16,7 @@ body {
 
 /*----------------------------------------------------------- NAVBAR ----------*/
 .navbar-properties {
-  padding: 3px;
+  padding: 5px;
   margin: 0;
   font-family: "Lato", sans-serif;
   letter-spacing: 3px;
@@ -37,10 +37,10 @@ https://stackoverflow.com/questions/18197619/reduce-clickable-area-for-link */
 
 /*-------------------------------------------------------- BANNER TEXT (home & tour) ----------*/
 
-
 .banner-heading-properties {
   overflow-x: hidden;
   background-color: #fafafa;
+  border-bottom: 10px solid #212529;
 }
 
 .banner-heading-properties h2 {
@@ -48,8 +48,8 @@ https://stackoverflow.com/questions/18197619/reduce-clickable-area-for-link */
   font-weight: 700;
   color: #0b4a58;
   background-color: #fafafa;
-  border-top: 10px solid #0b4a58;
-  border-bottom: 10px solid #0b4a58;
+  border-bottom: 10px solid #212529;
+  border-top: 10px solid #212529;
 }
 
 /*-------------------------------------------------------- HOME PAGE ----------*/
@@ -57,15 +57,10 @@ https://stackoverflow.com/questions/18197619/reduce-clickable-area-for-link */
 .banner-heading-properties .banner-heading-home {
   text-align: center;
   font-size: 7vw;
-  letter-spacing: 3vw;
+  letter-spacing: 4vw;
   margin: 0;
   padding: 40px 0;
 }
-
-/* .image-properties {
-  margin: 0;
-  padding: 0;
-} */
 
 /*----------------------------------------------------------- FOOTER ----------*/
 footer {
@@ -204,7 +199,7 @@ ul {
 
 /*-------------------------------------------------- PAGES BG COLOUR ----------
 -------------------------------------------these can go back to a single class */
-.pages-bgc-music {
+/* .pages-bgc-music {
   padding-top: 10px;
   background-color: #1694b0;
 }
@@ -217,7 +212,7 @@ ul {
 .pages-bgc-store {
   padding-top: 10px;
   background-color: #1694b0;
-}
+} */
 
 /*------------------------------------------------------------ MUSIC ----------*/
 #music-page {
@@ -279,7 +274,6 @@ ul {
 }
 
 .spotify-item {
-  /* position: relative; */
   z-index: 1;
   border-top: 1px solid #000000;
 }
@@ -334,7 +328,6 @@ ul {
   font-size: 4vh;
 }
 
-
 /*------------------------------------------------------------ STORE ----------*/
 #store-page {
   overflow: hidden;
@@ -354,7 +347,7 @@ ul {
 }
 
 .store-item i {
-  font-size: 18vh;
+  font-size: 22vh;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -362,18 +355,18 @@ ul {
   background-color: #e54e2d;
   padding: 10px;
   border: 12px solid #000000;
-  transition: all 0.35s ease-in-out;
-  -moz-transition: all 0.35s ease-in-out;
-  -webkit-transition: all 0.35s ease-in-out;
-  -o-transition: all 0.35s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
 }
 
 .store-item a {
-  color: #fafafa;
+  color: #000000;
 }
 
 .store-item a:hover {
-  color: #f9dbd5;
+  color:#fafafa;
 }
 
 /*------------------------------------------------------------- TOUR ----------*/
@@ -385,6 +378,8 @@ ul {
   text-align: center;
   font-size: 7vw;
   letter-spacing: 3vw;
+  margin: 0;
+  padding: 20px 0;
 }
 
 .table-heading {

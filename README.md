@@ -83,16 +83,18 @@ Two types of users can be defined:
 
 #### Inspiration
 
-#### Wireframes
-
-#### Information Architechture
-
 #### Colour
 
 Light home -> dark three pages -> light tour
 Make the user feel like they are going inside
 
 #### Typography
+
+## UI Processes
+
+#### Information Architechture
+
+#### Wireframes
 
 
 
