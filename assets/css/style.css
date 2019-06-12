@@ -35,30 +35,37 @@ https://stackoverflow.com/questions/18197619/reduce-clickable-area-for-link */
   line-height: 1em;
 }
 
-/*-------------------------------------------------------- HOME PAGE ----------*/
+/*-------------------------------------------------------- BANNER TEXT (home & tour) ----------*/
 
-#home-page {
-  padding: 0;
-}
 
-.banner-properties {
-  padding: 0;
+.banner-heading-properties {
+  overflow-x: hidden;
   background-color: #fafafa;
 }
 
-.banner-properties h1 {
+.banner-heading-properties h2 {
   font-family: "Cinzel", serif;
-  color: #1694b0;
-  font-size: 17.5vmin;
-  letter-spacing: .25em;
-  border: 10px solid;
-  margin: 0;
+  font-weight: 700;
+  color: #0b4a58;
+  background-color: #fafafa;
+  border-top: 10px solid #0b4a58;
+  border-bottom: 10px solid #0b4a58;
 }
 
-.image-properties {
+/*-------------------------------------------------------- HOME PAGE ----------*/
+
+.banner-heading-properties .banner-heading-home {
+  text-align: center;
+  font-size: 7vw;
+  letter-spacing: 3vw;
+  margin: 0;
+  padding: 40px 0;
+}
+
+/* .image-properties {
   margin: 0;
   padding: 0;
-}
+} */
 
 /*----------------------------------------------------------- FOOTER ----------*/
 footer {
@@ -214,20 +221,18 @@ ul {
 
 /*------------------------------------------------------------ MUSIC ----------*/
 #music-page {
+  overflow: hidden;
   padding: 0;
-}
-
-.music-main {
-  position: relative;
-  border: 8px solid #f9dbd5;
+  background-color: #212529
 }
 
 .music-item {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  position: relative;
+  min-height: 50%;
+}
+
+.music-item-ufof {
+  position: relative;
 }
 
 .music-text {
@@ -238,15 +243,12 @@ ul {
   background-clip: content-box;
   margin: 0;
   border-color: #ffffff;
-  border-width: 0 8px;
+  border-width: 0 1px;
 }
 
 .spotify-item-ufof {
-  position: absolute;
   top: 0;
   right: 0;
-  width: 100%;
-  height: 100%;
   border-color: #fafafa;
   border-width: 0;
 }
@@ -255,32 +257,40 @@ ul {
   transform: translate(10%, 12%);
 }
 
-.quotes-header p {
-  margin-bottom: 5px;
-  margin-top: 18px;
-  padding: 5px;
-  font-family: "Cinzel", serif;
-  color: #0b4a58;
-  font-size: 1.2em;
-  background-color: #f9dbd5;
+.quotes {
+  border: 0;
+  overflow: hidden;
 }
 
-.quotes p {
-  color: #fafafa;
-  font-family: "Lato", sans-serif;
+.quote-item {
+  padding: 0;
   margin: 0;
-  font-size: 1em;
-  text-align: center;
-  border-bottom: .5px solid #f9dbd5;
+}
+
+.quotes-header p {
+  font-family: "Cinzel", serif;
+  font-size: 2rem;
+  color: #fafafa;
+  background-color: #0b4a58;
+  margin: 30px;
+}
+
+.quote-item h5 {
+  font-family: "Lato", sans-serif;
+  font-size: 1.5rem;
+  color: #fafafa;
+  margin: 10px;
 }
 
 .quote-item p {
-  padding-top: 5px;
-  padding-bottom: 10px;
+  font-family: "Lato", sans-serif;
+  color: #fafafa;
+  margin: 14px;
+  font-size: 1em;
 }
 
 .quotes span {
-  color: #000000;
+  color: #e54e2d;
   font-family: "Lato", sans-serif;
   margin-top: 2px;
   margin-bottom: 0;
@@ -295,7 +305,6 @@ ul {
 
 .spotify-item {
   position: relative;
-  border: 8px solid #f9dbd5;
   z-index: 1;
 }
 
@@ -315,9 +324,9 @@ ul {
   font-size: 3vh;
 }
 
-.masterpiece {
-  border: 8px solid #f9dbd5;
-}
+/* .masterpiece {
+  border: 1px solid #000000;
+} */
 
 /*------------------------------------------------------------ VIDEO ----------*/
 #video-page {
@@ -396,19 +405,7 @@ ul {
   background-color: #f9dbd5;
 }
 
-.table-heading-properties {
-  overflow-x: hidden;
-  background-color: #fafafa;
-}
-
-/* Banner text background colour */
-.table-heading-properties h2 {
-  background-color: #fafafa;
-  border-top: 10px solid #0b4a58;
-  border-bottom: 10px solid #0b4a58;
-}
-
-.table-heading-properties .table-heading {
+.banner-heading-properties .banner-heading-tour {
   text-align: center;
   font-size: 7vw;
   letter-spacing: 3vw;
