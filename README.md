@@ -182,7 +182,3 @@ GitHub Pages
 
 ## Credits
 https://stackoverflow.com/questions/41651612/how-to-align-icon-to-center-inside-div-element
-
-
-
-
