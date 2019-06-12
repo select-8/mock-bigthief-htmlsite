@@ -39,20 +39,19 @@ Need a website to:
 
 4. Show photos of the band members
 
-     - should fit the brand, are they the type of band to have a photo gallery?
+     - should fit the brand
 
 5. Show videos
+
      - a mix of staged and live
 
 6. Have audio clips
 
-     - albums or songs or both?
+     - new album to promote 
 
-7. Build a social media presence
+7. Show social media presence
 
-    - not so important for the band but they realise fans might be interested
-
-8. Be a reflection of the band's persona*
+8. Be a reflection of the band's persona (its all about the music)
 
 #### User Stories
 
@@ -64,38 +63,47 @@ As a user I want to be able to:
 
 Two types of users can be defined:
 
-1. I’m already a fan of the band, I have all their albums…
+1. I’m already a fan of the band, I have all their albums
+
     - As a user I expect the site to reflect the persona of the band.
-    - As a user, I want easy access to unique content i.e. access to an official store, definitive tour listings
+    - As a user, I want easy access to unique content i.e. access to an official store, definitive tour listings.
 
 2. I have just heard of this band and I want to find out more…
-    - As a user, I want access to the band's social media.
 
+    - As a user, I want access to the band's social media.
     - As a user, I want to hear some of this bands music.
     - As a user, I want to see their music videos.
-
     - As a user, I want to see some live performances.
-    - As a user, I want some biographic information on the group*
+    - As a user, I want some biographic information on the group
 
-***Potential conflict in needs. Solve with link to Wikipedia page?**
+_In potential conflicts between users requirements, reflecting the band's persona wins out_
 
 ## UX Process
-
-#### Inspiration
-
-#### Colour
-
-Light home -> dark three pages -> light tour
-Make the user feel like they are going inside
-
-#### Typography
-
-## UI Processes
 
 #### Information Architechture
 
 #### Wireframes
 
+#### Inspiration - The persona of Big Thief
+
+Inspiration for the site's content as well as the general look and feel came mainly from the band's own website, their music and from various interviews I have read or seen with the group. Their persona, in particular that of the band's leader and songwriter Adrianne Lenker, is one of mystery, darkness, and contrast.
+While the darkness and contract are there in the colour palette used, I found a conflict in achieving that sense of mystery. While the group is not one to have a bio section, user 2 as defined above could want some biographic information before moving further into the site. I compromised with a link in the social bar to Wikipedia.
+The album review quotes are not fitting with the persona but 
+
+- https://bigthief.net 
+- https://www.stereogum.com/2014756/adrianne-lenker-big-thief-interview-abysskiss/franchises/interview/
+
+#### Colour
+
+As noted above I was aiming to use high contrasting colors that portray a sense of dark but to do this without overkill. To this end, the site is bookended by the lighter in tone Home & Tour pages while the core content of music, videos, and the store page are dark with high contrast between the blacks and oranges.
+
+Light home -> darker content pages -> light tour
+should make the user feel like they are going "inside" the site.
+
+#### Typography
+
+In line with the tone of mystery, the site is light on text  
+Should be clear what you will get
 
 
 ## FEATURES
@@ -110,6 +118,7 @@ Make the user feel like they are going inside
 #### Left to Implement
 
 - iframes responsive to media screen size
+- floating down pointer on tour, disappear on scroll
 
 ## Testing
 
