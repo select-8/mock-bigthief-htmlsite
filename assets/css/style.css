@@ -56,7 +56,182 @@ https://stackoverflow.com/questions/18197619/reduce-clickable-area-for-link */
   padding: 40px 0;
 }
 
+/*--------------------------------------------------- The Dark pAGES ----------*/
+
+.dpage-bgc {
+  overflow: hidden;
+  padding: 0;
+  background-color: #212529;
+}
+
+/*--------------------------------------------------- The Light pAGES ----------*/
+
+.lpage-bgc {
+  background-color: #f9dbd5;
+}
+
+/*------------------------------------------------------------ MUSIC ----------*/
+
+.music-row {
+  height: 50%;
+}
+
+.music-row h3 {
+  font-family: "Cinzel", serif;
+  font-size: 2.1rem;
+  color: #fafafa;
+  margin: 30px 30px 20px;
+  border-bottom: 2px solid #000000;
+  padding-bottom: 10px;
+}
+
+.music-row h5 {
+  font-family: "Cinzel", serif;
+  font-size: 1.5rem;
+  color: #fafafa;
+  padding: 5px 10px 2px;
+}
+
+.music-row p {
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  color: #fafafa;
+  padding: 5px 5px 10px;
+  border-bottom: 0.75px solid #e54e2d;
+  font-style: italic;
+}
+
+.music-spotify {
+  height: 100%;
+  width: 100%;
+  padding: 20px 10px;
+}
+
+.music-title {
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  color: #fafafa;
+  margin: 0;
+  padding-top: 30px;
+
+}
+
+/*------------------------------------------------------------ VIDEO ----------*/
+.video-properties {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.youtube-item {
+  position: relative;
+  border: 1px solid #000000;
+  z-index: 1;
+}
+
+.youtube-item iframe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 60%;
+  width: 60%;
+}
+
+.video-title h2 {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 2px;
+  font-family: "lato", sans-serif;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  color: #ffffff;
+  font-size: 2.2vh;
+}
+
+/*------------------------------------------------------------ STORE ----------*/
+.store-properties {
+  padding: 0;
+  margin: 0;
+}
+
+.store-item {
+  position: relative;
+  z-index: 1;
+  border: 1px solid #000000;
+}
+
+.store-item i {
+  font-size: 22vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #e54e2d;
+  padding: 10px;
+  border: 12px solid #000000;
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+
+.store-item a {
+  color: #000000;
+}
+
+.store-item a:hover {
+  color: #fafafa;
+}
+
+/*------------------------------------------------------------- TOUR ----------*/
+.banner-heading-properties .banner-heading-tour {
+  text-align: center;
+  font-size: 7vw;
+  letter-spacing: 3vw;
+  margin: 0;
+  padding: 20px 0;
+}
+
+.table-heading {
+  font-family: "Cinzel, serif";
+  letter-spacing: .5em;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #186d80;
+  background-color: #fafafa;
+  margin: 0;
+}
+
+.table th {
+  padding: 0;
+}
+
+.table td {
+  padding: .75rem;
+  vertical-align: top;
+  border-top: none;
+  border-bottom: 1px solid #FFF;
+  text-align: center;
+  font-weight: 700;
+  color: #722716;
+}
+
+.table td a:link {
+  text-decoration: none;
+}
+
+.table td a {
+  color: #ffffff;
+}
+
+.table td a:hover {
+  color: #2d0f09;
+}
+
 /*----------------------------------------------------------- FOOTER ----------*/
+
 footer {
   padding: 0;
   position: fixed;
@@ -207,175 +382,6 @@ ul {
   background-color: #e84610;
   color: #ffffff;
   border: 3px solid #fafafa;
-}
-
-
-/*--------------------------------------------------- The Dark pAGES ----------*/
-
-.dpage-bgc {
-  overflow: hidden;
-  padding: 0;
-  background-color: #212529;
-}
-
-/*--------------------------------------------------- The Light pAGES ----------*/
-
-.lpage-bgc {
-  background-color: #f9dbd5;
-}
-
-/*------------------------------------------------------------ MUSIC ----------*/
-
-.music-row {
-  height: 50%;
-}
-
-.music-row h3 {
-  font-family: "Cinzel", serif;
-  font-size: 2.1rem;
-  color: #fafafa;
-  margin: 30px 30px 20px;
-  border-bottom: 2px solid #000000;
-  padding-bottom: 10px;
-}
-
-.music-row h5 {
-  font-family: "Cinzel", serif;
-  font-size: 1.5rem;
-  color: #fafafa;
-  padding: 5px 10px 2px;
-}
-
-.music-row p {
-  font-family: "Lato", sans-serif;
-  font-size: 1rem;
-  color: #fafafa;
-  padding: 5px 5px 10px;
-  border-bottom: 0.75px solid #e54e2d;
-  font-style: italic;
-}
-
-.music-spotify {
-  height: 100%;
-  width: 100%;
-  padding: 20px 10px;
-}
-
-.music-title {
-  font-family: "Lato", sans-serif;
-  font-size: 1rem;
-  color: #fafafa;
-  margin: 0;
-  padding-top: 30px;
-
-}
-
-/*------------------------------------------------------------ VIDEO ----------*/
-.video-properties {
-  padding: 0;
-  margin: 0;
-}
-
-.youtube-item {
-  position: relative;
-  border: 1px solid #000000;
-  z-index: 1;
-}
-
-.youtube-item iframe {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.video-title h2 {
-  text-align: center;
-  margin-top: 40px;
-  margin-bottom: 2px;
-  font-family: "Cinzel", serif;
-  color: #ffffff;
-  font-size: 4vh;
-}
-
-/*------------------------------------------------------------ STORE ----------*/
-.store-properties {
-  padding: 0;
-  margin: 0;
-}
-
-.store-item {
-  position: relative;
-  z-index: 1;
-  border: 1px solid #000000;
-}
-
-.store-item i {
-  font-size: 22vh;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #e54e2d;
-  padding: 10px;
-  border: 12px solid #000000;
-  transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -webkit-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
-}
-
-.store-item a {
-  color: #000000;
-}
-
-.store-item a:hover {
-  color: #fafafa;
-}
-
-/*------------------------------------------------------------- TOUR ----------*/
-.banner-heading-properties .banner-heading-tour {
-  text-align: center;
-  font-size: 7vw;
-  letter-spacing: 3vw;
-  margin: 0;
-  padding: 20px 0;
-}
-
-.table-heading {
-  font-family: "Cinzel, serif";
-  letter-spacing: .5em;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  color: #186d80;
-  background-color: #fafafa;
-  margin: 0;
-}
-
-.table th {
-  padding: 0;
-}
-
-.table td {
-  padding: .75rem;
-  vertical-align: top;
-  border-top: none;
-  border-bottom: 1px solid #FFF;
-  text-align: center;
-  font-weight: 700;
-  color: #722716;
-}
-
-.table td a:link {
-  text-decoration: none;
-}
-
-.table td a {
-  color: #ffffff;
-}
-
-.table td a:hover {
-  color: #2d0f09;
 }
 
 /*------------------------------------------------------------- MODAL ---------*/

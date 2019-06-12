@@ -115,10 +115,13 @@ Should be clear what you will get
 - difficult to align
 - duplicates code
 
+DECided to go with single pages because I don't like a sticky header and early on couldn't find a simple enough alternative to do the nav back up the pages.
+
 #### Left to Implement
 
 - iframes responsive to media screen size
 - floating down pointer on tour, disappear on scroll
+- size of things in music and video not good, better to do media queries
 
 ## Testing
 
@@ -182,3 +185,7 @@ GitHub Pages
 
 ## Credits
 https://stackoverflow.com/questions/41651612/how-to-align-icon-to-center-inside-div-element
+
+
+
+
