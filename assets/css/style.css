@@ -435,7 +435,7 @@ ul {
 
 /*------------------------------------------------------ MEDIA QUERIES ---------*/
 
-@media(max-width: 600px) {
+@media(max-width: 576px) {
   .music-quotes p {
     font-size: 75%;
   }

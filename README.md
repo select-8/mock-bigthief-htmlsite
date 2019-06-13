@@ -2,7 +2,7 @@
 
 ## STATIC WEBSITE FOR THE FOLK-ROCK BAND _BIG THIEF_
 
-### Project Overview
+## Project Overview
 
 For this project, I have built a mobile-first responsive website for the rock group Big Thief. It can be viewed [here](https://select-8.github.io/ucfed-milestone-no1/index.html).
 
@@ -16,9 +16,10 @@ The site consists of 5 linked pages. It incorporates main navigation, grid layou
 
 All links have functioning endpoints. The mailing list goes nowhere.
 
-----
 
-#### Owner Stories (strategy and scope)
+### Strategy Plane
+
+#### Owner Stories
 
 The band has a strong brand and aesthetic that suggests the standard indie-music trope of "It's all about the music". The website needs to reflect this while still presenting commercial opportunities outside of music streams. 
 
@@ -52,9 +53,18 @@ To this end, we need a website to:
 
 7. Show social media presence
 
+#### Inspiration - The persona of Big Thief
+
+Inspiration for the site's content as well as the general look and feel came mainly from the band's own website, their music and from various interviews I have read or seen with the group. Their persona, in particular that of the band's leader and songwriter Adrianne Lenker, is one of mystery, darkness, and contrast.
+
+- https://bigthief.net 
+- https://www.stereogum.com/2014756/adrianne-lenker-big-thief-interview-abysskiss/franchises/interview/
+
 ## UX Process
 
-#### User Stories
+### Scope Plane
+
+#### User Stories 
 
 As a user I want to be able to:
 
@@ -79,22 +89,31 @@ Two types of users can be defined:
 
 _In potential conflicts between users requirements, reflecting the band's persona wins out_
 
+### Structure Plane
 #### Information Architechture
 
-![](user_experience_assets/IA.png)
+![](user_experience_assets/info-arch.png)
 
+### Skeleton Plane
 #### Wireframes
 
-#### Inspiration - The persona of Big Thief
+Wireframes can be viewed here.
 
-Inspiration for the site's content as well as the general look and feel came mainly from the band's own website, their music and from various interviews I have read or seen with the group. Their persona, in particular that of the band's leader and songwriter Adrianne Lenker, is one of mystery, darkness, and contrast.
-While the darkness and contract are there in the colour palette used, I found a conflict in achieving that sense of mystery. While the group is not one to have a bio section, user 2 as defined above could want some biographic information before moving further into the site. I compromised with a link in the social bar to Wikipedia.
-The album review quotes are not fitting with the persona but 
+wireframe_1.jpg shows my initial mind dump.
 
-- https://bigthief.net 
-- https://www.stereogum.com/2014756/adrianne-lenker-big-thief-interview-abysskiss/franchises/interview/
+At this point, I thought the site would scroll vertically with distinct blocks for each section. However, I quickly decided to go with single pages. I don't like a fixed navbar and early on couldn't find a simple enough (non-javascript) alternative I liked to do navigation back up and through the pages. I had thought that I might switch back once all the pages were completed but in the end, I prefer the single linked pages layout. Finding a nice way of internal navigation for a vertical scrolling site is a goal I've set myself for future projects.
 
-#### Colour
+The idea of pages split into 4 quads came to me early in the project. I wanted symmetry of content with left/right & top/bottom used to imply levels of importance in the content for the user. On moving from desktop to mobile the bottom right would fall down/off first, then bottom left, top right, top left.
+
+Further to this, I thought it would be a straight forward way to get to grips with Bootstrap grids and display.
+
+When developing my pages and getting into the skeleton plane I used separate HTML files with inline CSS. These can be found [here](https://github.com/select-8/ucfed-milestone-no1/dev-files). Once happy with the Skeleton Plane I move the <section> elements into the HTML files proper and begin working on the Surface Plane
+
+I did not wireframe the tour page. I knew I would use a Bootstrap table and that it would mirror the home page.
+
+
+### Surface Plane
+#### Colour 
 
 As noted above I was aiming to use high contrasting colors that portray a sense of dark but to do this without overkill. To this end, the site is bookended by the lighter in tone Home & Tour pages while the core content of music, videos, and the store page are dark with high contrast between the blacks and oranges.
 
@@ -107,6 +126,8 @@ This is intended to make the user feel like they are going "inside" the site fro
 In line with the tone of mystery, the site is light on text  
 Should be clear what you will get
 
+#### Images
+
 
 ## FEATURES
 
@@ -117,7 +138,6 @@ Should be clear what you will get
 - difficult to align
 - duplicates code
 
-DECided to go with single pages because I don't like a sticky header and early on couldn't find a simple enough alternative to do the nav back up the pages.
 
 #### Left to Implement
 
