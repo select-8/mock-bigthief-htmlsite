@@ -12,29 +12,33 @@ My primary goal was to make the best site I could, utilising and building upon t
 
 For the most part I'm happy I have met these goals, at the very least I now have a much clearer understanding about what I don't know yet!
 
+The site consists of 5 linked pages. It incorporates main navigation, grid layout, display and text utilities, and modal components provided by Bootstrap.
 
-#### Owner Stories (redefining the scope)
+All links have functioning endpoints. The mailing list goes nowhere.
 
-Need a website to:
+----
 
-1. Target fans
+#### Owner Stories (strategy and scope)
 
- - make little from streaming actual albums, so ...
- - we need to sell merchandise and tickets to live shows
+The band has a strong brand and aesthetic that suggests the standard indie-music trope of "It's all about the music". The website needs to reflect this while still presenting commercial opportunities outside of music streams. 
 
-2. Showcase music
+To this end, we need a website to:
 
- - new album just out
+1. Promote the band's music and brand
+
+2. Target fans with merchandise and tickets to live shows
+
+3. Showcase music
+
+ - audio clips
+
+ - new album just out to promote 
 
  - rave reviews from the right places
 
-3. Publicise their availability (tour)
+4. Publicise availability (tour)
 
- - dates
-
- - location
-
- - links to buy tickets
+ - dates, locations, links to buy tickets
 
  - hero image of a live show atmosphere
 
@@ -46,13 +50,9 @@ Need a website to:
 
      - a mix of staged and live
 
-6. Have audio clips
-
-     - new album to promote 
-
 7. Show social media presence
 
-8. Be a reflection of the band's persona (its all about the music)
+## UX Process
 
 #### User Stories
 
@@ -75,13 +75,13 @@ Two types of users can be defined:
     - As a user, I want to hear some of this bands music.
     - As a user, I want to see their music videos.
     - As a user, I want to see some live performances.
-    - As a user, I want some biographic information on the group
+    - As a user, I want access to biographic information on the group
 
 _In potential conflicts between users requirements, reflecting the band's persona wins out_
 
-## UX Process
-
 #### Information Architechture
+
+![](user_experience_assets/IA.png)
 
 #### Wireframes
 
@@ -99,7 +99,8 @@ The album review quotes are not fitting with the persona but
 As noted above I was aiming to use high contrasting colors that portray a sense of dark but to do this without overkill. To this end, the site is bookended by the lighter in tone Home & Tour pages while the core content of music, videos, and the store page are dark with high contrast between the blacks and oranges.
 
 Light home -> darker content pages -> light tour
-should make the user feel like they are going "inside" the site.
+
+This is intended to make the user feel like they are going "inside" the site from the home page.
 
 #### Typography
 
