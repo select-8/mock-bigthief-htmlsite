@@ -16,6 +16,8 @@ The site consists of 5 linked pages. It incorporates main navigation, grid layou
 
 All links have functioning endpoints. The mailing list goes nowhere.
 
+I used Notion as a project management tool. I created a sprint with bite-sized tasks. This can be viewed by anyone with an @codeinstitute.net email [here] (https://www.notion.so/liamucmsp/e0125f6404bb4daaa59b5b10da2a7415?v=04742600702b4e64a04207bb24732246).
+
 
 ### Strategy Plane
 
@@ -115,7 +117,7 @@ I did not wireframe the tour page. I knew I would use a Bootstrap table and that
 ### Surface Plane
 #### Colour 
 
-As noted above I was aiming to use high contrasting colors that portray a sense of dark but to do this without overkill. To this end, the site is bookended by the lighter in tone Home & Tour pages while the core content of music, videos, and the store page are dark with high contrast between the blacks and oranges.
+My aim was to use high contrasting colors that portray a sense of mystery but to do this without overkill. To this end, the site is bookended by the lighter in tone Home & Tour pages while the core content of music, videos, and the store page are dark with high contrast between the blacks and oranges.
 
 Light home -> darker content pages -> light tour
 
@@ -123,21 +125,44 @@ This is intended to make the user feel like they are going "inside" the site fro
 
 #### Typography
 
-In line with the tone of mystery, the site is light on text  
-Should be clear what you will get
+The site makes use of two fonts.
+
+I wanted to use a serif font for banner headings like the band's name on the home page, and sans serif for content paragraphs. 
+
+I choose Cinzal as my serif font, I think using a serif gives a sense of grandeur to the title and fits with the band's brand. 
+
+Google fonts suggested Lato as a complimenting font.
 
 #### Images
 
 
 ## FEATURES
 
-#### Existing
- Navbar- bootstrap
- Footer
-- homemade hack without using bootstrap or javascript
-- difficult to align
-- duplicates code
+#### Navbar
+Bootstrap component. 
+Fixed.
+Collapses to dropdown for mobile screens.
+Allows users to easily jump from one page to another
 
+#### Footer
+
+Has social icons as block text which collapse to a social button drop-up for mobile. This feature allows users to navigate to the band's social sites in a new tab. It also has a Wikipedia link because in the strategy and scope stages it was decided that a ream of biography text did not fit with the band's brand.
+
+Has a mailing icon which has a modal form pop up on click.
+
+Both of these features use colour and hover effects which are responsive to the user being in either one of the light or dark pages
+
+#### Iframes
+
+The music and video pages use Spotify and YouTube embed code respectively. These meet the user and owner needs outlined above.
+
+#### Store Links
+
+These link to the official Big Thief store for each section.
+
+#### Ticket Links
+
+Every link links to Ticketmaster. I had toyed with the idea of having a single link, sitting in either the banner text, the image or the navbar but in the end, I decided that this would distract from the overall design of the page. For the same reason social and mailing list links do not appear on this page.
 
 #### Left to Implement
 
@@ -208,7 +233,5 @@ GitHub Pages
 
 ## Credits
 https://stackoverflow.com/questions/41651612/how-to-align-icon-to-center-inside-div-element
-
-
 
 
