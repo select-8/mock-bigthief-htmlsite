@@ -16,7 +16,7 @@ The site consists of 5 linked pages. It incorporates main navigation, grid layou
 
 All links have functioning endpoints. The mailing list goes nowhere.
 
-I used Notion as a project management tool. I created a sprint with bite-sized tasks. This can be viewed by anyone with an @codeinstitute.net email [here](https://www.notion.so/liamucmsp/e0125f6404bb4daaa59b5b10da2a7415?v=04742600702b4e64a04207bb24732246).
+I used Notion as a project management tool. I created a sprint with bite-sized tasks. This can be viewed by anyone with an @codeinstitute.net email [here] (https://www.notion.so/liamucmsp/e0125f6404bb4daaa59b5b10da2a7415?v=04742600702b4e64a04207bb24732246).
 
 
 ### Strategy Plane
@@ -33,17 +33,17 @@ To this end, we need a website to:
 
 3. Showcase music
 
- - audio clips
+  - audio clips
 
- - new album just out to promote 
+  - new album just out to promote 
 
- - rave reviews from the right places
+  - rave reviews from the right places
 
 4. Publicise availability (tour)
 
- - dates, locations, links to buy tickets
+   - dates, locations, links to buy tickets
 
- - hero image of a live show atmosphere
+   - hero image of a live show atmosphere
 
 4. Show photos of the band members
 
@@ -103,7 +103,7 @@ Wireframes can be viewed here.
 
 wireframe_1.jpg shows my initial mind dump.
 
-At this point, I thought the site would scroll vertically with distinct blocks for each section. However, I quickly decided to go with single pages. I don't like a fixed navbar and early on couldn't find a simple enough (non-javascript) alternative I liked to do navigation back up and through the pages. I had thought that I might switch back once all the pages were completed but in the end, I prefer the single linked pages layout. Finding a nice way of internal navigation for a vertical scrolling site is a goal I've set myself for future projects.
+At this point, I thought the site would scroll vertically with distinct blocks for each section. However, I quickly decided to go with single pages. I don't like a sticky navbar and early on couldn't find a simple enough (non-javascript) alternative I liked to do navigation back up and through the pages. I had thought that I might switch back once all the pages were completed but in the end, I prefer the single linked pages layout. Finding a nice way of internal navigation for a vertical scrolling site is a goal I've set myself for future projects.
 
 The idea of pages split into 4 quads came to me early in the project. I wanted symmetry of content with left/right & top/bottom used to imply levels of importance in the content for the user. On moving from desktop to mobile the bottom right would fall down/off first, then bottom left, top right, top left.
 
@@ -117,7 +117,7 @@ I did not wireframe the tour page. I knew I would use a Bootstrap table and that
 ### Surface Plane
 #### Colour 
 
-My aim was to use high contrasting colors that portray a sense of mystery but to do this without overkill. To this end, the site is bookended by the lighter in tone Home & Tour pages while the core content of music, videos, and the store page are dark with high contrast between the blacks and oranges.
+My aim was to use high contrasting colors that portray a sense of mystery but to do this without overkill. To this end, the site is bookended by the lighter in tone, pink backgrounded, Home & Tour pages, while the core pages of music, videos, and store are dark with high contrast between the blacks, whites, and oranges.
 
 Light home -> darker content pages -> light tour
 
@@ -135,6 +135,8 @@ Google fonts suggested Lato as a complimenting font.
 
 #### Images
 
+The home page image was chosen for its natural vibe as well as for the colours which fit the overall tone of the site
+The tour page was chosen to give a sense of the atmosphere a user can expect at one of Big Thief's shows i.e. up close, intense and intimate. 
 
 ## FEATURES
 
@@ -233,5 +235,7 @@ GitHub Pages
 
 ## Credits
 https://stackoverflow.com/questions/41651612/how-to-align-icon-to-center-inside-div-element
+
+
 
 
