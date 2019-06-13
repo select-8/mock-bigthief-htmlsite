@@ -122,13 +122,14 @@ DECided to go with single pages because I don't like a sticky header and early o
 - iframes responsive to media screen size
 - floating down pointer on tour, disappear on scroll
 - size of things in music and video not good, better to do media queries
+- no social on tour page. why?
 
 ## Testing
 
 Music was not working on all screens so merged containers of text and main Spotify frame.
 Now that album stands out a bit more as the main new album.
 
- Click for each page to every link and back
+Click for each page to every link and back
 
 Test all iframe content
 RELATIVE PATHS USED
