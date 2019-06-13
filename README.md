@@ -16,7 +16,7 @@ The site consists of 5 linked pages. It incorporates main navigation, grid layou
 
 All links have functioning endpoints. The mailing list goes nowhere.
 
-I used Notion as a project management tool. I created a sprint with bite-sized tasks. This can be viewed by anyone with an @codeinstitute.net email [here] (https://www.notion.so/liamucmsp/e0125f6404bb4daaa59b5b10da2a7415?v=04742600702b4e64a04207bb24732246).
+I used Notion as a project management tool. I created a sprint with bite-sized tasks. This can be viewed by anyone with an @codeinstitute.net email [here](https://www.notion.so/liamucmsp/e0125f6404bb4daaa59b5b10da2a7415?v=04742600702b4e64a04207bb24732246).
 
 
 ### Strategy Plane
