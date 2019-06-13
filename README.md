@@ -4,12 +4,13 @@
 
 ### Project Overview
 
-One or two paragraphs providing an overview of your project.
+For this project, I have built a mobile-first responsive website for the rock group Big Thief. It can be viewed [here](https://select-8.github.io/ucfed-milestone-no1/index.html).
 
-Essentially, this part is your sales pitch.
+Relatively new to the music of Big Thief, from the moment I heard the song _Cattails_ I was drawn in by their sound and aesthetic. My hope is this has somehow seeped into the project presented here.
 
-Simple
-Little bootstrap - needs to learn, make mistakes learning
+My primary goal was to make the best site I could, utilising and building upon the processes and technologies outlined throughout the User Centric Front End Development modules and to take the initial steps towards developing my own working method as a web developer. 
+
+For the most part I'm happy I have met these goals, at the very least I now have a much clearer understanding about what I don't know yet!
 
 
 #### Owner Stories (redefining the scope)
