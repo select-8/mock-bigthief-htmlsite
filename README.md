@@ -92,7 +92,7 @@ _In potential conflicts between users requirements, reflecting the band's person
 ### Structure Plane
 #### Information Architechture
 
-![](user_experience_assets/info-arch.png)
+![](user_experience_assets/Info-arch.png)
 
 ### Skeleton Plane
 #### Wireframes
