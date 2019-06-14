@@ -47,10 +47,10 @@
     <!-- / NAVBAR -->
 
     <section>
-      <div class="container-fluid vh-100">
-        <!-- QUOTES-UFOF -->
-        <div class="row">
-          <div class="col-sm col-md-6 music-quotes text-center">
+
+        <div class="container-fluid container-music-top vw-100">
+            <div class="row">
+                <div class="col-sm col-md-6 music-quotes text-center">
             <div class="container">
               <div class="container">
                 <h3>
@@ -60,7 +60,7 @@
             </div>
             <div class="container outer">
               <h5>
-                The Guardain
+                The Guardian
               </h5>
               <p>
                 Full of subtle charm, it’s an album of deceptive depths in which to immerse
@@ -91,33 +91,28 @@
               </p>
             </div>
           </div>
-          <div class="col-sm col-md-6">
-            <iframe class="music-spotify"
-              src="https://open.spotify.com/embed/album/5X0bIKvPtSDo4NpXqgrB6p?si=Yln5lmAlTiqoWcTiIT_1vg&view=coverart"
-              frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-          </div>
+                <div class="col-sm col-md-6 ufof">
+                    <iframe class="music-spotify" src="https://open.spotify.com/embed/album/5X0bIKvPtSDo4NpXqgrB6p" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                </div>
+            </div>
         </div>
-        <!-- CAP & MASTER -->
-        <div class="row">
-          <div class="music-lower col-sm col-md-6 d-none d-md-block">
-            <h5 class="music-title text-center">
-              CAPASITY
-            </h5>
-            <iframe class="music-spotify"
-              src="https://open.spotify.com/embed/album/2hOYLjoRQFXcdviMiwtgxe&view=coverart" frameborder="0"
-              allowtransparency="true" allow="encrypted-media"></iframe>
-          </div>
-          <div class="music-lower col-sm col-md-6 d-none d-md-block">
-            <h5 class="music-title text-center">
-              MASTERPIECE
-            </h5>
-            <iframe class="music-spotify"
-              src="https://open.spotify.com/embed/album/4onPyHor2yOlVxCsIaGyHH&view=coverart" frameborder="0"
-              allowtransparency="true" allow="encrypted-media"></iframe>
-          </div>
+
+        <div class="container-fluid container-music-lower vh-100 vw-100">
+            <div class="row music-quotes music-lower text-center">
+                <div class="col-sm col-md-6 col-cap">
+                <h5>
+                        CAPACITY
+                    </h5>
+                    <iframe src="https://open.spotify.com/embed/album/2hOYLjoRQFXcdviMiwtgxe" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                </div>
+                <div class="col-sm col-md-6 col-cap masterpiece">
+                    <h5>
+                        MASTERPIECE
+                    </h5>
+                    <iframe src="https://open.spotify.com/embed/album/4onPyHor2yOlVxCsIaGyHH" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                </div>
+            </div>
         </div>
-        <!-- / CAP & MASTER -->
-      </div>
     </section>
 
     <!-- FOOTER -->
@@ -204,7 +199,6 @@
     </footer>
     <!-- / FOOTER -->
 
-    <!-- Modal -->
     <div class="modal" tabindex="-1" role="dialog" id="mailingUpModal">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -227,9 +221,9 @@
                   placeholder="Enter Last Name">
               </div>
               <div class="form-group">
-                <label for="InputEmail">Email address</label>
-                <input type="email" class="form-control" id="InputEmail" aria-describedby="InputEmail"
-                  placeholder="Enter email" pattern=".+@*.com" size="30" required>
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                  placeholder="Enter email" pattern=".+@globex.com" size="30" required>
               </div>
               <button type="submit" class="btn btn-light btn-custom">Submit</button>
             </form>

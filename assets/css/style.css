@@ -65,6 +65,18 @@ https://stackoverflow.com/questions/18197619/reduce-clickable-area-for-link */
 }
 
 /*------------------------------------------------------------ MUSIC ----------*/
+
+.container-music-top {
+  padding-bottom: 30px;
+}
+
+.music-row {
+  height: 80%;
+  padding-top: 10px;
+  padding-bottom: 100px;
+  background-color: black;
+}
+
 .music-quotes {
   height: 50%;
 }
@@ -92,6 +104,14 @@ https://stackoverflow.com/questions/18197619/reduce-clickable-area-for-link */
   font-style: italic;
 }
 
+.music-title {
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  color: #fafafa;
+  margin: 0;
+  padding-top: 30px;
+}
+
 .outer {
   position: relative;
 }
@@ -103,25 +123,32 @@ https://stackoverflow.com/questions/18197619/reduce-clickable-area-for-link */
   border-top: 0.75px solid #e54e2d;
 }
 
-.music-spotify {
+.ufof iframe {
+  padding: 40px 30px;
   height: 100%;
   width: 100%;
-  padding: 20px 10px;
 }
 
-.music-title {
-  font-family: "Lato", sans-serif;
-  font-size: 1rem;
-  color: #fafafa;
-  margin: 0;
-  padding-top: 30px;
-
+.music-lower iframe {
+  height: 100%;
+  width: 100%;
+  padding: 25px 25px;
 }
 
 .music-lower {
-  transform: translateY(10%);
   border-top: 1px solid black;
-  padding-top: 20px;
+}
+
+.music-lower h5 {
+  transform: translateY(10%);
+}
+
+.col-cap {
+  padding-top: 30px;
+}
+
+.masterpiece h5 {
+  padding-top: 10px;
 }
 
 /*------------------------------------------------------------ VIDEO ----------*/
