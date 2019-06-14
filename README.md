@@ -103,21 +103,18 @@ Wireframes can be viewed here.
 
 wireframe_1.jpg shows my initial mind dump.
 
-At this point, I thought the site would scroll vertically with distinct blocks for each section. However, I quickly decided to go with single pages. I don't like a sticky navbar and early on couldn't find a simple enough (non-javascript) alternative I liked to do navigation back up and through the pages. I had thought that I might switch back once all the pages were completed but in the end, I prefer the single linked pages layout. Finding a nice way of internal navigation for a vertical scrolling site is a goal I've set myself for future projects.
+Initially, I planned for the site to scroll vertically, with distinct page blocks for each section. However, I quickly decided to go with single pages. I don't like a sticky navbar and early on couldn't find a simple enough (non-javascript) alternative I liked to do navigation back up and through the pages. I had thought that I might switch back once all the pages were completed but in the end, I prefer the single linked pages layout for this project. Finding a nice way of internal navigation for a vertical scrolling site is a goal I've set myself for future projects.
 
-The idea of pages split into 4 quads came to me early in the project. I wanted symmetry of content with left/right & top/bottom used to imply levels of importance in the content for the user. On moving from desktop to mobile the bottom right would fall down/off first, then bottom left, top right, top left.
+The idea of pages split into 4 quads in a single view came to me early in the project. I wanted symmetry of content with left/right & top/bottom used to imply levels of importance in the content for the user. On moving from desktop to mobile the bottom right would fall down/off first, then bottom left, top right, top left.
 
-Further to this, I thought it would be a straight forward way to get to grips with Bootstrap grids and display.
-
-When developing my pages and getting into the skeleton plane I used separate HTML files with inline CSS. These can be found [here](https://github.com/select-8/ucfed-milestone-no1/dev-files). Once happy with the Skeleton Plane I move the <section> elements into the HTML files proper and begin working on the Surface Plane
+In hindsight, this approach to the UX has not worked as I would have liked, particularly on the music and video pages where I feel the content, between both the titles and iframes and the quad divs themselves, could do with more room to breathe as they react to the responsive design.
 
 I did not wireframe the tour page. I knew I would use a Bootstrap table and that it would mirror the home page.
-
 
 ### Surface Plane
 #### Colour 
 
-My aim was to use high contrasting colors that portray a sense of mystery but to do this without overkill. To this end, the site is bookended by the lighter in tone, pink backgrounded, Home & Tour pages, while the core pages of music, videos, and store are dark with high contrast between the blacks, whites, and oranges.
+I wanted to use a high contrasting palette of colors which could portray the sense of mystery and intensity outlined in the user stories. To this end, the site is bookended by the lighter in tone, pink backgrounded, Home & Tour pages, while the core pages of music, videos, and store are dark with high contrast between the blacks, whites, and oranges.
 
 Light home -> darker content pages -> light tour
 
@@ -129,26 +126,36 @@ The site makes use of two fonts.
 
 I wanted to use a serif font for banner headings like the band's name on the home page, and sans serif for content paragraphs. 
 
-I choose Cinzal as my serif font, I think using a serif gives a sense of grandeur to the title and fits with the band's brand. 
+I choose Cinzal as my serif font. Using a serif gives a sense of grandeur to the title and fits with the band's brand. 
 
 Google fonts suggested Lato as a complimenting font.
 
+The formatting of the text and some decoration on the quotes section of the music page proved to be the most challenging aspect I faced in terms of type.
+
+I would have liked to have been able to do more with the video titles.
+
+The store page makes heavy use of Font Awesome icons. Ideally, I would have custom made some SVGs that better suited the band's persona. Saying that, in general, I think the quad approach to the design works best on this page.
+
 #### Images
 
-The home page image was chosen for its natural vibe as well as for the colours which fit the overall tone of the site
+The home page image was chosen for its clear and natural portrayal of the group. The tone and form of the image informed the overall aesthetic of the site.
 The tour page was chosen to give a sense of the atmosphere a user can expect at one of Big Thief's shows i.e. up close, intense and intimate. 
 
 ## FEATURES
 
 #### Navbar
-Bootstrap component. 
-Fixed.
-Collapses to dropdown for mobile screens.
-Allows users to easily jump from one page to another
+This is a Bootstrap component. Fixed to the top of the screen, it
+collapses to dropdown for mobile screens. I choose to justify the link text across the bar to give that sense of symmetry and balance to the site. I did play with the idea of setting the button itself in the centre of the navbar but this just looked a bit weird.
+As it is, I feel the navigation allows users to easily jump from one page to another and back without any confusion.
 
 #### Footer
 
-Has social icons as block text which collapse to a social button drop-up for mobile. This feature allows users to navigate to the band's social sites in a new tab. It also has a Wikipedia link because in the strategy and scope stages it was decided that a ream of biography text did not fit with the band's brand.
+Apart from using W3Schools CSS for the drop up effect and reappropriating some Whiskey Drop code for the modal and using Font Awesome icons, the footer is 100% custom built!
+On the right, we have some social icons as block text which collapse to a social button drop-up for mobile. On the left, we have a mailing icon which houses a modal pop-up form. This responsive feature allows users to navigate to the band's social sites in a new tab. 
+
+The block stacking means, for the most part, the icons will not overlay the content on medium to large screens.
+
+The Wikipedia link meets the needs of the new user outlined in the user stories above. It also meets the needs of the owner in keeping content inline with the persona of the band.
 
 Has a mailing icon which has a modal form pop up on click.
 
@@ -158,13 +165,9 @@ Both of these features use colour and hover effects which are responsive to the 
 
 The music and video pages use Spotify and YouTube embed code respectively. These meet the user and owner needs outlined above.
 
-#### Store Links
-
-These link to the official Big Thief store for each section.
-
 #### Ticket Links
 
-Every link links to Ticketmaster. I had toyed with the idea of having a single link, sitting in either the banner text, the image or the navbar but in the end, I decided that this would distract from the overall design of the page. For the same reason social and mailing list links do not appear on this page.
+Every link links to the same Ticketmaster page. I had toyed with the idea of having a single link, sitting in either the banner text, the image or the navbar but in the end, I decided that this would distract from the overall design of the page. For the same reason social and mailing list links do not appear on this page.
 
 #### Left to Implement
 
@@ -175,13 +178,12 @@ Every link links to Ticketmaster. I had toyed with the idea of having a single l
 
 ## Testing
 
-Music was not working on all screens so merged containers of text and main Spotify frame.
-Now that album stands out a bit more as the main new album.
+####Spreadsheet
 
-Click for each page to every link and back
+####Results
 
-Test all iframe content
-RELATIVE PATHS USED
+####Conclusions
+
 
      *  {
     background: #000 !important;
@@ -190,6 +192,7 @@ RELATIVE PATHS USED
 
     outline: solid #f00 1px !important;
     }
+
 
 ## Deployment
 
