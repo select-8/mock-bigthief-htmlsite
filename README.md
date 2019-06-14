@@ -57,7 +57,10 @@ To this end, we need a website to:
 
 #### Inspiration - The persona of Big Thief
 
-Inspiration for the site's content as well as the general look and feel came mainly from the band's own website, their music and from various interviews I have read or seen with the group. Their persona, in particular that of the band's leader and songwriter Adrianne Lenker, is one of mystery, darkness, and contrast.
+Inspiration for the site's content as well as the general look and feel came mainly from the band's own website, their music and lyrics, and from various interviews I have read or seen with the group. Their persona, in particular that of the band's leader and songwriter Adrianne Lenker, is one of mystery, darkness, and contrast.
+
+      I'll be your real tough cookie with the whiskey breath
+      I'll be a killer and a thriller and the cause of our death
 
 - https://bigthief.net 
 - https://www.stereogum.com/2014756/adrianne-lenker-big-thief-interview-abysskiss/franchises/interview/
@@ -171,18 +174,29 @@ Every link links to the same Ticketmaster page. I had toyed with the idea of hav
 
 #### Left to Implement
 
-- iframes responsive to media screen size
-- floating down pointer on tour, disappear on scroll
-- size of things in music and video not good, better to do media queries
-- no social on tour page. why?
+- iframes more responsive to media screen size
+- floating, down pointer on tour page to disappear on scroll
+- make the band's name appear opaque behind the dropdown menu
 
 ## Testing
 
-####Spreadsheet
+My testing spreadsheet can be found [here](testing/site-tests.xls).
+
+Mostly my breakpoints happen at the mid-size screen level, therefore I tested the responsiveness of content either side of this divide.
+
+Further to this, the site was tested on a variety of devices using Google Chrome Dev Tools and physically using a RedMi Android phone, an iPhone 8 and a Samsung Galaxy Tablet.
 
 ####Results
 
-####Conclusions
+ - Conflict in z-indexing of music/video/store content/links and the mailing/social links that make up the footer. It's a fine margin, but when they overlap only the higher indexed item will work. This does not meet the users need for seamless navigation and control of the content.
+
+ - Scrolling was found to be laggy on the Galaxy Tablet.
+
+ - Spotify iFrames are too wide on iPhone 8
+
+ - Not enough space under the music and video pages.
+
+Through the project I made use of the CSS code snippet below. I found it very useful for finding CSS and HTML gremlins.
 
 
      *  {
@@ -196,9 +210,10 @@ Every link links to the same Ticketmaster page. I had toyed with the idea of hav
 
 ## Deployment
 
-Git for versioning
-Constant Commits
-GitHub Pages
+I have used Git for versioning. The site is deployed to GitHub pages at the address given at the top of this readme.
+
+There is no difference between the development and deployed versions of the site.
+
 
 ## Technologies Used
 
@@ -237,8 +252,13 @@ GitHub Pages
 - Notion
 
 ## Credits
-https://stackoverflow.com/questions/41651612/how-to-align-icon-to-center-inside-div-element
+I used [this](https://stackoverflow.com/questions/41651612/how-to-align-icon-to-center-inside-div-element) to center some content, turned out to be more hassle than it was worth.
 
+The bones of the modal was taken from Matt's Whiskey Drop walkthrough.
 
+The drop-up CSS came from W3Schools [here](https://www.w3schools.com/howto/howto_css_dropup.asp).
 
+The Home page banner image is by Michael Buishas and was found on NPR's site [here](https://www.npr.org/sections/allsongs/2019/02/26/697748344/big-thief-announces-a-new-album-u-f-o-f-and-releases-its-first-single).
+
+The Tour page image is by Kate Johnston and was found on The Skinny website [here](https://www.theskinny.co.uk/music/live-music/reviews/big-thief-swg3-glasgow-19-may)
 
