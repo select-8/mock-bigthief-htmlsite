@@ -46,19 +46,17 @@
     </nav>
     <!-- Main Content -->
     <section>
-      <div class="container-fluid vh-100" id="video-page">
-        <div class="row video-properties">
+      <div class="container-fluid" id="video-page">
+        <div class="row video-properties vh-100">
           <div class="container-fluid col-12 col-sm-6 youtube-item">
             <div class="video-title justify-content-center d-none d-sm-block">
               <h2>Mythological Beauty</h2>
             </div>
             <div>
-              <iframe src="https://www.youtube.com/embed/ejzzO51e4xI" frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
+                <iframe width="951" height="397" src="https://www.youtube.com/embed/ejzzO51e4xI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           </div>
-          <div class="container-fluid col-12 col-sm-6 youtube-item">
+          <div class="container-fluid col-12 col-sm-6 d-none d-sm-block youtube-item">
             <div class="video-title justify-content-center d-none d-sm-block">
               <h2>Masterpiece</h2>
             </div>
@@ -68,6 +66,9 @@
                 allowfullscreen></iframe>
             </div>
           </div>
+        </div>
+
+        <div class="row video-properties vh-100">
           <div class="container-fluid col-12 col-sm-6 youtube-item">
             <div class="video-title justify-content-center d-none d-sm-block">
               <h2>Paul Live at SXSW 2017</h2>
@@ -89,133 +90,135 @@
             </div>
           </div>
         </div>
+
       </div>
-    </section>
-    <!-- Footer -->
-    <footer class="container-fluid">
-      <div id="footer-details">
-        <div class="row fixed-bottom">
-          <div class="container-fluid col-6 col-md-6 mailing-main">
-            <div class="mailing-model">
-              <div>
-                <button class="btn btn-lg btn--cta btn--red" data-toggle="modal" data-target="#mailingUpModal">
-                  <i class="fa fa-envelope mailing" aria-haspopup="false" aria-hidden="true"></i>
-                  <span class="sr-only">Mailing List</span>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 d-none d-md-block">
-            <ul class="list-inline social-links d-flex flex-column">
-              <li>
-                <a target="_blank" href="https://www.facebook.com/bigthiefmusic">
-                  <i class="fa fa-facebook" aria-hidden="true"></i>
-                  <span class="sr-only">Facebook</span>
-                </a>
-              </li>
-              <li>
-                <a target="_blank" href="https://twitter.com/bigthiefmusic">
-                  <i class="fa fa-twitter" aria-hidden="true"></i>
-                  <span class="sr-only">Twitter</span>
-                </a>
-              </li>
-              <li>
-                <a target="_blank" href="https://www.instagram.com/bigthiefmusic/">
-                  <i class="fa fa-instagram" aria-hidden="true"></i>
-                  <span class="sr-only">Instagram</span>
-                </a>
-              </li>
-              <li>
-                <a target="_blank" href="https://en.wikipedia.org/wiki/Big_Thief">
-                  <i class="fa fa-wikipedia-w" aria-hidden="true"></i>
-                  <span class="sr-only">Wikipedia</span>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="container-fluid col-6 d-block d-md-none dropping">
-            <div class="drop-pos">
-              <div class="dropup" aria-haspopup="false" aria-expanded="true">
-                <button class="dropbtn social-button">
-                  <h5>S</h5>
-                </button>
-                <div class="container dropup-content">
-                  <ul class="social-links list-unstyled">
-                    <li>
-                      <a target="_blank" href="https://www.facebook.com/bigthiefmusic">
-                        <i class="fa fa-facebook" aria-hidden="true"></i>
-                        <span class="sr-only">Facebook</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a target="_blank" href="https://twitter.com/bigthiefmusic">
-                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                        <span class="sr-only">Twitter</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a target="_blank" href="https://www.instagram.com/bigthiefmusic">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                        <span class="sr-only">Instagram</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a target="_blank" href="https://en.wikipedia.org/wiki/Big_Thief">
-                        <i class="fa fa-wikipedia-w" aria-hidden="true"></i>
-                        <span class="sr-only">Wikipedia</span>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
+  </div>
+  </section>
+  <!-- Footer -->
+  <footer class="container-fluid">
+    <div id="footer-details">
+      <div class="row fixed-bottom">
+        <div class="container-fluid col-6 col-md-6 mailing-main">
+          <div class="mailing-model">
+            <div>
+              <button class="btn btn-lg btn--cta btn--red" data-toggle="modal" data-target="#mailingUpModal">
+                <i class="fa fa-envelope mailing" aria-haspopup="false" aria-hidden="true"></i>
+                <span class="sr-only">Mailing List</span>
+              </button>
             </div>
           </div>
         </div>
-      </div>
-    </footer>
-    <!-- Modal -->
-    <div class="modal" tabindex="-1" role="dialog" id="mailingUpModal">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">Subscribe to our mailing list</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body text-center">
-            <form>
-              <div class="form-group">
-                <label for="firstName">First Name</label>
-                <input type="text" class="form-control" id="firstName" aria-describedby="firstName"
-                  placeholder="Enter First Name">
+        <div class="col-6 d-none d-md-block">
+          <ul class="list-inline social-links social-static">
+            <li>
+              <a target="_blank" href="https://www.facebook.com/bigthiefmusic">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <span class="sr-only">Facebook</span>
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://twitter.com/bigthiefmusic">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <span class="sr-only">Twitter</span>
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.instagram.com/bigthiefmusic/">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <span class="sr-only">Instagram</span>
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://en.wikipedia.org/wiki/Big_Thief">
+                <i class="fa fa-wikipedia-w" aria-hidden="true"></i>
+                <span class="sr-only">Wikipedia</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="container-fluid col-6 d-block d-md-none dropping">
+          <div class="drop-pos">
+            <div class="dropup" aria-haspopup="false" aria-expanded="true">
+              <button class="dropbtn social-button">
+                <h5>S</h5>
+              </button>
+              <div class="container dropup-content">
+                <ul class="social-links social-du list-unstyled">
+                  <li>
+                    <a target="_blank" href="https://www.facebook.com/bigthiefmusic">
+                      <i class="fa fa-facebook" aria-hidden="true"></i>
+                      <span class="sr-only">Facebook</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a target="_blank" href="https://twitter.com/bigthiefmusic">
+                      <i class="fa fa-twitter" aria-hidden="true"></i>
+                      <span class="sr-only">Twitter</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a target="_blank" href="https://www.instagram.com/bigthiefmusic">
+                      <i class="fa fa-instagram" aria-hidden="true"></i>
+                      <span class="sr-only">Instagram</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a target="_blank" href="https://en.wikipedia.org/wiki/Big_Thief">
+                      <i class="fa fa-wikipedia-w" aria-hidden="true"></i>
+                      <span class="sr-only">Wikipedia</span>
+                    </a>
+                  </li>
+                </ul>
               </div>
-              <div class="form-group">
-                <label for="lastName">Last Name</label>
-                <input type="text" class="form-control" id="lastName" aria-describedby="lastName"
-                  placeholder="Enter Last Name">
-              </div>
-              <div class="form-group">
-                <label for="InputEmail">Email address</label>
-                <input type="email" class="form-control" id="InputEmail" aria-describedby="InputEmail"
-                  placeholder="Enter email" pattern=".+@*.com" size="30" required>
-              </div>
-              <button type="submit" class="btn btn-light btn-custom">Submit</button>
-            </form>
+            </div>
           </div>
         </div>
       </div>
     </div>
+  </footer>
+  <!-- Modal -->
+  <div class="modal" tabindex="-1" role="dialog" id="mailingUpModal">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Subscribe to our mailing list</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-center">
+          <form>
+            <div class="form-group">
+              <label for="firstName">First Name</label>
+              <input type="text" class="form-control" id="firstName" aria-describedby="firstName"
+                placeholder="Enter First Name">
+            </div>
+            <div class="form-group">
+              <label for="lastName">Last Name</label>
+              <input type="text" class="form-control" id="lastName" aria-describedby="lastName"
+                placeholder="Enter Last Name">
+            </div>
+            <div class="form-group">
+              <label for="InputEmail">Email address</label>
+              <input type="email" class="form-control" id="InputEmail" aria-describedby="InputEmail"
+                placeholder="Enter email" pattern=".+@*.com" size="30" required>
+            </div>
+            <button type="submit" class="btn btn-light btn-custom">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
   </div>
 </body>
 
