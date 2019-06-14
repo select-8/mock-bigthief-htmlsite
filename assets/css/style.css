@@ -68,6 +68,7 @@ https://stackoverflow.com/questions/18197619/reduce-clickable-area-for-link */
 
 .container-music-top {
   padding-bottom: 30px;
+  overflow: hidden;
 }
 
 .music-row {
@@ -353,6 +354,44 @@ ul {
   margin-bottom: 1rem;
 }
 
+.social-links-du {
+  float: right;
+}
+
+.social-links-du li a i {
+  width: 32px;
+  height: 32px;
+  padding: 12px 0;
+  border-radius: 50%;
+  font-size: 13px;
+  line-height: 7px;
+  word-spacing: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+  background-color: #fafafa;
+  color: #e84610;
+  border: 0.5px solid #e84610;
+}
+
+.social-links-du li a i:hover {
+  background-color: #e84610;
+  border: 3px solid #212529;
+  color: #fafafa;
+}
+
+/* Social links not clear on dark pages */
+.dark-page .social-links-du li a i:hover {
+  background-color: #e84610;
+  border: 3px solid #fafafa;
+  color: #fafafa;
+}
+
+.social-links-du dl,
+ol,
+ul {
+  margin-bottom: 1rem;
+}
+
 /*------------------------------------------------------ DROP UP -------*/
 /* https://www.w3schools.com/howto/howto_css_dropup.asp */
 
@@ -376,6 +415,7 @@ ul {
   bottom: 30px;
   z-index: 1;
   margin: 1px -4px;
+  /* transform: translateX(10px); */
 }
 
 .dropup-content li {
@@ -399,6 +439,7 @@ ul {
   color: #e54e2d;
   background-color: #FaFaFa;
   border: 0.5px solid #e54e2d;
+  transform: translateX(-10px);
   transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
