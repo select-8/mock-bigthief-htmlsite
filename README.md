@@ -110,7 +110,7 @@ In hindsight, this approach to the UX has not worked as I would have liked. For 
 I did not wireframe the tour page. I knew I would use a Bootstrap table and that it would mirror the home page.
 
 ### Surface Plane
-#### Colour 
+#### [Colour](https://github.com/select-8/ucfed-milestone-no1-bigthief/blob/master/user_experience_assets/colours/color_palette.png) 
 
 I wanted to use a high contrasting palette of colors which could portray the sense of mystery and intensity outlined in the user stories. To this end, the site is bookended by the lighter in tone, pink backgrounded, Home & Tour pages, while the core pages of music, videos, and store are dark with high contrast between the blacks, whites, and oranges.
 
