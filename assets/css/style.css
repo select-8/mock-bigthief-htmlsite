@@ -68,7 +68,6 @@ https://stackoverflow.com/questions/18197619/reduce-clickable-area-for-link */
 
 .music-top {
   padding-bottom: 30px;
-  overflow: hidden;
 }
 
 .music-row {
@@ -84,8 +83,9 @@ https://stackoverflow.com/questions/18197619/reduce-clickable-area-for-link */
 
 .music-quotes h3 {
   font-family: "Cinzel", serif;
-  font-size: 1.7rem;
-  font-weight: 700;
+  font-size: 1.9rem;
+  letter-spacing: 0.1rem;
+  font-weight: 400;
   color: #fafafa;
   margin: 30px 30px 20px;
   border-bottom: 2px solid #000000;

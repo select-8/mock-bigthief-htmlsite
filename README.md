@@ -6,15 +6,11 @@
 
 For this project, I have built a mobile-first responsive website for the rock group Big Thief. It can be viewed [here](https://select-8.github.io/ucfed-milestone-no1/index.html).
 
-Relatively new to the music of Big Thief, from the moment I heard the song _Cattails_ I was drawn in by their sound and aesthetic. My hope is this has somehow seeped into the project presented here.
-
-My primary goal was to make the best site I could, utilising and building upon the processes and technologies outlined throughout the User Centric Front End Development modules and to take the initial steps towards developing my own working method as a web developer. 
+Relatively new to the music of Big Thief, from the moment I heard the song [_Cattails_](https://youtu.be/dUR-Ad8QcmA) I was captured by the subtle oddness of their sound and their image. While keeping this in mind, my goals for the project are to make the best Big Thief site I can, building upon the processes and technologies outlined throughout the User Centric Front End Development modules, and to take some initial steps towards developing my own working method as a web developer.
 
 For the most part I'm happy I have met these goals, at the very least I now have a much clearer understanding about what I don't know yet!
 
 The site consists of 5 linked pages. It incorporates main navigation, grid layout, display and text utilities, and modal components provided by Bootstrap.
-
-All links have functioning endpoints. The mailing list goes nowhere.
 
 I used Notion as a project management tool. I created a sprint with bite-sized tasks. This can be viewed by anyone with an @codeinstitute.net email [here] (https://www.notion.so/liamucmsp/e0125f6404bb4daaa59b5b10da2a7415?v=04742600702b4e64a04207bb24732246).
 
@@ -27,17 +23,17 @@ The band has a strong brand and aesthetic that suggests the standard indie-music
 
 To this end, we need a website to:
 
-1. Promote the band's music and brand
+1. Promote the band's formulated brand and natural persona.
 
-2. Target fans with merchandise and tickets to live shows
+2. Target fans with official merchandise and tickets to live shows
 
 3. Showcase music
 
-  - audio clips
+   - audio clips
 
-  - new album just out to promote 
+   - new album just out to promote 
 
-  - rave reviews from the right places
+   - rave reviews from the right places
 
 4. Publicise availability (tour)
 
@@ -55,12 +51,19 @@ To this end, we need a website to:
 
 7. Show social media presence
 
+8. Give fans a way to get further relevant information
+
+    - mailing list subscription 
+
+
 #### Inspiration - The persona of Big Thief
 
-Inspiration for the site's content as well as the general look and feel came mainly from the band's own website, their music and lyrics, and from various interviews I have read or seen with the group. Their persona, in particular that of the band's leader and songwriter Adrianne Lenker, is one of mystery, darkness, and contrast.
+Inspiration for the site's content as well as the general look and feel comes from the band's official website, their music and lyrics, and from various interviews with the group. Their persona, in particular that of the band's leader and songwriter Adrianne Lenker, is one of mystery, darkness, and contrast.
 
       I'll be your real tough cookie with the whiskey breath
-      I'll be a killer and a thriller and the cause of our death
+      I'll be a killer and a thriller and the cause of our death 
+           -
+      Lyrics by Adrianne Lenker from the song "Paul"
 
 - https://bigthief.net 
 - https://www.stereogum.com/2014756/adrianne-lenker-big-thief-interview-abysskiss/franchises/interview/
@@ -71,28 +74,20 @@ Inspiration for the site's content as well as the general look and feel came mai
 
 #### User Stories 
 
-As a user I want to be able to:
+Two types of users can be defined. While all stories below apply to both users, their priorities in coming to the site might be different.
 
- 1 seamlessly navigate to the content I want.
+1. I’m already a fan of the band, I have all their albums.
+2. I have just heard of this band and I want to find out more.
 
- 2 seamlessly wander the site till I find something that interests me
-
-Two types of users can be defined:
-
-1. I’m already a fan of the band, I have all their albums
-
-    - As a user I expect the site to reflect the persona of the band.
+    - As a user, I expect the site to reflect the persona of the band.
     - As a user, I want easy access to unique content i.e. access to an official store, definitive tour listings.
-
-2. I have just heard of this band and I want to find out more…
-
+    - As a user, I want to be able to seamlessly navigate to the content I want.
+    - As a user,  I want to seamlessly wander the site until I find something that interests me.
     - As a user, I want access to the band's social media.
-    - As a user, I want to hear some of this bands music.
-    - As a user, I want to see their music videos.
-    - As a user, I want to see some live performances.
-    - As a user, I want access to biographic information on the group
-
-_In potential conflicts between users requirements, reflecting the band's persona wins out_
+    - As a user, I want to access the band's music.
+    - As a user, I want to see music videos.
+    - As a user, I want to see live performances.
+    - As a user, I want access to biographic information on the group.
 
 ### Structure Plane
 #### Information Architechture
@@ -102,11 +97,11 @@ _In potential conflicts between users requirements, reflecting the band's person
 ### Skeleton Plane
 #### Wireframes
 
-Wireframes can be viewed here.
+Wireframes can be viewed [here](user_experience_assets/).
 
 wireframe_1.jpg shows my initial mind dump.
 
-Initially, I planned for the site to scroll vertically, with distinct page blocks for each section. However, I quickly decided to go with single pages. I don't like a sticky navbar and early on couldn't find a simple enough (non-javascript) alternative I liked to do navigation back up and through the pages. I had thought that I might switch back once all the pages were completed but in the end, I prefer the single linked pages layout for this project. Finding a nice way of internal navigation for a vertical scrolling site is a goal I've set myself for future projects.
+At the outset, I planned for the site to scroll vertically, with distinct page blocks for each section. However, I quickly decided to go with single pages. I don't like a sticky navbar and early on couldn't find a simple enough (non-javascript) alternative I liked to do navigation back up and through the pages. I had thought that I might switch back once all the pages were completed but in the end, I prefer the single linked pages layout for this project. Finding a nice way of internal navigation for a vertical scrolling site is a goal I've set myself for future projects.
 
 The idea of pages split into 4 quads in a single view came to me early in the project. I wanted symmetry of content with left/right & top/bottom used to imply levels of importance in the content for the user. On moving from desktop to mobile the bottom right would fall down/off first, then bottom left, top right, top left.
 
@@ -192,11 +187,13 @@ Further to this, the site was tested on a variety of devices using Google Chrome
 
  - Scrolling was found to be laggy on the Galaxy Tablet.
 
- - Spotify iFrames are too wide on iPhone 8
+ - Spotify iFrames are too wide on iPhone 8.
 
- - Not enough space under the music and video pages.
+ - Not enough space under the video page.
 
-Through the project I made use of the CSS code snippet below. I found it very useful for finding CSS and HTML gremlins.
+ - White space on IPad Pro in Portrait mode.
+
+Through the project, I made use of the CSS code snippet below. I found it very useful for finding CSS and HTML gremlins.
 
 
      *  {
