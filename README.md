@@ -12,7 +12,7 @@ For the most part I'm happy I have met these goals, at the very least I now have
 
 The site consists of 5 linked pages. It incorporates main navigation, grid layout, display and text utilities, and modal components provided by Bootstrap.
 
-I used Notion as a project management tool. I created a sprint with bite-sized tasks. This can be viewed by anyone with an @codeinstitute.net email [here] (https://www.notion.so/liamucmsp/e0125f6404bb4daaa59b5b10da2a7415?v=04742600702b4e64a04207bb24732246).
+I used Notion as a project management tool. I created a sprint with bite-sized tasks. This can be viewed by anyone with an @codeinstitute.net email [here](https://www.notion.so/liamucmsp/e0125f6404bb4daaa59b5b10da2a7415?v=04742600702b4e64a04207bb24732246).
 
 
 ### Strategy Plane
@@ -181,7 +181,7 @@ Mostly my breakpoints happen at the mid-size screen level, therefore I tested th
 
 Further to this, the site was tested on a variety of devices using Google Chrome Dev Tools and physically using a RedMi Android phone, an iPhone 8 and a Samsung Galaxy Tablet.
 
-####Results
+#### Results
 
  - Conflict in z-indexing of music/video/store content/links and the mailing/social links that make up the footer. It's a fine margin, but when they overlap only the higher indexed item will work. This does not meet the users need for seamless navigation and control of the content.
 
