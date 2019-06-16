@@ -66,7 +66,7 @@ https://stackoverflow.com/questions/18197619/reduce-clickable-area-for-link */
 
 /*------------------------------------------------------------ MUSIC ----------*/
 
-.container-music-top {
+.music-top {
   padding-bottom: 30px;
   overflow: hidden;
 }
@@ -84,7 +84,8 @@ https://stackoverflow.com/questions/18197619/reduce-clickable-area-for-link */
 
 .music-quotes h3 {
   font-family: "Cinzel", serif;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
+  font-weight: 700;
   color: #fafafa;
   margin: 30px 30px 20px;
   border-bottom: 2px solid #000000;
@@ -93,7 +94,7 @@ https://stackoverflow.com/questions/18197619/reduce-clickable-area-for-link */
 
 .music-quotes h5 {
   font-family: "Cinzel", serif;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   color: #fafafa;
   padding: 5px 10px 2px;
 }
@@ -103,6 +104,7 @@ https://stackoverflow.com/questions/18197619/reduce-clickable-area-for-link */
   font-size: .75rem;
   color: #fafafa;
   font-style: italic;
+  padding: 0 5px;
 }
 
 .music-title {
@@ -113,39 +115,33 @@ https://stackoverflow.com/questions/18197619/reduce-clickable-area-for-link */
   padding-top: 30px;
 }
 
-/* Sections between quotes should have half length & centred borders */
+/* Sections between quotes should have centred / half-length borders */
 .inner {
   width: 50%;
   padding: 5px;
   border-top: 0.75px solid #e54e2d;
 }
 
-.ufof iframe {
-  padding: 40px 30px;
-  height: 100%;
-  width: 100%;
-}
-
-.music-lower iframe {
-  height: 100%;
-  width: 100%;
-  padding: 25px 25px;
-}
-
 .music-lower {
-  border-top: 1px solid black;
+  padding-bottom: 120px;
+  border-top: 1.5px solid black;
 }
 
-.music-lower h5 {
-  transform: translateY(10%);
+.ufof {
+  top: 25px;
+  padding-bottom: 32px;
 }
 
-.col-cap {
-  padding-top: 30px;
+.ufof iframe {
+  width: 80%;
 }
 
-.masterpiece h5 {
-  padding-top: 10px;
+.cap-master iframe {
+  width: 80%;
+}
+
+.cap-master h5 {
+  padding: 20px 0 10px;
 }
 
 /*------------------------------------------------------------ VIDEO ----------*/
@@ -469,25 +465,24 @@ ul {
 
 /* Main banner text should be single line on 
 large screens so whole image shows */
-@media(min-width: 1025px) {
+@media(min-width: 992px) {
   .banner-heading {
     font-size: 7vw
   }
 }
 
 /* Text should be suitable for md +  */
-@media(min-width: 576px) {
+@media(min-width: 600px) {
   .music-quotes p {
     font-size: 100%;
   }
-
   .music-quotes h3 {
     font-size: 2rem;
   }
 }
 
 /* Video iframe should be smaller % of div in md+ so as to fit text */
-@media(min-width: 766px) {
+@media(min-width: 600px) {
   .youtube-item iframe {
     height: 60%;
     width: 60%;
