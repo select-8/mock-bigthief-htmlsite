@@ -12,7 +12,7 @@ For the most part I'm happy I have met these goals, at the very least I now have
 
 The site consists of 5 linked pages. It incorporates main navigation, grid layout, display and text utilities, and modal components provided by Bootstrap.
 
-I used Notion as a project management tool. I created a sprint with bite-sized tasks. This can be viewed by anyone with an @codeinstitute.net email [here](https://www.notion.so/liamucmsp/e0125f6404bb4daaa59b5b10da2a7415?v=04742600702b4e64a04207bb24732246).
+I used Notion as a project management tool. I created a sprint with bite-sized tasks. This can be viewed by anyone with an @codeinstitute.net email [here] (https://www.notion.so/liamucmsp/e0125f6404bb4daaa59b5b10da2a7415?v=04742600702b4e64a04207bb24732246).
 
 
 ### Strategy Plane
@@ -99,13 +99,13 @@ Two types of users can be defined. While all stories below apply to both users, 
 
 Wireframes can be viewed [here](user_experience_assets/).
 
-wireframe_1.jpg shows my initial mind dump.
+wireframe_1.jpg illustrates my original mind dump.
 
-At the outset, I planned for the site to scroll vertically, with distinct page blocks for each section. However, I quickly decided to go with single pages. I don't like a sticky navbar and early on couldn't find a simple enough (non-javascript) alternative I liked to do navigation back up and through the pages. I had thought that I might switch back once all the pages were completed but in the end, I prefer the single linked pages layout for this project. Finding a nice way of internal navigation for a vertical scrolling site is a goal I've set myself for future projects.
+Initially, I had planned for the site to scroll vertically, with distinct page blocks for each section. However, after I built out the bones of the site with some scratch components in place, I felt a sticky navbar was not the correct choice for this site and I was not able to find a non-javascript, CSS alternative which I liked, to do navigation back up and through the pages. So, in the end, I decided to go with single pages. Finding a nice way of internal navigation for a vertical scrolling site is a goal I've set myself for future projects.
 
 The idea of pages split into 4 quads in a single view came to me early in the project. I wanted symmetry of content with left/right & top/bottom used to imply levels of importance in the content for the user. On moving from desktop to mobile the bottom right would fall down/off first, then bottom left, top right, top left.
 
-In hindsight, this approach to the UX has not worked as I would have liked, particularly on the music and video pages where I feel the content, between both the titles and iframes and the quad divs themselves, could do with more room to breathe as they react to the responsive design.
+In hindsight, this approach to the UX has not worked as I would have liked. For both the music and video pages the content was a bit squeezed in. Subsequently, in the music page, I set the content into two halves. Where the top half is dominant, promoting the new album and the bottom half has some room for the content to breathe.
 
 I did not wireframe the tour page. I knew I would use a Bootstrap table and that it would mirror the home page.
 
@@ -132,7 +132,7 @@ The formatting of the text and some decoration on the quotes section of the musi
 
 I would have liked to have been able to do more with the video titles.
 
-The store page makes heavy use of Font Awesome icons. Ideally, I would have custom made some SVGs that better suited the band's persona. Saying that, in general, I think the quad approach to the design works best on this page.
+The store page makes heavy use of Font Awesome icons. Ideally, I would have had custom made SVGs that better suited the band's persona. Saying that, in general, I think the quad approach to the design works best on this page.
 
 #### Images
 
@@ -169,9 +169,10 @@ Every link links to the same Ticketmaster page. I had toyed with the idea of hav
 
 #### Left to Implement
 
-- iframes more responsive to media screen size
-- floating, down pointer on tour page to disappear on scroll
-- make the band's name appear opaque behind the dropdown menu
+- Iframes should be more responsive to media screen size.
+- Tour page should have some sort of down pointer on large and very large screens so users know, without any confusion, to scroll down for some content. 
+- To make the band's name appear opaque behind the dropdown menu. On the home page this would look like the dropdown falling over the banner text.
+- The social menu should close on click of the social 'S' button. I could not find a CSS only way to do this.
 
 ## Testing
 
@@ -181,7 +182,7 @@ Mostly my breakpoints happen at the mid-size screen level, therefore I tested th
 
 Further to this, the site was tested on a variety of devices using Google Chrome Dev Tools and physically using a RedMi Android phone, an iPhone 8 and a Samsung Galaxy Tablet.
 
-#### Results
+####Results
 
  - Conflict in z-indexing of music/video/store content/links and the mailing/social links that make up the footer. It's a fine margin, but when they overlap only the higher indexed item will work. This does not meet the users need for seamless navigation and control of the content.
 
@@ -193,7 +194,7 @@ Further to this, the site was tested on a variety of devices using Google Chrome
 
  - White space on IPad Pro in Portrait mode.
 
-Through the project, I made use of the CSS code snippet below. I found it very useful for finding CSS and HTML gremlins.
+Through the project, I made use of the CSS code snippet below. I found it very useful for finding stray padding and margins in CSS.
 
 
      *  {
@@ -207,7 +208,7 @@ Through the project, I made use of the CSS code snippet below. I found it very u
 
 ## Deployment
 
-I have used Git for versioning. The site is deployed to GitHub pages at the address given at the top of this readme.
+I have Git for versioning my code. The site is deployed to GitHub pages at the address given at the top of this readme.
 
 There is no difference between the development and deployed versions of the site.
 
@@ -229,24 +230,28 @@ There is no difference between the development and deployed versions of the site
 - POPPER
 
 ##### SOFTWARE AND SERVICES
-- AWS Could9 IDE
+- AWS C9 IDE
 - VISUAL STUDIO CODE
 - GITHUB
 - INKSCAPE
 
 ##### EDITORS
-- Sublime
-- Atom
+- SUBLIME
+- ATOM
 
 ##### VMWARE
-- Ubuntu V18.04
+- UBUNTU V18.04
 
 ##### HARDWARE
-- Mac OSX
+- MAC OSX
 
 ##### PROJECT MGMT
 - SLACK
-- Notion
+- NOTION
+
+##### VALIDATION
+HTML : https://validator.w3.org/
+CSS : https://jigsaw.w3.org/css-validator/
 
 ## Credits
 I used [this](https://stackoverflow.com/questions/41651612/how-to-align-icon-to-center-inside-div-element) to center some content, turned out to be more hassle than it was worth.
