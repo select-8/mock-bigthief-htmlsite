@@ -4,7 +4,7 @@
 
 ## Project Overview
 
-For this project, I have built a mobile-first responsive website for the rock group Big Thief. It can be viewed [here](https://select-8.github.io/ucfed-milestone-no1/index.html).
+For this project, I have built a mobile-first responsive website for the rock group Big Thief. It can be viewed [here](https://select-8.github.io/ucfed-milestone-no1-bigthief/).
 
 Relatively new to the music of Big Thief, from the moment I heard the song [_Cattails_](https://youtu.be/dUR-Ad8QcmA) I was captured by the subtle oddness of their sound and their image. While keeping this in mind, my goals for the project are to make the best Big Thief site I can, building upon the processes and technologies outlined throughout the User Centric Front End Development modules, and to take some initial steps towards developing my own working method as a web developer.
 
